@@ -151,8 +151,17 @@ def main() -> int:
         "entries": entries,
         "revisions": revisions,
     }
-    OUT.write_text(json.dumps(payload, indent=1), encoding="utf-8")
+    text = json.dumps(payload, indent=1)
+    OUT.write_text(text, encoding="utf-8")
     print(f"\n  {len(entries)} limit entries -> {OUT.relative_to(ROOT)}")
+
+    # resolve/fda_limits.py falls back to this copy when the package is installed
+    # rather than run from a clone, so the two must not drift apart.
+    # tools/validate_data.py fails if they do.
+    packaged = ROOT / "resolve" / "data" / "fda_published_limits.json"
+    packaged.parent.mkdir(parents=True, exist_ok=True)
+    packaged.write_text(text, encoding="utf-8")
+    print(f"  mirrored for packaging  -> {packaged.relative_to(ROOT)}")
     return 0 if entries else 1
 
 

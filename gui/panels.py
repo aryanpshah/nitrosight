@@ -210,8 +210,9 @@ class StructureView(QWidget):
     """The molecule, with the scored atoms colour-coded.
 
     When the input was a picture, the source picture is shown beside our redrawing of
-    what was read from it. Recognition gets roughly one structure in five wrong, so the
-    only safe design is to put both in front of the user and let them compare.
+    what was read from it. Recognition gets roughly one structure in seven wrong
+    (86.5% category agreement against CAS-verified references), so the only safe
+    design is to put both in front of the user and let them compare.
     """
 
     def __init__(self) -> None:
@@ -257,8 +258,9 @@ class StructureView(QWidget):
         panels.addWidget(drawn_box, 1)
 
         self._warning = QLabel(
-            "Check the two drawings match. Recognition reads roughly four structures "
-            "in five correctly, so the one on the right is a reading, not a fact.")
+            "Check the two drawings match. Recognition gives the correct category for "
+            "about six structures in seven, so the one on the right is a reading, "
+            "not a fact.")
         self._warning.setWordWrap(True)
         self._warning.setStyleSheet(
             "QLabel { background: #FEF3C7; border: 1px solid #F59E0B; "

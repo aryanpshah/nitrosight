@@ -29,6 +29,10 @@ classifiers = [
     "Intended Audience :: Science/Research",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
     "Topic :: Scientific/Engineering :: Chemistry",
 ]
 
@@ -38,7 +42,16 @@ dependencies = [
 
 [project.optional-dependencies]
 gui = ["PyQt6>=6.5.0", "Pillow>=10.0.0"]
-tools = ["openpyxl>=3.1.0", "pymupdf>=1.23.0", "pypdf>=4.0.0", "matplotlib>=3.7.0"]
+# Pillow and numpy are listed here as well as under gui: tools/osr_worker.py and
+# tools/export_doubtful.py use them without the desktop window.
+tools = [
+    "openpyxl>=3.1.0",
+    "pymupdf>=1.23.0",
+    "pypdf>=4.0.0",
+    "matplotlib>=3.7.0",
+    "Pillow>=10.0.0",
+    "numpy>=1.24",
+]
 
 [project.urls]
 Homepage = "https://github.com/aryanpshah/nitrosight"
@@ -46,7 +59,13 @@ Issues = "https://github.com/aryanpshah/nitrosight/issues"
 
 [project.scripts]
 nitrosight = "score:main"
+nitrosight-gui = "gui.main:main"
 
 [tool.setuptools]
 packages = ["cpca", "resolve", "gui"]
 py-modules = ["score", "pipeline", "osr", "run_gui"]
+
+[tool.setuptools.package-data]
+# resolve/fda_limits.py reads this at import time, so an installed copy needs it
+# inside the package; data/ at the repository root is not installed.
+resolve = ["data/*.json"]

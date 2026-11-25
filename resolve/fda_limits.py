@@ -17,7 +17,20 @@ from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 
-DATA = Path(__file__).parent.parent / "data" / "fda_published_limits.json"
+def _data_path() -> Path:
+    """Where the published-limits snapshot lives.
+
+    Running from a clone it sits in data/ at the repository root. In an
+    installed copy that directory is outside the package, so a copy is shipped
+    as package data inside resolve/ and used as the fallback.
+    """
+    repo = Path(__file__).parent.parent / "data" / "fda_published_limits.json"
+    if repo.exists():
+        return repo
+    return Path(__file__).parent / "data" / "fda_published_limits.json"
+
+
+DATA = _data_path()
 
 # Which scraped table a row came from, and what that means.
 TABLE_BASIS = {
