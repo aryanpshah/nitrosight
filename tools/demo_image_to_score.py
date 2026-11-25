@@ -13,12 +13,17 @@ ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 
 from cpca import format_report, score_smiles  # noqa: E402
+from osr import SETUP_HINT, venv_python  # noqa: E402
 
-WORKER_PY = ROOT / ".venv-osr" / "Scripts" / "python.exe"
+WORKER_PY = venv_python()
 WORKER = ROOT / "tools" / "osr_worker.py"
 
 
 def main() -> int:
+    if not WORKER_PY.exists():
+        print(SETUP_HINT)
+        return 1
+
     image = Path(sys.argv[1]).resolve()
     work = ROOT / "data" / "osr_work"
     work.mkdir(parents=True, exist_ok=True)
@@ -27,9 +32,17 @@ def main() -> int:
     print(f"  STEP 1  picture            {image.name}")
 
     in_file.write_text(json.dumps([str(image)]), encoding="utf-8")
-    subprocess.run([str(WORKER_PY), str(WORKER),
-                    "--in", str(in_file), "--out", str(out_file)],
-                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    # stderr is kept so a failed DECIMER import or model download is diagnosable
+    # rather than surfacing as an unexplained missing output file.
+    proc = subprocess.run([str(WORKER_PY), str(WORKER),
+                           "--in", str(in_file), "--out", str(out_file)],
+                          stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+
+    if not out_file.exists():
+        print("  recognition failed: the worker produced no output")
+        if proc.stderr:
+            print(proc.stderr.decode("utf-8", "replace").strip())
+        return 1
 
     payload = json.loads(out_file.read_text(encoding="utf-8"))
     smiles = next(iter(payload.values())).get("smiles")

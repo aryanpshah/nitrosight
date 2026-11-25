@@ -32,7 +32,7 @@ os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", "3")   # keep stdout clean for JSO
 
 
 def strip_watermark(path: Path) -> Path:
-    """Veeprho images carry a pale tinted watermark across the structure. The drawing is
+    """Catalogue images carry a pale tinted watermark across the structure. The drawing is
     dark or strongly coloured; the watermark is not. Dropping low-contrast pixels leaves
     the structure and removes most of the overlay."""
     from PIL import Image

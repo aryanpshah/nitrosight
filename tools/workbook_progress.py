@@ -1,4 +1,4 @@
-"""How much of the Veeprho nitrosamine catalogue has been CPCA-scored by hand?"""
+"""How much of the supplier's nitrosamine catalogue has been CPCA-scored by hand?"""
 
 from pathlib import Path
 

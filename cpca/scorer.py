@@ -232,10 +232,18 @@ def _classify_ring(mol: Chem.Mol, amine_n_idx: int) -> tuple[int, str] | None:
         if any(a.GetAtomicNum() == 16 for a in others):
             return (rules.RING_FEATURE_6RING_SULFUR,
                     "N-nitroso group in a 6-membered ring containing sulfur")
-        oxygens = sum(1 for a in others if a.GetAtomicNum() == 8)
+        # A morpholine is specifically 1,4-oxazinane: the oxygen sits OPPOSITE the
+        # nitrogen in the ring. Composition alone ("one O, four C") also matches
+        # 1,2- and 1,3-oxazinane, which are not morpholines and take the generic
+        # 5-/6-ring score of +2 rather than morpholine's +1. Check the position.
+        oxygens = [a for a in others if a.GetAtomicNum() == 8]
         carbons = sum(1 for a in others if a.GetAtomicNum() == 6)
-        if oxygens == 1 and carbons == 4:
-            return rules.RING_FEATURE_MORPHOLINE, "N-nitroso group in a morpholine ring"
+        if len(oxygens) == 1 and carbons == 4:
+            order = list(ring)
+            gap = abs(order.index(oxygens[0].GetIdx()) - order.index(amine_n_idx))
+            if min(gap, size - gap) == 3:
+                return (rules.RING_FEATURE_MORPHOLINE,
+                        "N-nitroso group in a morpholine ring")
         return rules.RING_FEATURE_5_OR_6_RING, "N-nitroso group in a 6-membered ring"
 
     if size == 7:
@@ -308,10 +316,21 @@ def _deactivating_factors(mol: Chem.Mol, site: SiteResult, amine_n_idx: int,
         score = (rules.EWG_BOTH_SIDES_SCORE if matches > 1
                  else rules.EWG_ONE_SIDE_SCORE)
         side_word = "both sides" if matches > 1 else "one side"
+        detail = "matched: " + ", ".join(ewg.describe(alphas, amine_n_idx))
+        # The score follows FDA's match count, but the wording must not assert a
+        # structural fact that is false: two groups on a single alpha-carbon score
+        # as "both sides" yet sit on one. Say so rather than let an audited report
+        # misdescribe the molecule.
+        if matches > 1 and ewg.ewg_sides(alphas, amine_n_idx) < 2:
+            detail += ("; all on one alpha-carbon - scored as both sides because "
+                       "the CPCA counts matches, not sides")
+        # Flagged for review because the guidance never enumerates the EWG list: it
+        # defers to Cross & Ponting (2021). This is the one Table B feature whose
+        # membership is a reading rather than a transcription, so an assessor is
+        # told to confirm it. See rules.ELECTRON_WITHDRAWING_GROUPS.
         factors.append(Factor(
             f"Electron-withdrawing group bonded to alpha-carbon on {side_word}",
-            score, "Table B",
-            detail="matched: " + ", ".join(ewg.describe(alphas, amine_n_idx))))
+            score, "Table B", detail=detail, uncertain=True))
 
     oh_sides = _beta_hydroxyl_sides(amine_n_idx, alphas, ruleset)
     if oh_sides:

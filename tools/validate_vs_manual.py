@@ -1,5 +1,5 @@
 """
-Compare the scorer against MA's hand-scored rows in the source workbook.
+Compare the scorer against the assessor's hand-scored rows in the source workbook.
 
 The workbook records the three Figure 1 triage answers per impurity:
 
@@ -7,8 +7,8 @@ The workbook records the three Figure 1 triage answers per impurity:
     J : Does it have more than one alpha-hydrogen on one or both sides?
     K : Does it have a tertiary alpha-carbon?
 
-Figure 1 exits early, so MA leaves later questions as "0" once an earlier one answers
-No. Only questions actually answered Y/N are compared.
+Figure 1 exits early, so the assessor leaves later questions as "0" once an earlier one
+answers No. Only questions actually answered Y/N are compared.
 
     python tools/validate_vs_manual.py
 """
@@ -41,7 +41,7 @@ QUESTIONS = [
 
 
 def yn(value) -> bool | None:
-    """MA's answers: Y/y/N/n. '0' or blank means 'not asked' under the early exit."""
+    """The assessor's answers: Y/y/N/n. '0' or blank means 'not asked' under the early exit."""
     if value is None:
         return None
     s = str(value).strip().lower()
@@ -96,7 +96,7 @@ def main() -> int:
     have_structure = [r for r in manual_rows if r["smiles"]]
 
     print("=" * 76)
-    print("  COMPARISON WITH MA'S HAND-SCORED ROWS")
+    print("  COMPARISON WITH THE ASSESSOR'S HAND-SCORED ROWS")
     print("=" * 76)
     print(f"  source: {source}")
     print(f"  rows the assessor answered at least one question on : "
@@ -133,7 +133,7 @@ def main() -> int:
     total_agree = sum(t["agree"] for t in tallies.values())
     total = total_agree + sum(t["differ"] for t in tallies.values())
     if total == 0:
-        print("  No comparable answers - MA's rows and our resolved structures "
+        print("  No comparable answers - the assessor's rows and our resolved structures "
               "do not overlap.")
         return 1
 
@@ -154,12 +154,12 @@ def main() -> int:
         for c in conflicts:
             print(f"  {c['name'][:56]}")
             print(f"     Q: {c['question']}")
-            print(f"     MA said {'Y' if c['manual'] else 'N'}, "
+            print(f"     assessor said {'Y' if c['manual'] else 'N'}, "
                   f"we compute {'Y' if c['ours'] else 'N'}   "
                   f"(alpha-H counts {c['counts']})")
             print(f"     {c['smiles'][:80]}")
             print()
-        print("  NOTE: a disagreement may be MA's error, ours, or a structure that")
+        print("  NOTE: a disagreement may be the assessor's error, ours, or a structure that")
         print("  resolved to the wrong molecule. Each needs a look at the structure.")
     return 0
 

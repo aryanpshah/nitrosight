@@ -50,7 +50,9 @@
   "potency_score": null,
   "factors": [],
   "triage_exit": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
-  "warnings": [],
+  "warnings": [
+   "Site 2: N-nitroso group is within an aromatic ring; CPCA does not apply to this site (section IV.C)"
+  ],
   "final_ai_ng_day": 1500.0,
   "final_basis": "cpca_prediction"
  },
@@ -200,7 +202,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -481,7 +483,9 @@
    }
   ],
   "triage_exit": null,
-  "warnings": [],
+  "warnings": [
+   "Site 2: N-nitroso group is within an aromatic ring; CPCA does not apply to this site (section IV.C)"
+  ],
   "final_ai_ng_day": 400.0,
   "final_basis": "cpca_prediction"
  },
@@ -3840,7 +3844,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -4073,7 +4077,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -6780,7 +6784,7 @@
   "method": "cas_lookup",
   "confidence": "high",
   "pubchem_cid": 87856327,
-  "issue": "FDA limit is INTERIM (8/1/2027). FDA limit is INTERIM (8/1/2027). FDA limit is INTERIM (8/1/2027).",
+  "issue": "FDA limit is INTERIM (8/1/2027).",
   "scored": true,
   "scored_smiles": "C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCN(CC4)N=O)F)C(=O)O",
   "category": 4,
@@ -6944,7 +6948,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -7611,7 +7615,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    },
    {
     "name": "Aryl group bonded to alpha-carbon (benzylic substituent)",
@@ -8607,7 +8611,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    },
    {
     "name": "Aryl group bonded to alpha-carbon (benzylic substituent)",
@@ -9399,7 +9403,7 @@
    }
   ],
   "smiles": "CCN(N=O)[C@H]1C[C@H](C)S(=O)(=O)c2sc(S(N)(=O)=O)cc21",
-  "issue": "FDA limit is INTERIM (8/1/2027). FDA limit is INTERIM (8/1/2027). FDA limit is INTERIM (8/1/2027).",
+  "issue": "FDA limit is INTERIM (8/1/2027).",
   "scored": true,
   "scored_smiles": "CCN(N=O)[C@H]1C[C@H](C)S(=O)(=O)c2sc(S(N)(=O)=O)cc21",
   "category": 2,
@@ -10007,7 +10011,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -12664,7 +12668,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -13128,7 +13132,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -16189,7 +16193,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -16235,7 +16239,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -16281,7 +16285,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -16327,7 +16331,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -16373,7 +16377,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -16419,7 +16423,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -16554,7 +16558,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -19615,7 +19619,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -19661,7 +19665,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -19707,7 +19711,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -19753,7 +19757,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -19799,7 +19803,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -19845,7 +19849,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -20131,7 +20135,7 @@
    }
   ],
   "smiles": "CN(CCCC1c2ccccc2C=Cc2ccccc21)N=O",
-  "issue": "FDA limit is INTERIM (8/1/2027). FDA limit is INTERIM (8/1/2027). FDA limit is INTERIM (8/1/2027).",
+  "issue": "FDA limit is INTERIM (8/1/2027).",
   "scored": true,
   "scored_smiles": "CN(CCCC1c2ccccc2C=Cc2ccccc21)N=O",
   "category": 1,
@@ -20704,7 +20708,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    },
    {
     "name": "Aryl group bonded to alpha-carbon (benzylic substituent)",
@@ -21330,7 +21334,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -21382,7 +21386,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -23986,7 +23990,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    },
    {
     "name": "Methyl group bonded to beta-carbon",
@@ -24308,7 +24312,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -26156,7 +26160,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -29258,7 +29262,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -29422,7 +29426,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -29461,7 +29465,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -29565,7 +29569,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on one side",
     "score": 1,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,
@@ -29830,7 +29834,7 @@
     "name": "Electron-withdrawing group bonded to alpha-carbon on both sides",
     "score": 2,
     "reference": "Table B",
-    "uncertain": false
+    "uncertain": true
    }
   ],
   "triage_exit": null,

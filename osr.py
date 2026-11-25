@@ -14,6 +14,7 @@ model-driven step never touches the number.
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import time
 import uuid
@@ -21,7 +22,24 @@ from dataclasses import dataclass
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-WORKER_PY = ROOT / ".venv-osr" / "Scripts" / "python.exe"
+VENV_OSR = ROOT / ".venv-osr"
+
+
+def venv_python(venv: Path = VENV_OSR) -> Path:
+    """The interpreter inside a virtual environment, on either layout.
+
+    Windows puts it in Scripts/python.exe; POSIX puts it in bin/python. Returning
+    whichever exists keeps image recognition working on Linux and macOS as well as
+    Windows. When neither is present the Windows path is returned so that
+    is_available() reports False and the setup hint is shown.
+    """
+    for candidate in (venv / "Scripts" / "python.exe", venv / "bin" / "python"):
+        if candidate.exists():
+            return candidate
+    return venv / "Scripts" / "python.exe"
+
+
+WORKER_PY = venv_python()
 WORKER = ROOT / "tools" / "osr_worker.py"
 WORK_DIR = ROOT / "data" / "osr_service"
 
@@ -44,11 +62,17 @@ def is_available() -> bool:
     return WORKER_PY.exists() and WORKER.exists()
 
 
+if os.name == "nt":
+    _SETUP_COMMANDS = ("    py -3.13 -m venv .venv-osr\n"
+                       "    .venv-osr\\Scripts\\python -m pip install decimer")
+else:
+    _SETUP_COMMANDS = ("    python3.13 -m venv .venv-osr\n"
+                       "    .venv-osr/bin/python -m pip install decimer")
+
 SETUP_HINT = (
     "Structure recognition is not installed.\n\n"
     "It needs its own environment because TensorFlow has no Python 3.14 build:\n"
-    "    py -3.13 -m venv .venv-osr\n"
-    "    .venv-osr\\Scripts\\python -m pip install decimer")
+    + _SETUP_COMMANDS)
 
 
 class OsrService:

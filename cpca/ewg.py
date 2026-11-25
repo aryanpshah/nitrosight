@@ -215,23 +215,39 @@ def _neighbour_matches(alpha: Chem.Atom, predicate) -> int:
     return sum(1 for nb in alpha.GetNeighbors() if predicate(nb))
 
 
-def ewg_count(alphas: list[Chem.Atom], amine_idx: int) -> int:
-    """Total EWG matches around this N-nitroso group, as FDA sums them."""
-    total = 0
-    for alpha in alphas:
-        total += _beta_carbonyl_derivative(alpha, amine_idx)
-        total += _alpha_halogen(alpha)
-        total += _aromatic_conjugated(alpha, amine_idx)
-        total += _michael_acceptor_imine(alpha, amine_idx)
-        total += _michael_acceptor_cyanide(alpha, amine_idx)
-        total += _neighbour_matches(alpha, is_sulfone)
-        total += _neighbour_matches(alpha, is_nitrate)
-        total += _neighbour_matches(alpha, is_quat_amine)
-        total += _neighbour_matches(alpha, is_cyanide)
-        total += _neighbour_matches(
+def _ewg_count_one_alpha(alpha: Chem.Atom, amine_idx: int) -> int:
+    """EWG matches on a single alpha-carbon."""
+    return (
+        _beta_carbonyl_derivative(alpha, amine_idx)
+        + _alpha_halogen(alpha)
+        + _aromatic_conjugated(alpha, amine_idx)
+        + _michael_acceptor_imine(alpha, amine_idx)
+        + _michael_acceptor_cyanide(alpha, amine_idx)
+        + _neighbour_matches(alpha, is_sulfone)
+        + _neighbour_matches(alpha, is_nitrate)
+        + _neighbour_matches(alpha, is_quat_amine)
+        + _neighbour_matches(alpha, is_cyanide)
+        + _neighbour_matches(
             alpha, lambda nb: nb.GetAtomicNum() == 6 and any(
                 is_trifluoromethyl(n2) for n2 in nb.GetNeighbors()))
-    return total
+    )
+
+
+def ewg_count(alphas: list[Chem.Atom], amine_idx: int) -> int:
+    """Total EWG matches around this N-nitroso group, as FDA sums them."""
+    return sum(_ewg_count_one_alpha(alpha, amine_idx) for alpha in alphas)
+
+
+def ewg_sides(alphas: list[Chem.Atom], amine_idx: int) -> int:
+    """How many alpha-carbons actually carry at least one EWG.
+
+    FDA scores on the match count, not on this, so the score still comes from
+    ewg_count. This exists only so the report can describe where the groups
+    really are: two groups on one alpha-carbon score as "both sides" under
+    FDA's rule, and saying so in an audited report would be untrue.
+    """
+    return sum(1 for alpha in alphas
+               if _ewg_count_one_alpha(alpha, amine_idx) > 0)
 
 
 def describe(alphas: list[Chem.Atom], amine_idx: int) -> list[str]:

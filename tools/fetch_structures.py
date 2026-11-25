@@ -202,8 +202,12 @@ def apply_published_limits(results: list[dict]) -> None:
                     f"{pub.category} ({pub.ai_ng_day:g} ng/day). Published value used.")
         if pub.is_interim:
             r.setdefault("issue", "")
-            r["issue"] = (r["issue"] + " " if r["issue"] else "") + \
-                f"FDA limit is INTERIM ({pub.duration or 'time-limited'})."
+            note = f"FDA limit is INTERIM ({pub.duration or 'time-limited'})."
+            # This function is idempotent by design: rescore.py re-applies published
+            # limits to the same records, so appending unconditionally stacks a new
+            # copy of the note on every run.
+            if note not in r["issue"]:
+                r["issue"] = (r["issue"] + " " if r["issue"] else "") + note
 
     print(f"  matched a published limit : {overridden}")
     print(f"  ... of those, CPCA agreed : {agreed}")

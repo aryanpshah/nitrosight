@@ -37,7 +37,7 @@ for name in NAMES:
     print()
 
 # Any row where a partially-filled manual answer coexists with a verified CAS structure?
-print("  rows MA touched that have a HIGH-confidence (CAS-verified) structure:")
+print("  rows the assessor touched that have a HIGH-confidence (CAS-verified) structure:")
 n = 0
 for r in rows.values():
     if r.get("confidence") == "high" and r.get("scored"):

@@ -3,8 +3,8 @@ Import vendor-supplied structures and re-score the catalogue.
 
 Structures inferred from a parent drug agree with FDA only 47-92% of the time; verified
 structures agree 100%. So the single highest-value input this project can receive is a
-file of real structures, however it arrives: an export from Veeprho, a corrected version
-of the workbook, or a sheet a chemist filled in by hand.
+file of real structures, however it arrives: an export from the catalogue supplier, a
+corrected version of the workbook, or a sheet a chemist filled in by hand.
 
 This reads any csv / tsv / xlsx carrying SMILES or InChI (either will do), validates
 every structure, merges them into the catalogue as high-confidence, re-scores, and

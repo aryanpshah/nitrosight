@@ -41,7 +41,9 @@ INDEX = ROOT / "data" / "structure_images_index.json"
 RESULTS = ROOT / "data" / "resolved_structures.json"
 OUT = ROOT / "data" / "osr_results.json"
 CACHE = ROOT / "data" / "osr_cache.json"
-WORKER_PY = ROOT / ".venv-osr" / "Scripts" / "python.exe"
+from osr import venv_python  # noqa: E402
+
+WORKER_PY = venv_python()
 WORKER = ROOT / "tools" / "osr_worker.py"
 
 
