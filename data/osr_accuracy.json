@@ -1,0 +1,2118 @@
+[
+ {
+  "name": "Abacavir Nitroso 1",
+  "image": "unnamed__Abacavir-Nitroso-1.png",
+  "confidence": "medium",
+  "ref_smiles": "Nc1nc(N(N=O)C2CC2)c2ncn([C@H]3C=C[C@@H](CO)C3)c2n1",
+  "osr_smiles": "[2H]C(=O)Nc1c(Cl)nc(N)nc1N(N=O)[C@@H]1C=C[C@H](CO)C1",
+  "error": "spurious isotope label read from the drawing",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "ABCRC-1 Nitroso Impurity-1",
+  "image": "unnamed__ABCRC-1-Nitroso-Impurity-1.png",
+  "confidence": "medium",
+  "ref_smiles": "Nc1nc(N(N=O)C2CC2)c2ncn([C@H]3C=C[C@@H](CO)C3)c2n1",
+  "osr_smiles": "NC1=NC2NC=NC2C(N(N=O)C2CC2)=N1",
+  "error": "skeleton wrong, 7 heavy atom(s) missing",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": null,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "ABCRC-1 Nitroso Impurity-2",
+  "image": "unnamed__ABCRC-1-Nitroso-Impurity-2.png",
+  "confidence": "medium",
+  "ref_smiles": "Nc1nc(N(N=O)C2CC2)c2ncn([C@H]3C=C[C@@H](CO)C3)c2n1",
+  "osr_smiles": "Nc1nc(NC2CC2)c2ncn(N=O)c2n1",
+  "error": "N-nitroso group missed entirely",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 0,
+  "ref_category": 5,
+  "osr_category": null,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "Acarbose Nitroso Impurity 1",
+  "image": "unnamed__Acarbose-Nitroso-Impurity-1.png",
+  "confidence": "medium",
+  "ref_smiles": "C[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@@H](O[C@@H]([C@H](O)[C@@H](O)C=O)[C@H](O)CO)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@@H]1N(N=O)[C@H]1C=C(CO)[C@@H](O)[C@H](O)[C@H]1O",
+  "osr_smiles": "C[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@@H](O[C@@H]([C@H](O)[C@@H](O)C=O)[C@H](O)CO)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@@H]1N(N=O)[C@H]1C=C(CO)[C@@H](O)[C@H](O)[C@H]1O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "Avanafil Nitroso Impurity 1",
+  "image": "unnamed__Avanafil-Nitroso-Impurity-1.png",
+  "confidence": "medium",
+  "ref_smiles": "COc1ccc(CN(N=O)c2nc(N3CCC[C@H]3CO)ncc2C(=O)NCc2ncccn2)cc1Cl",
+  "osr_smiles": "COc1ccc(CN(N=O)c2nc(N3CCC[C@H]3CO)ncc2C(=O)NCc2ncccn2)cc1Cl",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 3,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "Bosutinib Nitroso Impurity",
+  "image": "unnamed__Bosutinib-Nitroso-Impurity.png",
+  "confidence": "low",
+  "ref_smiles": "COc1cc(Nc2c(C#N)cnc3cc(OCCCN4CCN(N=O)CC4)c(OC)cc23)c(Cl)cc1Cl",
+  "osr_smiles": "COc1cc(N(N=O)c2c(C#N)cnc3cc(OCCCN4CCN(C)CC4)c(OC)cc23)c(Cl)cc1Cl",
+  "error": "skeleton wrong, 1 extra heavy atom(s)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Desloratadine",
+  "image": "unnamed__N-Nitroso-Desloratadine.png",
+  "confidence": "high",
+  "ref_smiles": "O=NN1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1",
+  "osr_smiles": "O=NN1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 3,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "Bupropion Nitroso Impurity",
+  "image": "unnamed__Bupropion-Nitroso-Impurity.png",
+  "confidence": "high",
+  "ref_smiles": "CC(C(=O)c1cccc(Cl)c1)N(N=O)C(C)(C)C",
+  "osr_smiles": "CC(C(=O)c1cccc(Cl)c1)N(N=O)C(C)(C)C",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "Cilnidipine Nitroso Impurity",
+  "image": "unnamed__Cilnidipine-Nitroso-Impurity.png",
+  "confidence": "medium",
+  "ref_smiles": "COCCOC(=O)C1=C(C)N(N=O)C(C)=C(C(=O)OC/C=C/c2ccccc2)C1c1cccc([N+](=O)[O-])c1",
+  "osr_smiles": "COCCOC(=O)C1=C(C)N(N=O)C(C)=C(C(=O)OC/C=C/c2ccccc2)C1c1cccc([N+](=O)[O-])c1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "Clevidipine Nitroso Impurity",
+  "image": "unnamed__Clevidipine-Nitroso-Impurity.png",
+  "confidence": "medium",
+  "ref_smiles": "CCCC(=O)OCOC(=O)C1=C(C)N(N=O)C(C)=C(C(=O)OC)C1c1cccc(Cl)c1Cl",
+  "osr_smiles": "CCCC(=O)OCOC(=O)C1=C(C)N(N=O)C(C)=C(C(=O)OC)C1c1cccc(Cl)c1Cl",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "Clomipramine EP Impurity E (Nitroso Impurity)",
+  "image": "unnamed__Clomipramine-EP-Impurity-E-Nitroso-Impurity.png",
+  "confidence": "high",
+  "ref_smiles": "O=NN1c2ccccc2CCc2ccccc21",
+  "osr_smiles": "O=NN1c2ccccc2CCc2ccccc21",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "Clomipramine EP Impurity F Nitroso Impurity",
+  "image": "unnamed__Clomipramine-EP-Impurity-F-Nitroso-Impurity.png",
+  "confidence": "high",
+  "ref_smiles": "O=NN1c2ccccc2CCc2ccc(Cl)cc21",
+  "osr_smiles": "O=NN1c2ccccc2CCc2ccc(Cl)cc21",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitrosoatenolol",
+  "image": "unnamed__N-Nitrosoatenolol.png",
+  "confidence": "high",
+  "ref_smiles": "CC(C)N(CC(O)COc1ccc(CC(N)=O)cc1)N=O",
+  "osr_smiles": "CC(C)N(CC(O)COc1ccc(CC(N)=O)cc1)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Vortioxetine",
+  "image": "unnamed__N-Nitroso-Vortioxetine.png",
+  "confidence": "high",
+  "ref_smiles": "Cc1ccc(Sc2ccccc2N2CCN(N=O)CC2)c(C)c1",
+  "osr_smiles": "Cc1ccc(Sc2ccccc2N2CCN(N=O)CC2)c(C)c1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 3,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitroso Ciprofloxacin",
+  "image": "unnamed__N-Nitroso-Ciprofloxacin.png",
+  "confidence": "high",
+  "ref_smiles": "O=NN1CCN(c2cc3c(cc2F)c(=O)c(C(=O)O)cn3C2CC2)CC1",
+  "osr_smiles": "O=NN1CCN(c2cc3c(cc2F)c(=O)c(C(=O)O)cn3C2CC2)CC1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "Varenicline Nitrosamine Impurity",
+  "image": "unnamed__Varenicline-Nitrosamine-Impurity.png",
+  "confidence": "medium",
+  "ref_smiles": "O=NN1C[C@H]2C[C@@H](C1)c1cc3nccnc3cc12",
+  "osr_smiles": "O=NN1CC2CC(C1)c1cc3nccnc3cc12",
+  "error": "skeleton correct, stereochemistry or isotope label differs",
+  "exact": false,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 3,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "N-Nitroso Tamsulosin Impurity",
+  "image": "unnamed__N-Nitroso-Tamsulosin-Impurity.png",
+  "confidence": "high",
+  "ref_smiles": "CCOc1ccccc1OCCN(N=O)[C@H](C)Cc1ccc(OC)c(S(N)(=O)=O)c1",
+  "osr_smiles": "CCOc1ccccc1OCCN(N=O)[C@H](C)Cc1ccc(OC)c(S(N)(=O)=O)c1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Sotalol",
+  "image": "unnamed__N-Nitroso-Sotalol.png",
+  "confidence": "high",
+  "ref_smiles": "CC(C)N(CC(O)c1ccc(NS(C)(=O)=O)cc1)N=O",
+  "osr_smiles": "CC(C)N(CC(O)c1ccc(NS(C)(=O)=O)cc1)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Sertraline Impurity",
+  "image": "unnamed__N-Nitroso-Sertraline-Impurity.png",
+  "confidence": "medium",
+  "ref_smiles": "CN(N=O)[C@H]1CC[C@@H](c2ccc(Cl)c(Cl)c2)c2ccccc21",
+  "osr_smiles": "CN(N=O)C1CC[C@@H](c2ccc(Cl)c(Cl)c2)c2ccccc21",
+  "error": "skeleton correct, stereochemistry or isotope label differs",
+  "exact": false,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 2,
+  "osr_category": 2,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "N-Nitroso Salbutamol",
+  "image": "unnamed__N-Nitroso-Salbutamol.png",
+  "confidence": "medium",
+  "ref_smiles": "CC(C)(C)N(CC(O)c1ccc(O)c(CO)c1)N=O",
+  "osr_smiles": "CC(C)(C)N(CC(O)c1ccc(O)c(CO)c1)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Ramipril",
+  "image": "unnamed__N-Nitroso-Ramipril.png",
+  "confidence": "medium",
+  "ref_smiles": "CCOC(=O)[C@H](CCc1ccccc1)N(N=O)[C@@H](C)C(=O)N1[C@H](C(=O)O)C[C@@H]2CCC[C@@H]21",
+  "osr_smiles": "CCOC(=O)[C@H](CCc1ccccc1)N(N=O)[C@@H](C)C(=O)N1[C@H](C(=O)O)C[C@@H]2CCC[C@@H]21",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso-Pseudoephedrine",
+  "image": "unnamed__N-Nitroso-Pseudoephedrine.png",
+  "confidence": "high",
+  "ref_smiles": "CC(C(O)c1ccccc1)N(C)N=O",
+  "osr_smiles": "C[C@@H]([C@@H](O)c1ccccc1)N(C)N=O",
+  "error": "skeleton correct, stereochemistry or isotope label differs",
+  "exact": false,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Propranolol",
+  "image": "unnamed__N-Nitroso-Propranolol.png",
+  "confidence": "high",
+  "ref_smiles": "CC(C)N(CC(O)COc1cccc2ccccc12)N=O",
+  "osr_smiles": "CC(C)N(CC(O)COc1cccc2ccccc12)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Pramipexole",
+  "image": "unnamed__N-Nitroso-Pramipexole.png",
+  "confidence": "medium",
+  "ref_smiles": "CCCN(N=O)[C@H]1CCc2nc(N)sc2C1",
+  "osr_smiles": "CCCN(N=O)C1CCc2nc(N)sc2C1",
+  "error": "skeleton correct, stereochemistry or isotope label differs",
+  "exact": false,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 3,
+  "difficulty": [
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "N-Nitroso Perindopril",
+  "image": "unnamed__N-Nitroso-Perindopril.png",
+  "confidence": "medium",
+  "ref_smiles": "CCC[C@@H](C(=O)OCC)N(N=O)[C@@H](C)C(=O)N1[C@H](C(=O)O)C[C@@H]2CCCC[C@@H]21",
+  "osr_smiles": "CCC[C@@H](C(=O)OCC)N(N=O)[C@@H](C)C(=O)N1[C@H](C(=O)O)C[C@]2(C)CCCC[C@]12C",
+  "error": "skeleton wrong, 2 extra heavy atom(s)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "N-Nitroso Moxifloxacin",
+  "image": "unnamed__N-Nitroso-Moxifloxacin.png",
+  "confidence": "medium",
+  "ref_smiles": "COc1c(N2C[C@@H]3CCCN(N=O)[C@@H]3C2)c(F)cc2c(=O)c(C(=O)O)cn(C3CC3)c12",
+  "osr_smiles": "COc1c(N2C[C@@H]3CCCN(N=O)[C@@H]3C2)c(F)cc2c(=O)c(C(=O)O)cn(C3CC3)c12",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Mirabegron",
+  "image": "unnamed__N-Nitroso-Mirabegron.png",
+  "confidence": "high",
+  "ref_smiles": "Nc1nc(CC(=O)Nc2ccc(CCN(C[C@H](O)c3ccccc3)N=O)cc2)cs1",
+  "osr_smiles": "O=NN(CCNCCO)c1ccc(NCCNCCO)c2c1C(=O)c1c(O)ccc(O)c1C2=O",
+  "error": "skeleton wrong, 4 extra heavy atom(s)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 4,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Metoprolol",
+  "image": "unnamed__N-Nitroso-Metoprolol.png",
+  "confidence": "high",
+  "ref_smiles": "COCCc1ccc(OCC(O)CN(N=O)C(C)C)cc1",
+  "osr_smiles": "COCCc1ccc(OCC(O)CN(N=O)C(C)C)cc1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Lisinopril",
+  "image": "unnamed__N-Nitroso-Lisinopril.png",
+  "confidence": "high",
+  "ref_smiles": "NCCCC[C@@H](C(=O)N1CCC[C@H]1C(=O)O)N(N=O)[C@@H](CCc1ccccc1)C(=O)O",
+  "osr_smiles": "NCCCC[C@@H](C(=O)N1CCC[C@H]1C(=O)O)N(N=O)[C@@H](CCc1ccccc1)C(=O)O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso-Levofloxacin Impurity-1",
+  "image": "unnamed__N-Nitroso-Levofloxacin-Impurity-1.png",
+  "confidence": "high",
+  "ref_smiles": "C[C@H]1COc2c(N3CCN(N=O)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23",
+  "osr_smiles": "C[C@H]1COc2c(N3CCN(N=O)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "N-Nitroso Benazepril",
+  "image": "unnamed__N-Nitroso-Benazepril.png",
+  "confidence": "medium",
+  "ref_smiles": "CCOC(=O)[C@H](CCc1ccccc1)N(N=O)[C@H]1CCc2ccccc2N(CC(=O)O)C1=O",
+  "osr_smiles": "CCOC(=O)[C@H](CCc1ccccc1)N(N=O)[C@H]1CCc2ccccc2N(CC(=O)O)C1=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Bisoprolol",
+  "image": "unnamed__N-Nitroso-Bisoprolol.png",
+  "confidence": "high",
+  "ref_smiles": "CC(C)OCCOCc1ccc(OCC(O)CN(N=O)C(C)C)cc1",
+  "osr_smiles": "CC(C)OCCOCc1ccc(OCC(O)CN(N=O)C(C)C)cc1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Bumetanide Impurity",
+  "image": "unnamed__N-Nitroso-Bumetanide-Impurity.png",
+  "confidence": "high",
+  "ref_smiles": "CCCCN(N=O)c1cc(C(=O)O)cc(S(N)(=O)=O)c1Oc1ccccc1",
+  "osr_smiles": "CCCCN(N=O)c1cc(C(=O)O)cc(S(N)(=O)=O)c1Oc1ccccc1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso-desmethyl Trimebutine",
+  "image": "unnamed__N-Nitroso-desmethyl-Trimebutine.png",
+  "confidence": "medium",
+  "ref_smiles": "CCC(COC(=O)c1cc(OC)c(OC)c(OC)c1)(c1ccccc1)N(C)N=O",
+  "osr_smiles": "CCC(COC(=O)c1cc(OC)c(OC)c(OC)c1)(c1ccccc1)N(C)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Diclofenac",
+  "image": "unnamed__N-Nitroso-Diclofenac.png",
+  "confidence": "high",
+  "ref_smiles": "O=NN(c1ccccc1CC(=O)O)c1c(Cl)cccc1Cl",
+  "osr_smiles": "O=NN(c1ccccc1CC(=O)O)c1c(Cl)cccc1Cl",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Enalapril",
+  "image": "unnamed__N-Nitroso-Enalapril.png",
+  "confidence": "medium",
+  "ref_smiles": "CCOC(=O)[C@H](CCc1ccccc1)N(N=O)[C@@H](C)C(=O)N1CCC[C@H]1C(=O)O",
+  "osr_smiles": "CCOC(=O)[C@H](CCc1ccccc1)N(N=O)[C@@H](C)C(=O)N1CCCC1C(=O)O",
+  "error": "skeleton correct, stereochemistry or isotope label differs",
+  "exact": false,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "N-Nitroso Felodipine",
+  "image": "unnamed__N-Nitroso-Felodipine.png",
+  "confidence": "medium",
+  "ref_smiles": "CCOC(=O)C1=C(C)N(N=O)C(C)=C(C(=O)OC)C1c1cccc(Cl)c1Cl",
+  "osr_smiles": "CCOC(=O)C1=C(C)N(N=O)C(C)=C(C(=O)OC)C1c1cccc(Cl)c1Cl",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Phenylephrine",
+  "image": "unnamed__N-Nitroso-Phenylephrine.png",
+  "confidence": "high",
+  "ref_smiles": "CN(C[C@H](O)c1cccc(O)c1)N=O",
+  "osr_smiles": "CN(C[C@H](O)c1cccc(O)c1)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 2,
+  "osr_category": 2,
+  "difficulty": [
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "Dasatinib Nitroso Impurity",
+  "image": "unnamed__Dasatinib-Nitroso-Impurity.png",
+  "confidence": "medium",
+  "ref_smiles": "Cc1nc(N2CCN(CCO)CC2)cc(N(N=O)c2ncc(C(=O)Nc3c(C)cccc3Cl)s2)n1",
+  "osr_smiles": "Cc1nc(N2CCN(CCO)CC2)cc(N(N=O)c2ncc(C(=O)Nc3c(C)cccc3Cl)s2)n1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "Di-Nitroso-Clonidine",
+  "image": "unnamed__Di-Nitroso-Clonidine.png",
+  "confidence": "high",
+  "ref_smiles": "O=NN1CCN(N=O)C1=Nc1c(Cl)cccc1Cl",
+  "osr_smiles": "O=NN1CCN(N=O)C1=Nc1c(Cl)cccc1Cl",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 2,
+  "osr_nitroso": 2,
+  "ref_category": null,
+  "osr_category": null,
+  "difficulty": [
+   "multiple N-nitroso sites"
+  ]
+ },
+ {
+  "name": "DiNitroso Lapatinib",
+  "image": "unnamed__DiNitroso-Lapatinib.png",
+  "confidence": "medium",
+  "ref_smiles": "CS(=O)(=O)CCN(Cc1ccc(-c2ccc3ncnc(N(N=O)c4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1)N=O",
+  "osr_smiles": "CS(=O)(=O)CCN(Cc1ccc(-c2ccc3ncnc(N(N=O)c4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 2,
+  "osr_nitroso": 2,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "multiple N-nitroso sites",
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "Dinitroso Palbociclib",
+  "image": "unnamed__Dinitroso-Palbociclib.png",
+  "confidence": "medium",
+  "ref_smiles": "CC(=O)c1c(C)c2cnc(N(N=O)c3ccc(N4CCN(N=O)CC4)cn3)nc2n(C2CCCC2)c1=O",
+  "osr_smiles": "CC(=O)c1c(C)c2cnc(N(N=O)c3ccc(N4CCN(N=O)CC4)cn3)nc2n(C2CCCC2)c1=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 2,
+  "osr_nitroso": 2,
+  "ref_category": 3,
+  "osr_category": 3,
+  "difficulty": [
+   "multiple N-nitroso sites",
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "Dinitroso-Methyl piperazine Gatifloxacin",
+  "image": "unnamed__Dinitroso-Methyl-piperazine-Gatifloxacin.png",
+  "confidence": "high",
+  "ref_smiles": "CC1CN(N=O)CCN1N=O",
+  "osr_smiles": "CC1CN(N=O)CCN1N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 2,
+  "osr_nitroso": 2,
+  "ref_category": 2,
+  "osr_category": 2,
+  "difficulty": [
+   "multiple N-nitroso sites"
+  ]
+ },
+ {
+  "name": "Elagolix Nitroso Impurity",
+  "image": "unnamed__Elagolix-Nitroso-Impurity.png",
+  "confidence": "medium",
+  "ref_smiles": "COc1cccc(-c2c(C)n(Cc3c(F)cccc3C(F)(F)F)c(=O)n(C[C@@H](c3ccccc3)N(CCCC(=O)O)N=O)c2=O)c1F",
+  "osr_smiles": "COc1cccc(-c2c(C)n(Cc3c(F)cccc3C(F)(F)F)c(=O)n(C[C@@H](c3ccccc3)N(CCCC(=O)O)N=O)c2=O)c1F",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "Elagolix ethyl ester nitroso impurity",
+  "image": "unnamed__Elagolix-ethyl-ester-nitroso-impurity.png",
+  "confidence": "medium",
+  "ref_smiles": "COc1cccc(-c2c(C)n(Cc3c(F)cccc3C(F)(F)F)c(=O)n(C[C@@H](c3ccccc3)N(CCCC(=O)O)N=O)c2=O)c1F",
+  "osr_smiles": "CCOC(=O)CCCN(N=O)[C@@H](Cn1c(=O)c(-c2cccc(OC)c2F)c(C)n(Cc2c(F)cccc2C(F)(F)F)c1=O)c1ccccc1",
+  "error": "skeleton wrong, 2 extra heavy atom(s)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 3,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "Eletriptan Nitroso Impurity",
+  "image": "unnamed__Eletriptan-Nitroso-Impurity.png",
+  "confidence": "medium",
+  "ref_smiles": "O=NN1CCC[C@@H]1Cc1c[nH]c2ccc(CCS(=O)(=O)c3ccccc3)cc12",
+  "osr_smiles": "CN1CCCC1Cc1cn(N=O)c2ccc(CCS(=O)(=O)c3ccccc3)cc12",
+  "error": "N-nitroso group missed entirely",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 0,
+  "ref_category": 4,
+  "osr_category": null,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "Frovatriptan Nitroso Impurity 1",
+  "image": "unnamed__Frovatriptan-Nitroso-Impurity-1.png",
+  "confidence": "medium",
+  "ref_smiles": "CN(N=O)[C@@H]1CCc2[nH]c3ccc(C(N)=O)cc3c2C1",
+  "osr_smiles": "CN[C@@H]1CCc2c(c3cc(C(N)=O)ccc3n2N=O)C1",
+  "error": "N-nitroso group missed entirely",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 0,
+  "ref_category": 3,
+  "osr_category": null,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "Frovatriptan Nitroso Impurity 2",
+  "image": "unnamed__Frovatriptan-Nitroso-Impurity-2.png",
+  "confidence": "medium",
+  "ref_smiles": "CN(N=O)[C@@H]1CCc2[nH]c3ccc(C(N)=O)cc3c2C1",
+  "osr_smiles": "CN(N=O)[C@@H]1CCc2[nH]c3ccc(C(N)=O)cc3c2C1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 3,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "Granisetron Nitroso Impurity",
+  "image": "unnamed__Granisetron-Nitroso-Impurity.png",
+  "confidence": "medium",
+  "ref_smiles": "Cn1nc(C(=O)NC2C[C@H]3CCC[C@@H](C2)N3N=O)c2ccccc21",
+  "osr_smiles": "CN1[C@@H]2CCC[C@H]1C[C@H](N(N=O)C(=O)c1nn(C)c3ccccc13)C2",
+  "error": "skeleton wrong, 1 extra heavy atom(s)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": null,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "N-Nitroso Imidazole Impurity",
+  "image": "unnamed__N-Nitroso-Imidazole-Impurity.png",
+  "confidence": "conflict",
+  "ref_smiles": "O=Nn1ccnc1",
+  "osr_smiles": "O=Nn1ccnc1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 0,
+  "osr_nitroso": 0,
+  "ref_category": null,
+  "osr_category": null,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "Indacaterol Nitroso Impurity",
+  "image": "unnamed__Indacaterol-Nitroso-Impurity.png",
+  "confidence": "medium",
+  "ref_smiles": "CCc1cc2c(cc1CC)CC(N(C[C@H](O)c1ccc(O)c3[nH]c(=O)ccc13)N=O)C2",
+  "osr_smiles": "CCc1cc2c(cc1CC)CC(N(C[C@H](O)c1ccc(O)c3[nH]c(=O)ccc13)N=O)C2",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "Isopropyl (2-amino-6-((4-fluorobenzyl)(nitroso)amino)pyridin-3-yl)carbamate",
+  "image": "unnamed__Isopropyl-2-amino-6-4-fluorobenzyl-nitroso-amino.png",
+  "confidence": "medium",
+  "ref_smiles": "CCOC(=O)Nc1ccc(N(Cc2ccc(F)cc2)N=O)nc1N",
+  "osr_smiles": "CC(C)OC(=O)Nc1ccc(N(Cc2ccc(F)cc2)N=O)nc1N",
+  "error": "skeleton wrong, 1 extra heavy atom(s)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 3,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "Levomefolate Nitroso Impurity 1",
+  "image": "unnamed__Levomefolate-Nitroso-Impurity-1.png",
+  "confidence": "low",
+  "ref_smiles": "CN1c2c(nc(N)[nH]c2=O)N(N=O)C[C@@H]1CNc1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1",
+  "osr_smiles": "CN1c2c(n(N=O)c(N)nc2=O)NC[C@@H]1CNc1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1",
+  "error": "N-nitroso group missed entirely",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 0,
+  "ref_category": 4,
+  "osr_category": null,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "Linagliptin Nitroso Pyrimidine Impurity",
+  "image": "unnamed__Linagliptin-Nitroso-Pyrimidine-Impurity.png",
+  "confidence": "conflict",
+  "ref_smiles": "Cn1c(N)c(N=O)c(=O)[nH]c1=O",
+  "osr_smiles": "Cn1c(N)c(N=O)c(=O)[nH]c1=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 0,
+  "osr_nitroso": 0,
+  "ref_category": null,
+  "osr_category": null,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "Lumateperone Nitroso Impurity 3",
+  "image": "unnamed__Lumateperone-Nitroso-Impurity-3.png",
+  "confidence": "medium",
+  "ref_smiles": "O=NN1CCN2c3c(cccc31)[C@@H]1CN(CCCC(=O)c3ccc(F)cc3)CC[C@@H]12",
+  "osr_smiles": "O=NN1c2ccccc2[C@@H]2CNCC[C@@H]21",
+  "error": "skeleton wrong, 15 heavy atom(s) missing",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "Methyl N-Methyl-N-Nitrosoanthranilate",
+  "image": "unnamed__Methyl-N-Methyl-N-Nitrosoanthranilate.png",
+  "confidence": "high",
+  "ref_smiles": "COC(=O)c1ccccc1N(C)N=O",
+  "osr_smiles": "Cc1ccccc1N1C(=O)c2cc(S(N)(=O)=O)c(Cl)cc2N(N=O)C1C",
+  "error": "skeleton wrong, 12 extra heavy atom(s)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 2,
+  "osr_category": 5,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N,N-dimethyl-2-(1-nitroso-5-((pyrrolidin-1-ylsulfonyl)methyl)-1H-indol-3-yl)ethanamine",
+  "image": "unnamed__N-N-dimethyl-2-1-nitroso-5-pyrrolidin-1-ylsulfon.png",
+  "confidence": "medium",
+  "ref_smiles": "CN(CCc1c[nH]c2ccc(CS(=O)(=O)N3CCCC3)cc12)N=O",
+  "osr_smiles": "CN(C)CCc1cn(N=O)c2ccc(CS(=O)(=O)N3CCCC3)cc12",
+  "error": "N-nitroso group missed entirely",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 0,
+  "ref_category": 1,
+  "osr_category": null,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitroso Diamyl Amine",
+  "image": "unnamed__N-Nitroso-Diamyl-Amine.png",
+  "confidence": "high",
+  "ref_smiles": "CCCCCN(CCCCC)N=O",
+  "osr_smiles": "CCCCCN(CCCCC)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 2,
+  "osr_category": 2,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-(2-((2-(dimethylamino)ethyl)(nitroso)amino)-4-methoxy-5-((4-(1-methyl-1H-indol-3-yl)pyrimidin-2-yl)amino)phenyl)acrylamide",
+  "image": "unnamed__N-2-2-dimethylamino-ethyl-nitroso-amino-4-methox.png",
+  "confidence": "low",
+  "ref_smiles": "C=CC(=O)Nc1cc(Nc2nccc(-c3cn(C)c4ccccc34)n2)c(OC)cc1N(C)CCN(C)N=O",
+  "osr_smiles": "C=CC(=O)Nc1cc(Nc2nccc(-c3cn(C)c4ccccc34)n2)c(OC)cc1N(CCN(C)C)N=O",
+  "error": "skeleton wrong, same atom count (bonds or elements misread)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 3,
+  "difficulty": [
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Aceclofenac",
+  "image": "unnamed__N-Nitroso-Aceclofenac.png",
+  "confidence": "medium",
+  "ref_smiles": "O=NN(c1ccccc1CC(=O)OCC(=O)O)c1c(Cl)cccc1Cl",
+  "osr_smiles": "O=NN(c1ccccc1CC(=O)OCC(=O)O)c1c(Cl)cccc1Cl",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Altizide",
+  "image": "unnamed__N-Nitroso-Altizide.png",
+  "confidence": "medium",
+  "ref_smiles": "C=CCSCC1NS(=O)(=O)c2cc(S(N)(=O)=O)c(Cl)cc2N1N=O",
+  "osr_smiles": "CCOC(=O)C1=C(COCCNC(=O)c2ccccc2C(=O)NC)N(N=O)C(C)=C(C(=O)OC)C1c1ccccc1Cl",
+  "error": "skeleton wrong, 18 extra heavy atom(s)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Argatroban",
+  "image": "unnamed__N-Nitroso-Argatroban.png",
+  "confidence": "medium",
+  "ref_smiles": "CC1Cc2cccc(S(=O)(=O)N[C@@H](CCCN=C(N)N)C(=O)N3CC[C@@H](C)C[C@@H]3C(=O)O)c2N(N=O)C1",
+  "osr_smiles": "CC1Cc2cccc(S(=O)(=O)N[C@@H](CCCNC(=N)N)C(=O)N3CC[C@@H](C)C[C@@H]3C(=O)O)c2N(N=O)C1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Balofloxacin",
+  "image": "unnamed__N-Nitroso-Balofloxacin.png",
+  "confidence": "medium",
+  "ref_smiles": "COc1c(N2CCCC(N(C)N=O)C2)c(F)cc2c(=O)c(C(=O)O)cn(C3CC3)c12",
+  "osr_smiles": "COc1c(N2CCCC(N(C)N=O)C2)c(F)cc2c(=O)c(C(=O)O)cn(C3CC3)c12",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Binimetinib",
+  "image": "unnamed__N-Nitroso-Binimetinib.png",
+  "confidence": "medium",
+  "ref_smiles": "Cn1cnc2c(F)c(N(N=O)c3ccc(Br)cc3F)c(C(=O)NOCCO)cc21",
+  "osr_smiles": "Cn1cnc2c(F)c(N(N=O)c3ccc(Br)cc3F)c(C(=O)NOCCO)cc21",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitroso Cangrelor",
+  "image": "unnamed__N-Nitroso-Cangrelor.png",
+  "confidence": "medium",
+  "ref_smiles": "CSCCN(N=O)c1nc(SCCC(F)(F)F)nc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)C(Cl)(Cl)P(=O)(O)O)[C@@H](O)[C@H]1O",
+  "osr_smiles": "CSCCN(N=O)c1nc(SCCC(F)(F)F)nc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)C(Cl)(Cl)P(=O)(O)O)[C@@H](O)[C@H]1O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 3,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Caspofungin",
+  "image": "unnamed__N-Nitroso-Caspofungin.png",
+  "confidence": "medium",
+  "ref_smiles": "CC[C@H](C)C[C@H](C)CCCCCCCCC(=O)N[C@H]1C[C@@H](O)[C@@H](N(CCN)N=O)NC(=O)[C@@H]2[C@@H](O)CCN2C(=O)[C@H]([C@H](O)CCN)NC(=O)[C@H]([C@H](O)[C@@H](O)c2ccc(O)cc2)NC(=O)[C@@H]2C[C@@H](O)CN2C(=O)[C@H]([C@@H](C)O)NC1=O",
+  "osr_smiles": "CC[C@H](C)C[C@H](C)CCCCCCCCC(=O)N[C@H]1C[C@@H](O)[C@@H](N(CCN)N=O)NC(=O)[C@@H]2[C@@H](O)CCN2C(=O)[C@H]([C@H](O)CCN)NC(=O)C([C@H](O)[C@@H](O)c2ccc(O)cc2)NC(=O)[C@@H]2C[C@@H](O)CN2C(=O)C([C@@H](C)O)NC1=O",
+  "error": "skeleton correct, stereochemistry or isotope label differs",
+  "exact": false,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Celiprolol",
+  "image": "unnamed__N-Nitroso-Celiprolol.png",
+  "confidence": "medium",
+  "ref_smiles": "CCN(CC)C(=O)Nc1ccc(OCC(O)CN(N=O)C(C)(C)C)c(C(C)=O)c1",
+  "osr_smiles": "CCN(CC)C(=O)Nc1ccc(OCC(O)CN(N=O)C(C)(C)C)c(C(C)=O)c1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Cetirizine EP Impurity A",
+  "image": "unnamed__N-Nitroso-Cetirizine-EP-Impurity-A.png",
+  "confidence": "high",
+  "ref_smiles": "O=NN1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1",
+  "osr_smiles": "O=NN1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 3,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitroso Chloroquine",
+  "image": "unnamed__N-Nitroso-Chloroquine.png",
+  "confidence": "medium",
+  "ref_smiles": "CCN(CC)CCCC(C)N(N=O)c1ccnc2cc(Cl)ccc12",
+  "osr_smiles": "CCN(CC)CCCC(C)N(N=O)c1ccnc2cc(Cl)ccc12",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Cinacalcet",
+  "image": "unnamed__N-Nitroso-Cinacalcet.png",
+  "confidence": "medium",
+  "ref_smiles": "C[C@H](c1cccc2ccccc12)N(CCCc1cccc(C(F)(F)F)c1)N=O",
+  "osr_smiles": "CN1CCN(C2=Nc3cc(Cl)ccc3N(N=O)c3ccccc32)CC1",
+  "error": "skeleton wrong, 3 heavy atom(s) missing",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "N-Nitroso Dabigatran Impurity 14",
+  "image": "unnamed__N-Nitroso-Dabigatran-Impurity-14.png",
+  "confidence": "medium",
+  "ref_smiles": "Cn1c(CN(N=O)c2ccc(C(=N)N)cc2)nc2cc(C(=O)N(CCC(=O)O)c3ccccn3)ccc21",
+  "osr_smiles": "CCOC(=O)CCN(C(=O)c1ccc(N(C)N=O)c([N+](=O)[O-])c1)c1ccccn1",
+  "error": "skeleton wrong, 8 heavy atom(s) missing",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 2,
+  "difficulty": [
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Desipramine",
+  "image": "unnamed__N-Nitroso-Desipramine.png",
+  "confidence": "high",
+  "ref_smiles": "CN(CCCN1c2ccccc2CCc2ccccc21)N=O",
+  "osr_smiles": "CN(CCCN1c2ccccc2CCc2ccccc21)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitroso Desmethyl Azelastine",
+  "image": "unnamed__N-Nitroso-Desmethyl-Azelastine.png",
+  "confidence": "medium",
+  "ref_smiles": "O=NN1CCCC(n2nc(Cc3ccc(Cl)cc3)c3ccccc3c2=O)CC1",
+  "osr_smiles": "O=NN1CCCC(n2nc(Cc3ccc(Cl)cc3)c3ccccc3c2=O)CC1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 2,
+  "osr_category": 2,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitroso Desmethyl Cabergoline",
+  "image": "unnamed__N-Nitroso-Desmethyl-Cabergoline.png",
+  "confidence": "medium",
+  "ref_smiles": "C=CCN1C[C@H](C(=O)N(CCCN(C)N=O)C(=O)NCC)C[C@@H]2c3cccc4[nH]cc(c34)C[C@H]21",
+  "osr_smiles": "C=CCN1C[C@H](C(=O)N(CCCN(C)N=O)C(=O)NCC)C[C@@H]2c3cccc4[nH]cc(c34)C[C@H]21",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Desmethyl Chlorpheniramine",
+  "image": "unnamed__N-Nitroso-Desmethyl-Chlorpheniramine.png",
+  "confidence": "medium",
+  "ref_smiles": "CN(CCC(c1ccc(Cl)cc1)c1ccccn1)N=O",
+  "osr_smiles": "CN(CCC(c1ccc(Cl)cc1)c1ccccn1)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Desmethyl Clarithromycin",
+  "image": "unnamed__N-Nitroso-Desmethyl-Clarithromycin.png",
+  "confidence": "medium",
+  "ref_smiles": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)N=O)[C@H]2O)[C@](C)(OC)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O",
+  "osr_smiles": "CC[C@@H](O)[C@@](C)(O)[C@H](O)[C@@H](C)C(=O)[C@H](C)C[C@@](C)(OC)[C@H](OC)[C@@H](C)[C@H](O)[C@@H](C)C(=O)O[C@H](CC)[C@@](C)(O)[C@H](O[C@H]1C[C@@](C)(OC)[C@@H](O)[C@H](C)O1)[C@@H](C)C(=O)[C@H](C)CC(C)(OC)OC",
+  "error": "N-nitroso group missed entirely",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 0,
+  "ref_category": 4,
+  "osr_category": null,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Desmethyl Cyclobenzaprine",
+  "image": "unnamed__N-Nitroso-Desmethyl-Cyclobenzaprine.png",
+  "confidence": "medium",
+  "ref_smiles": "CN(CCC=C1c2ccccc2C=Cc2ccccc21)N=O",
+  "osr_smiles": "CN(CCC=C1c2ccccc2C=Cc2ccccc21)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitroso Desmethyl N-Nitroso Sumatriptan Impurity",
+  "image": "unnamed__N-Nitroso-Desmethyl-N-Nitroso-Sumatriptan-Impuri.png",
+  "confidence": "medium",
+  "ref_smiles": "CNS(=O)(=O)Cc1ccc2[nH]cc(CCN(C)N=O)c2c1",
+  "osr_smiles": "CN(C)CCc1cn(N=O)c2ccc(CS(=O)(=O)N(C)N=O)cc12",
+  "error": "N-nitroso group missed entirely",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 0,
+  "ref_category": 1,
+  "osr_category": null,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Desmethyl Tamoxifen",
+  "image": "unnamed__N-Nitroso-Desmethyl-Tamoxifen.png",
+  "confidence": "medium",
+  "ref_smiles": "CC/C(=C(\\c1ccccc1)c1ccc(OCCN(C)N=O)cc1)c1ccccc1",
+  "osr_smiles": "CC/C(=C(\\c1ccccc1)c1ccc(OCCN(C)N=O)cc1)c1ccccc1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitroso Desmethyl Tapentadol",
+  "image": "unnamed__N-Nitroso-Desmethyl-Tapentadol.png",
+  "confidence": "medium",
+  "ref_smiles": "CC[C@@H](c1cccc(O)c1)[C@@H](C)CN(C)N=O",
+  "osr_smiles": "CC[C@@H](c1cccc(O)c1)[C@@H](C)CN(C)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "N-Nitroso Diphenhydramine",
+  "image": "unnamed__N-Nitroso-Diphenhydramine.png",
+  "confidence": "high",
+  "ref_smiles": "CN(CCOC(c1ccccc1)c1ccccc1)N=O",
+  "osr_smiles": "CN(CCOC(c1ccccc1)c1ccccc1)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Dorzolamide",
+  "image": "unnamed__N-Nitroso-Dorzolamide.png",
+  "confidence": "medium",
+  "ref_smiles": "CCN(N=O)[C@H]1C[C@H](C)S(=O)(=O)c2sc(S(N)(=O)=O)cc21",
+  "osr_smiles": "CCN(N=O)[C@H]1C[C@H](C)S(=O)(=O)c2sc(S(N)(=O)=O)cc21",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 2,
+  "osr_category": 2,
+  "difficulty": [
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "N-Nitroso Doxepin EP Impurity C",
+  "image": "unnamed__N-Nitroso-Doxepin-EP-Impurity-C.png",
+  "confidence": "medium",
+  "ref_smiles": "CN(CCC=C1c2ccccc2COc2ccccc21)N=O",
+  "osr_smiles": "CN(CC/C=C1\\c2ccccc2COc2ccccc21)N=O",
+  "error": "skeleton correct, stereochemistry or isotope label differs",
+  "exact": false,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitroso Ertapenem",
+  "image": "unnamed__N-Nitroso-Ertapenem.png",
+  "confidence": "medium",
+  "ref_smiles": "C[C@@H](O)[C@H]1C(=O)N2C(C(=O)O)=C(S[C@H]3C[C@@H](C(=O)Nc4cccc(C(=O)O)c4)N(N=O)C3)[C@H](C)[C@H]12",
+  "osr_smiles": "C[C@@H](O)[C@H]1C(=O)N2C(C(=O)O)=C(S[C@H]3C[C@@H](C(=O)Nc4cccc(C(=O)O)c4)N(N=O)C3)[C@H](C)[C@H]12",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Escitalopram Impurity",
+  "image": "unnamed__N-Nitroso-Escitalopram-Impurity.png",
+  "confidence": "medium",
+  "ref_smiles": "CN(CCC[C@@]1(c2ccc(F)cc2)OCc2cc(C#N)ccc21)N=O",
+  "osr_smiles": "CN(CCC[C@@]1(c2ccc(F)cc2)OCc2cc(C#N)ccc21)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "N-Nitroso Esmolol",
+  "image": "unnamed__N-Nitroso-Esmolol.png",
+  "confidence": "medium",
+  "ref_smiles": "COC(=O)CCc1ccc(OCC(O)CN(N=O)C(C)C)cc1",
+  "osr_smiles": "COC(=O)CCc1ccc(OCC(O)CN(N=O)C(C)C)cc1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Etravirine",
+  "image": "unnamed__N-Nitroso-Etravirine.png",
+  "confidence": "medium",
+  "ref_smiles": "Cc1cc(C#N)cc(C)c1Oc1nc(N(N=O)c2ccc(C#N)cc2)nc(N)c1Br",
+  "osr_smiles": "Cc1cc(C#N)cc(C)c1Oc1nc(N(N=O)c2ccc(C#N)cc2)nc(N)c1Br",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Fenoldopam Impurity",
+  "image": "unnamed__N-Nitroso-Fenoldopam-Impurity.png",
+  "confidence": "medium",
+  "ref_smiles": "O=NN1CCc2c(cc(O)c(O)c2Cl)C(c2ccc(O)cc2)C1",
+  "osr_smiles": "O=NN1CCc2c(cc(O)c(O)c2Cl)C(c2ccc(O)cc2)C1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 2,
+  "osr_category": 2,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitroso Finerenone",
+  "image": "unnamed__N-Nitroso-Finerenone.png",
+  "confidence": "medium",
+  "ref_smiles": "CCOc1ncc(C)c2c1[C@H](c1ccc(C#N)cc1OC)C(C(N)=O)=C(C)N2N=O",
+  "osr_smiles": "CCOc1ncc(C)c2c1[C@H](c1ccc(C#N)cc1OC)C(C(N)=O)=C(C)N2N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Fluoxetine",
+  "image": "unnamed__N-Nitroso-Fluoxetine.png",
+  "confidence": "high",
+  "ref_smiles": "CN(CCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1)N=O",
+  "osr_smiles": "CN(CCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Flupirtine",
+  "image": "unnamed__N-Nitroso-Flupirtine.png",
+  "confidence": "medium",
+  "ref_smiles": "CCOC(=O)Nc1ccc(N(Cc2ccc(F)cc2)N=O)nc1N",
+  "osr_smiles": "Nc1nc2ncc(CN(N=O)c3ccc(C(=O)NC(CCC(=O)O)C(=O)O)cc3)nc2c(=O)[nH]1",
+  "error": "skeleton wrong, 10 extra heavy atom(s)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 4,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Fostamatinib-1",
+  "image": "unnamed__N-Nitroso-Fostamatinib-1.png",
+  "confidence": "low",
+  "ref_smiles": "COc1cc(Nc2ncc(F)c(N(N=O)c3ccc4c(n3)N(COP(=O)([O-])[O-])C(=O)C(C)(C)O4)n2)cc(OC)c1OC",
+  "osr_smiles": "COc1cc(Nc2ncc(F)c(N(N=O)c3ccc4c(n3)N(COP(=O)(O)O)C(=O)C(C)(C)O4)n2)cc(OC)c1OC",
+  "error": "skeleton correct, stereochemistry or isotope label differs",
+  "exact": false,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Gefitinib",
+  "image": "unnamed__N-Nitroso-Gefitinib.png",
+  "confidence": "medium",
+  "ref_smiles": "COc1cc2ncnc(N(N=O)c3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1",
+  "osr_smiles": "COc1cc2ncnc(N(N=O)c3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Gentamicin 1",
+  "image": "unnamed__N-Nitroso-Gentamicin-1.png",
+  "confidence": "low",
+  "ref_smiles": "CNC(C)C1CCC(N)C(OC2C(N)CC(N)C(OC3OCC(C)(O)C(N(C)N=O)C3O)C2O)O1",
+  "osr_smiles": "CNC(C)[C@@H]1CC[C@@H](N)[C@@H](O[C@H]2[C@@H](O)[C@@H](O[C@H]3OC[C@](C)(O)[C@H](N(C)N=O)[C@@H]3O)[C@H](N)C[C@@H]2N)O1",
+  "error": "skeleton correct, stereochemistry or isotope label differs",
+  "exact": false,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Hydrochlorothiazide Impurity",
+  "image": "unnamed__N-Nitroso-Hydrochlorothiazide-Impurity.png",
+  "confidence": "medium",
+  "ref_smiles": "NS(=O)(=O)c1cc2c(cc1Cl)N(N=O)CNS2(=O)=O",
+  "osr_smiles": "Cc1cc2c(cc1S(N)(=O)=O)S(=O)(=O)NCN2N=O",
+  "error": "skeleton wrong, same atom count (bonds or elements misread)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Imatinib",
+  "image": "unnamed__N-Nitroso-Imatinib.png",
+  "confidence": "low",
+  "ref_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(N=O)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+  "osr_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1N(N=O)c1nccc(-c2cccnc2)n1",
+  "error": "skeleton wrong, 1 extra heavy atom(s)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Iminostilbene",
+  "image": "unnamed__N-Nitroso-Iminostilbene.png",
+  "confidence": "high",
+  "ref_smiles": "O=NN1c2ccccc2C=Cc2ccccc21",
+  "osr_smiles": "O=NN1c2ccccc2C=Cc2ccccc21",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitroso Isradipine",
+  "image": "unnamed__N-Nitroso-Isradipine.png",
+  "confidence": "medium",
+  "ref_smiles": "COC(=O)C1=C(C)N(N=O)C(C)=C(C(=O)OC(C)C)C1c1cccc2nonc12",
+  "osr_smiles": "COC(=O)C1=C(C)N(N=O)C(C)=C(C(=O)OC(C)C)C1Cc1cccc2nonc12",
+  "error": "skeleton wrong, 1 extra heavy atom(s)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitroso Labetalol",
+  "image": "unnamed__N-Nitroso-Labetalol.png",
+  "confidence": "high",
+  "ref_smiles": "CC(CCc1ccccc1)N(CC(O)c1ccc(O)c(C(N)=O)c1)N=O",
+  "osr_smiles": "CC(C)(C)N(C[C@H](O)c1ccc(O)c(CO)c1)N=O",
+  "error": "skeleton wrong, 7 heavy atom(s) missing",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 5,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Levodropropizine EP Impurity B",
+  "image": "unnamed__N-Nitroso-Levodropropizine-EP-Impurity-B.png",
+  "confidence": "high",
+  "ref_smiles": "O=NN1CCN(c2ccccc2)CC1",
+  "osr_smiles": "COc1ccc2c(c1)c(CCNC(C)=O)cn2N=O",
+  "error": "N-nitroso group missed entirely",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 0,
+  "ref_category": 3,
+  "osr_category": null,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Melphalan EP Impurity K-D10",
+  "image": "unnamed__N-Nitroso-Melphalan-EP-Impurity-K-D10.png",
+  "confidence": "high",
+  "ref_smiles": "[2H]C([2H])([2H])C([2H])([2H])N(N=O)C([2H])([2H])C([2H])([2H])[2H]",
+  "osr_smiles": "[2H]C([2H])([2H])C([2H])([2H])N(N=O)C([2H])([2H])C([2H])([2H])[2H]",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Moexipril",
+  "image": "unnamed__N-Nitroso-Moexipril.png",
+  "confidence": "high",
+  "ref_smiles": "CCOC(=O)[C@H](CCc1ccccc1)N(N=O)[C@@H](C)C(=O)N1Cc2cc(OC)c(OC)cc2C[C@H]1C(=O)O",
+  "osr_smiles": "O=NN(c1cccc(C(F)(F)F)c1)c1ncccc1C(=O)OCCN1CCOCC1",
+  "error": "skeleton wrong, 8 heavy atom(s) missing",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso N-BOC Piperazine Teneligliptin",
+  "image": "unnamed__N-Nitroso-N-BOC-Piperazine-Teneligliptin.png",
+  "confidence": "high",
+  "ref_smiles": "CC(C)(C)OC(=O)N1CCN(N=O)CC1",
+  "osr_smiles": "COC(=O)C1=C(C)NC(C)=C(C(=O)OCCN(C)N=O)C1c1cccc([N+](=O)[O-])c1",
+  "error": "skeleton wrong, 15 extra heavy atom(s)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 1,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso N-Desbenzyl Nicardipine Impurity",
+  "image": "unnamed__N-Nitroso-N-Desbenzyl-Nicardipine-Impurity.png",
+  "confidence": "low",
+  "ref_smiles": "COC(=O)C1=C(C)NC(C)=C(C(=O)OCCN(Cc2ccccc2)N=O)C1c1cccc([N+](=O)[O-])c1",
+  "osr_smiles": "CN(CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21)N=O",
+  "error": "skeleton wrong, 11 heavy atom(s) missing",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso N-Desmethyl Doxylamine",
+  "image": "unnamed__N-Nitroso-N-Desmethyl-Doxylamine.png",
+  "confidence": "medium",
+  "ref_smiles": "CN(CCOC(C)(c1ccccc1)c1ccccn1)N=O",
+  "osr_smiles": "CN(CCOC(C)(c1ccccc1)c1ccccn1)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso N-Desmethyl Methadone",
+  "image": "unnamed__N-Nitroso-N-Desmethyl-Methadone.png",
+  "confidence": "medium",
+  "ref_smiles": "CCC(=O)C(CC(C)N(C)N=O)(c1ccccc1)c1ccccc1",
+  "osr_smiles": "CCC(=O)C(CC(C)N(C)N=O)(c1ccccc1)c1ccccc1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 3,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso N-Desmethyl Mifepristone",
+  "image": "unnamed__N-Nitroso-N-Desmethyl-Mifepristone.png",
+  "confidence": "medium",
+  "ref_smiles": "CC#C[C@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CCC4=C3[C@@H](c3ccc(N(C)N=O)cc3)C[C@@]21C",
+  "osr_smiles": "CC#C[C@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CCC4=C3[C@@H](c3ccc(N(C)N=O)cc3)C[C@@]21C",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 2,
+  "osr_category": 2,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso N-Desmethyl Nicardipine Impurity",
+  "image": "unnamed__N-Nitroso-N-Desmethyl-Nicardipine-Impurity.png",
+  "confidence": "low",
+  "ref_smiles": "COC(=O)C1=C(C)NC(C)=C(C(=O)OCCN(Cc2ccccc2)N=O)C1c1cccc([N+](=O)[O-])c1",
+  "osr_smiles": "COC(=O)C1=C(C)NC(C)=C(C(=O)OCCN(Cc2ccccc2)N=O)C1c1cccc([N+](=O)[O-])c1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso N-desmethyl Pheniramine",
+  "image": "unnamed__N-Nitroso-N-desmethyl-Pheniramine.png",
+  "confidence": "medium",
+  "ref_smiles": "CN(CCC(c1ccccc1)c1ccccn1)N=O",
+  "osr_smiles": "CN(CCC(c1ccccc1)c1ccccn1)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Nadolol Impurity",
+  "image": "unnamed__N-Nitroso-Nadolol-Impurity.png",
+  "confidence": "medium",
+  "ref_smiles": "CC(C)(C)N(CC(O)COc1cccc2c1C[C@H](O)[C@H](O)C2)N=O",
+  "osr_smiles": "O=NN1CCN=C1Cc1cccc2ccccc12",
+  "error": "skeleton wrong, 6 heavy atom(s) missing",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": null,
+  "difficulty": [
+   "stereocentres"
+  ]
+ },
+ {
+  "name": "N-Nitroso Niflumic Acid",
+  "image": "unnamed__N-Nitroso-Niflumic-Acid.png",
+  "confidence": "medium",
+  "ref_smiles": "O=NN(c1cccc(C(F)(F)F)c1)c1ncccc1C(=O)O",
+  "osr_smiles": "O=NN(c1cccc(C(F)(F)F)c1)c1ncccc1C(=O)O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "N-Nitroso Nilotinib",
+  "image": "unnamed__N-Nitroso-Nilotinib.png",
+  "confidence": "medium",
+  "ref_smiles": "Cc1cn(-c2cc(NC(=O)c3ccc(C)c(N(N=O)c4nccc(-c5cccnc5)n4)c3)cc(C(F)(F)F)c2)cn1",
+  "osr_smiles": "COCCOC(=O)C1=C(C)N(N=O)C(C)=C(C(=O)OC(C)C)C1c1cccc([N+](=O)[O-])c1",
+  "error": "skeleton wrong, 9 heavy atom(s) missing",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "three or more rings",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Nimodipine",
+  "image": "unnamed__N-Nitroso-Nimodipine.png",
+  "confidence": "medium",
+  "ref_smiles": "COCCOC(=O)C1=C(C)N(N=O)C(C)=C(C(=O)OC(C)C)C1c1cccc([N+](=O)[O-])c1",
+  "osr_smiles": "COC(=O)C1=C(C)N(N=O)C(C)=C(C(=O)OCC(C)C)C1c1ccccc1[N+](=O)[O-]",
+  "error": "skeleton wrong, 2 heavy atom(s) missing",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 5,
+  "osr_category": 5,
+  "difficulty": [
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "N-Nitroso Nortriptyline",
+  "image": "unnamed__N-Nitroso-Nortriptyline.png",
+  "confidence": "high",
+  "ref_smiles": "CN(CCC=C1c2ccccc2CCc2ccccc21)N=O",
+  "osr_smiles": "CN(CCC=C1c2ccccc2CCc2ccccc21)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitroso Oxomemazine",
+  "image": "unnamed__N-Nitroso-Oxomemazine.png",
+  "confidence": "medium",
+  "ref_smiles": "CC(CN(C)N=O)CN1c2ccccc2S(=O)(=O)c2ccccc21",
+  "osr_smiles": "CC(CN(C)N=O)CN1c2ccccc2S(=O)(=O)c2ccccc21",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 1,
+  "osr_category": 1,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "N-Nitroso-N-Phenyl-Glycine Anilide",
+  "image": "unnamed__N-Nitroso-N-Phenyl-Glycine-Anilide.png",
+  "confidence": "high",
+  "ref_smiles": "O=NN(CC(=O)Nc1ccccc1)c1ccccc1",
+  "osr_smiles": "O=NN(CC(=O)Nc1ccccc1)c1ccccc1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "(1-nitrosopiperidin-4-yl)diphenylmethanol",
+  "image": "unnamed__1-nitrosopiperidin-4-yl-diphenylmethanol.png",
+  "confidence": "high",
+  "ref_smiles": "O=NN1CCC(C(O)(c2ccccc2)c2ccccc2)CC1",
+  "osr_smiles": "O=NN1CCC(C(O)(c2ccccc2)c2ccccc2)CC1",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": 3,
+  "difficulty": [
+   "three or more rings"
+  ]
+ },
+ {
+  "name": "(Nitrosoimino)bisacetic Acid Diethyl Ester",
+  "image": "unnamed__Nitrosoimino-bisacetic-Acid-Diethyl-Ester.png",
+  "confidence": "high",
+  "ref_smiles": "CCOC(=O)CN(CC(=O)OCC)N=O",
+  "osr_smiles": "CCOC(=O)CN(CC(=O)OCC)N=O",
+  "error": "exact match",
+  "exact": true,
+  "skeleton": true,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 4,
+  "osr_category": 4,
+  "difficulty": [
+   "none"
+  ]
+ },
+ {
+  "name": "(R)-2-(2-aminothiazol-4-yl)-N-(4-(2-((2-hydroxy-2-phenylethyl)amino)ethyl)phenyl)-N-nitrosoacetamide",
+  "image": "unnamed__R-2-2-aminothiazol-4-yl-N-4-2-2-hydroxy-2-phenyl.png",
+  "confidence": "medium",
+  "ref_smiles": "Nc1nc(CC(=O)Nc2ccc(CCN(C[C@H](O)c3ccccc3)N=O)cc2)cs1",
+  "osr_smiles": "Nc1nc(CC(=O)N(N=O)c2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1",
+  "error": "skeleton wrong, same atom count (bonds or elements misread)",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": null,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ },
+ {
+  "name": "(R)-2-hydroxy-N-(4-nitrophenethyl)-N-nitroso-2-phenylacetamide",
+  "image": "unnamed__R-2-hydroxy-N-4-nitrophenethyl-N-nitroso-2-pheny.png",
+  "confidence": "medium",
+  "ref_smiles": "Nc1nc(CC(=O)Nc2ccc(CCN(C[C@H](O)c3ccccc3)N=O)cc2)cs1",
+  "osr_smiles": "O=NN(CCc1ccc([N+](=O)[O-])cc1)C(=O)[C@H](O)c1ccccc1",
+  "error": "skeleton wrong, 6 heavy atom(s) missing",
+  "exact": false,
+  "skeleton": false,
+  "ref_nitroso": 1,
+  "osr_nitroso": 1,
+  "ref_category": 3,
+  "osr_category": null,
+  "difficulty": [
+   "three or more rings",
+   "stereocentres",
+   "large (>=30 heavy atoms)"
+  ]
+ }
+]

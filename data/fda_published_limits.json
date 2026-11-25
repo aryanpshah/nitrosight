@@ -1,0 +1,3778 @@
+{
+ "_source_url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cder-nitrosamine-impurity-acceptable-intake-limits",
+ "_fetched": "2026-11-24",
+ "_warning": "FDA updates this page periodically. Re-run this script to refresh; treat the values as a dated snapshot, not a permanent record.",
+ "_count": 299,
+ "entries": [
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "1-cyclopropylmethyl-4-nitrosopiperazine (CPMNP)",
+    "source*": "mitapivat",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "1-cyclopropylmethyl-4-nitrosopiperazine (CPMNP)",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-isavuconazonium",
+    "source*": "Isavuconazonium",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-isavuconazonium",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-dalbavancin a0",
+    "source*": "Dalbavancin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-dalbavancin a0",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-dalbavancin a0",
+    "source*": "Dalbavancin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-dalbavancin a0",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-dalbavancin a1",
+    "source*": "Dalbavancin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-dalbavancin a1",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-dalbavancin a1",
+    "source*": "Dalbavancin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-dalbavancin a1",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-dalbavancin b0",
+    "source*": "Dalbavancin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-dalbavancin b0",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-dalbavancin b0",
+    "source*": "Dalbavancin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-dalbavancin b0",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-dalbavancin b1",
+    "source*": "Dalbavancin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-dalbavancin b1",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-dalbavancin b1",
+    "source*": "Dalbavancin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-dalbavancin b1",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-dalbavancin b2",
+    "source*": "Dalbavancin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-dalbavancin b2",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-meglumine",
+    "source*": "Delafloxacin Meglumine;Diatrizoate Meglumine;Fosaprepitant Dimeglumine;Gadobenate Dimeglumine;Gadopentetate Dimeglumine;Gadoterate Meglumine;Iodipamide Meglumine;Iothalamate Meglumine;Ioxaglate Meglumine;Tafamidis Meglumine",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "Delafloxacin Meglumine;Diatrizoate Meglumine;Fosaprepitant Dimeglumine;Gadobenate Dimeglumine;Gadopentetate Dimeglumine;Gadoterate Meglumine;Iodipamide Meglumine;Iothalamate Meglumine;Ioxaglate Meglumine;Tafamidis Meglumine",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-benzathine",
+    "source*": "Penicillin G Benzathine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "Penicillin G Benzathine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-norquetiapine aka N-nitroso-desalkylquetiapine (NDAQ)",
+    "source*": "quetiapine",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-norquetiapine aka N-nitroso-desalkylquetiapine (NDAQ)",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-ribociclib-2",
+    "source*": "Ribociclib",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-ribociclib-2",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-ribociclib-1",
+    "source*": "Ribociclib",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-ribociclib-1",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-abacavir",
+    "source*": "Abacavir",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-abacavir",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-acarbose",
+    "source*": "Acarbose",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-acarbose",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-acebutolol",
+    "source*": "Acebutolol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-acebutolol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-albuterol",
+    "source*": "Albuterol",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-albuterol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-almotriptan",
+    "source*": "Almotriptan",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-almotriptan",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-amitriptyline",
+    "source*": "Amitriptyline",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-amitriptyline",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-amlodipine",
+    "source*": "Amlodipine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-amlodipine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-amoxapine",
+    "source*": "Amoxapine",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-amoxapine",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-arformoterol",
+    "source*": "Arformoterol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-arformoterol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-argatroban",
+    "source*": "Argatroban",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-argatroban",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-articaine",
+    "source*": "Articaine",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-articaine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-atenolol",
+    "source*": "Atenolol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-atenolol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-avacopan",
+    "source*": "Avacopan",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-avacopan",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-avanafil",
+    "source*": "Avanafil",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-avanafil",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-azithromycin",
+    "source*": "Azithromycin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-azithromycin",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-bedaquiline",
+    "source*": "Bedaquiline",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-bedaquiline",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-belumosudil",
+    "source*": "Belumosudil",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-belumosudil",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-benazepril",
+    "source*": "Benazepril",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-benazepril",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-bendroflumethiazide",
+    "source*": "Bendroflumethiazide",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-bendroflumethiazide",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-benzonatate",
+    "source*": "Benzonatate",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-benzonatate",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-betaxolol",
+    "source*": "Betaxolol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-betaxolol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-bicisate",
+    "source*": "Bicisate",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-bicisate",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-bisoprolol",
+    "source*": "Bisoprolol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-bisoprolol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-brilliant blue g",
+    "source*": "Brilliant Blue G",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-brilliant blue g",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-brinzolamide",
+    "source*": "Brinzolamide",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-brinzolamide",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-brompheniramine",
+    "source*": "Brompheniramine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-brompheniramine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-bumetanide",
+    "source*": "Bumetanide",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-bumetanide",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-bupropion",
+    "source*": "Bupropion",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-bupropion",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-cabergoline",
+    "source*": "Cabergoline",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-cabergoline",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-cangrelor",
+    "source*": "Cangrelor",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-cangrelor",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-carbinoxamine",
+    "source*": "Carbinoxamine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-carbinoxamine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-carteolol",
+    "source*": "Carteolol",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-carteolol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-carvedilol",
+    "source*": "Carvedilol",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-carvedilol",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-caspofungin",
+    "source*": "Caspofungin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-caspofungin",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-chlophedianol",
+    "source*": "Chlophedianol",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-chlophedianol",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-chloroquine",
+    "source*": "Chloroquine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-chloroquine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-chlorpheniramine",
+    "source*": "Chlorpheniramine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-chlorpheniramine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-chlorpromazine",
+    "source*": "Chlorpromazine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-chlorpromazine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-cinacalcet",
+    "source*": "Cinacalcet",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-cinacalcet",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-citalopram",
+    "source*": "Citalopram",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-citalopram",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-clarithromycin",
+    "source*": "Clarithromycin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-clarithromycin",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-clevidipine",
+    "source*": "Clevidipine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-clevidipine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-clomipramine",
+    "source*": "Clomipramine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-clomipramine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-clozapine",
+    "source*": "Clozapine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-clozapine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-colistin a hydrogen methanesulfonate-1",
+    "source*": "Colistin",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-colistin a hydrogen methanesulfonate-1",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-colistin a hydrogen methanesulfonate-2",
+    "source*": "Colistin",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-colistin a hydrogen methanesulfonate-2",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-colistin a hydrogen methanesulfonate-3",
+    "source*": "Colistin",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-colistin a hydrogen methanesulfonate-3",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-colistin a hydrogen methanesulfonate-4",
+    "source*": "Colistin",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-colistin a hydrogen methanesulfonate-4",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-colistin a hydrogen methanesulfonate-5",
+    "source*": "Colistin",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-colistin a hydrogen methanesulfonate-5",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-colistin b hydrogen methanesulfonate-1",
+    "source*": "Colistin",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-colistin b hydrogen methanesulfonate-1",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-colistin b hydrogen methanesulfonate-2",
+    "source*": "Colistin",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-colistin b hydrogen methanesulfonate-2",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-colistin b hydrogen methanesulfonate-3",
+    "source*": "Colistin",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-colistin b hydrogen methanesulfonate-3",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-colistin b hydrogen methanesulfonate-4",
+    "source*": "Colistin",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-colistin b hydrogen methanesulfonate-4",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-colistin b hydrogen methanesulfonate-5",
+    "source*": "Colistin",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-colistin b hydrogen methanesulfonate-5",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-cyclobenzaprine",
+    "source*": "Cyclobenzaprine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-cyclobenzaprine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-dabigatran etexilate",
+    "source*": "Dabigatran Etexilate",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-dabigatran etexilate",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-demeclocycline",
+    "source*": "Demeclocycline",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-demeclocycline",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desipramine",
+    "source*": "Desipramine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desipramine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desloratadine",
+    "source*": "Desloratadine",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-desloratadine",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-desvenlafaxine",
+    "source*": "Desvenlafaxine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-desvenlafaxine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-deucravacitinib",
+    "source*": "Deucravacitinib",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-deucravacitinib",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-dexbrompheniramine",
+    "source*": "Dexbrompheniramine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-dexbrompheniramine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-dexchlorpheniramine",
+    "source*": "Dexchlorpheniramine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-dexchlorpheniramine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-diclofenac",
+    "source*": "Diclofenac",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-diclofenac",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-diphenhydramine",
+    "source*": "Dimenhydrinate;Diphenhydramine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-diphenhydramine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-dipivefrin",
+    "source*": "Dipivefrin",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-dipivefrin",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-dobutamine",
+    "source*": "Dobutamine",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-dobutamine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-cidoxepin",
+    "source*": "Doxepin",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-cidoxepin",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-doxepin, (e)-",
+    "source*": "Doxepin",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-doxepin, (e)-",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-doxycycline",
+    "source*": "Doxycycline",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-doxycycline",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-doxylamine",
+    "source*": "Doxylamine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-doxylamine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-duvelisib",
+    "source*": "Duvelisib",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-duvelisib",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-elagolix",
+    "source*": "Elagolix",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-elagolix",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-enalapril",
+    "source*": "Enalapril",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-enalapril",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-enalaprilat",
+    "source*": "Enalaprilat",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-enalaprilat",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-ephedrine",
+    "source*": "Ephedrine",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-ephedrine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-epinephrine",
+    "source*": "Epinephrine",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-epinephrine",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-eravacycline",
+    "source*": "Eravacycline",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-eravacycline",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-ertapenem",
+    "source*": "Ertapenem",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-ertapenem",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-erythromycin",
+    "source*": "Erythromycin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-erythromycin",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-erythromycin ethylsuccinate",
+    "source*": "Erythromycin Ethylsuccinate",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-erythromycin ethylsuccinate",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-escitalopram",
+    "source*": "Escitalopram",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-escitalopram",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-esketamine",
+    "source*": "Esketamine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-esketamine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-esmolol",
+    "source*": "Esmolol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-esmolol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-ethambutol",
+    "source*": "Ethambutol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-ethambutol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-etravirine",
+    "source*": "Etravirine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-etravirine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-exametazime",
+    "source*": "Exametazime",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-exametazime",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-felodipine",
+    "source*": "Felodipine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-felodipine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-fenfluramine",
+    "source*": "Fenfluramine",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-fenfluramine",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-fenoldopam",
+    "source*": "Fenoldopam",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-fenoldopam",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-finerenone",
+    "source*": "Finerenone",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-finerenone",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-flecainide",
+    "source*": "Flecainide",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-flecainide",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-florbetaben f-18",
+    "source*": "Florbetaben F-18",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-florbetaben f-18",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-florbetapir f-18",
+    "source*": "Florbetapir F-18",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-florbetapir f-18",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-flutemetamol f-18",
+    "source*": "Flutemetamol F-18",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-flutemetamol f-18",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-folic acid",
+    "source*": "Folic Acid",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-folic acid",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-formoterol",
+    "source*": "Formoterol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-formoterol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-fosdenopterin-1",
+    "source*": "Fosdenopterin",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-fosdenopterin-1",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-fosdenopterin-2",
+    "source*": "Fosdenopterin",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-fosdenopterin-2",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-fostamatinib-1",
+    "source*": "Fostamatinib",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-fostamatinib-1",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-fostamatinib-2",
+    "source*": "Fostamatinib",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-fostamatinib-2",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-frovatriptan",
+    "source*": "Frovatriptan",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-frovatriptan",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-furosemide",
+    "source*": "Furosemide",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-furosemide",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-gatifloxacin",
+    "source*": "Gatifloxacin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-gatifloxacin",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-hydrochlorothiazide",
+    "source*": "Hydrochlorothiazide",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-hydrochlorothiazide",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-hydroxychloroquine",
+    "source*": "Hydroxychloroquine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-hydroxychloroquine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-imatinib",
+    "source*": "Imatinib",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-imatinib",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-imipramine",
+    "source*": "Imipramine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-imipramine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-isoproterenol",
+    "source*": "Isoproterenol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-isoproterenol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-isradipine",
+    "source*": "Isradipine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-isradipine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-ivacaftor",
+    "source*": "Ivacaftor",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-ivacaftor",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-ketamine",
+    "source*": "Ketamine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-ketamine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-labetalol",
+    "source*": "Labetalol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-labetalol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-leniolisib",
+    "source*": "Leniolisib",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-leniolisib",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-leucovorin-1",
+    "source*": "Leucovorin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-leucovorin-1",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-leucovorin-2",
+    "source*": "Leucovorin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-leucovorin-2",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-levalbuterol",
+    "source*": "Levalbuterol",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-levalbuterol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-levamlodipine",
+    "source*": "Levamlodipine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-levamlodipine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-levmetamfetamine",
+    "source*": "Levmetamfetamine",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-levmetamfetamine",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-levobunolol",
+    "source*": "Levobunolol",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-levobunolol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-levoleucovorin-1",
+    "source*": "Levoleucovorin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-levoleucovorin-1",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-levoleucovorin-2",
+    "source*": "Levoleucovorin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-levoleucovorin-2",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-levomefolic acid-1",
+    "source*": "Levomefolic Acid",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-levomefolic acid-1",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-levomefolic acid-2",
+    "source*": "Levomefolic Acid",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-levomefolic acid-2",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-lisinopril",
+    "source*": "Lisinopril",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-lisinopril",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-maralixibat",
+    "source*": "Maralixibat",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-maralixibat",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-maribavir",
+    "source*": "Maribavir",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-maribavir",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-mecamylamine",
+    "source*": "Mecamylamine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-mecamylamine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-meclofenamic acid",
+    "source*": "Meclofenamic Acid",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-meclofenamic acid",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-mefloquine",
+    "source*": "Mefloquine",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-mefloquine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-meropenem",
+    "source*": "Meropenem",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-meropenem",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-methadone",
+    "source*": "Methadone",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-methadone",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-methamphetamine",
+    "source*": "Methamphetamine",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-methamphetamine",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-methylene blue",
+    "source*": "Methylene Blue",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-methylene blue",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-metolazone",
+    "source*": "Metolazone",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-metolazone",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-metoprolol",
+    "source*": "Metoprolol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-metoprolol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-mifepristone",
+    "source*": "Mifepristone",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-mifepristone",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-migalastat",
+    "source*": "Migalastat",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-migalastat",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-minocycline-1",
+    "source*": "Minocycline",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-minocycline-1",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-minocycline-2",
+    "source*": "Minocycline",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-minocycline-2",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-mirabegron",
+    "source*": "Mirabegron",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-mirabegron",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-mitoxantrone-1",
+    "source*": "Mitoxantrone",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-mitoxantrone-1",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-mitoxantrone-2",
+    "source*": "Mitoxantrone",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-mitoxantrone-2",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-moexipril",
+    "source*": "Moexipril",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-moexipril",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-moxifloxacin",
+    "source*": "Moxifloxacin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-moxifloxacin",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-nadolol",
+    "source*": "Nadolol",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-nadolol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-nebivolol",
+    "source*": "Nebivolol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-nebivolol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-neratinib",
+    "source*": "Neratinib",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-neratinib",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-neratinib",
+    "source*": "Neratinib",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-neratinib",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-nicardipine",
+    "source*": "Nicardipine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-nicardipine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-nifedipine",
+    "source*": "Nifedipine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-nifedipine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-nimodipine",
+    "source*": "Nimodipine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-nimodipine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-nintedanib",
+    "source*": "Nintedanib",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-nintedanib",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-nisoldipine",
+    "source*": "Nisoldipine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-nisoldipine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-nizatidine",
+    "source*": "Nizatidine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-nizatidine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-nizatidine-1",
+    "source*": "Nizatidine",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-nizatidine-1",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-nizatidine-2",
+    "source*": "Nizatidine",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-nizatidine-2",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-nortriptyline",
+    "source*": "Nortriptyline",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-nortriptyline",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-olanzapine",
+    "source*": "Olanzapine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-olanzapine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-oliceridine",
+    "source*": "Oliceridine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-oliceridine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-olodaterol",
+    "source*": "Olodaterol",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-olodaterol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-olopatadine",
+    "source*": "Olopatadine",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-olopatadine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-omadacycline-1",
+    "source*": "Omadacycline",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-omadacycline-1",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-omadacycline-2",
+    "source*": "Omadacycline",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-omadacycline-2",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-omadacycline",
+    "source*": "Omadacycline",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-omadacycline",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-omidenepag isopropyl",
+    "source*": "Omidenepag Isopropyl",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-omidenepag isopropyl",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-oritavancin-1",
+    "source*": "Oritavancin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-oritavancin-1",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-oritavancin-2",
+    "source*": "Oritavancin",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-oritavancin-2",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-orphenadrine",
+    "source*": "Orphenadrine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-orphenadrine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-ozanimod",
+    "source*": "Ozanimod",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-ozanimod",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-ozenoxacin",
+    "source*": "Ozenoxacin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-ozenoxacin",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-padimate o",
+    "source*": "Padimate O",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-padimate o",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-pafolacianine",
+    "source*": "Pafolacianine",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-pafolacianine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-perindopril",
+    "source*": "Perindopril",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-perindopril",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-pheniramine",
+    "source*": "Pheniramine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-pheniramine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-phenylephrine",
+    "source*": "Phenylephrine",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-phenylephrine",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-phenyltoloxamine",
+    "source*": "Phenyltoloxamine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-phenyltoloxamine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-pindolol",
+    "source*": "Pindolol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-pindolol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-plazomicin-1",
+    "source*": "Plazomicin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-plazomicin-1",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-plazomicin-2",
+    "source*": "Plazomicin",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-plazomicin-2",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-plerixafor-1",
+    "source*": "Plerixafor",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-plerixafor-1",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-plerixafor-2",
+    "source*": "Plerixafor",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-plerixafor-2",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-plerixafor-3",
+    "source*": "Plerixafor",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-plerixafor-3",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-polythiazide",
+    "source*": "Polythiazide",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-polythiazide",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-pramipexole",
+    "source*": "Pramipexole",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-pramipexole",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-prilocaine",
+    "source*": "Prilocaine",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-prilocaine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-primaquine",
+    "source*": "Primaquine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-primaquine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-proline",
+    "source*": "Proline",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-proline",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-promethazine",
+    "source*": "Promethazine",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-promethazine",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-propafenone",
+    "source*": "Propafenone",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-propafenone",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-propoxyphene",
+    "source*": "Propoxyphene",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-propoxyphene",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-propranolol",
+    "source*": "Propranolol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-propranolol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-propylhexedrine",
+    "source*": "Propylhexedrine",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-propylhexedrine",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-pseudoephedrine",
+    "source*": "Pseudoephedrine",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-pseudoephedrine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-pyrilamine",
+    "source*": "Pyrilamine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-pyrilamine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-quinapril",
+    "source*": "Quinapril",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-quinapril",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-quinupristin",
+    "source*": "Quinupristin",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-quinupristin",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-racepinephrine",
+    "source*": "Racepinephrine",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-racepinephrine",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-ramipril",
+    "source*": "Ramipril",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-ramipril",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-ranitidine",
+    "source*": "Ranitidine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-ranitidine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-ranitidine-1",
+    "source*": "Ranitidine",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-ranitidine-1",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-ranitidine-2",
+    "source*": "Ranitidine",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-ranitidine-2",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-rasagiline",
+    "source*": "Rasagiline",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-rasagiline",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-relebactam",
+    "source*": "Relebactam",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-relebactam",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-rifabutin",
+    "source*": "Rifabutin",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-rifabutin",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-rilpivirine-1",
+    "source*": "Rilpivirine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-rilpivirine-1",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-rilpivirine-2",
+    "source*": "Rilpivirine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-rilpivirine-2",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-risdiplam",
+    "source*": "Risdiplam",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-risdiplam",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-rivastigmine",
+    "source*": "Rivastigmine",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-rivastigmine",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-rizatriptan",
+    "source*": "Rizatriptan",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-rizatriptan",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-rolapitant",
+    "source*": "Rolapitant",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-rolapitant",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-safinamide",
+    "source*": "Safinamide",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-safinamide",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-salmeterol",
+    "source*": "Salmeterol",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-salmeterol",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-sapropterin-1",
+    "source*": "Sapropterin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-sapropterin-1",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-sapropterin-2",
+    "source*": "Sapropterin",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-sapropterin-2",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-sarecycline",
+    "source*": "Sarecycline",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-sarecycline",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-silodosin",
+    "source*": "Silodosin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-silodosin",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-sotalol",
+    "source*": "Sotalol",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-sotalol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-spinosad factor a",
+    "source*": "Spinosad",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-spinosad factor a",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-spinosad factor d",
+    "source*": "Spinosad",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-spinosad factor d",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-streptomycin",
+    "source*": "Streptomycin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-streptomycin",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-sumatriptan",
+    "source*": "Sumatriptan",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-sumatriptan",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-tafenoquine",
+    "source*": "Tafenoquine",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-tafenoquine",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-tamoxifen",
+    "source*": "Tamoxifen",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-tamoxifen",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-tamsulosin",
+    "source*": "Tamsulosin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-tamsulosin",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-tapentadol",
+    "source*": "Tapentadol",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-tapentadol",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-telavancin-1",
+    "source*": "Telavancin",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-telavancin-1",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-telavancin-2",
+    "source*": "Telavancin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-telavancin-2",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-telavancin-3",
+    "source*": "Telavancin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-telavancin-3",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-telavancin-4",
+    "source*": "Telavancin",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-telavancin-4",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-telithromycin",
+    "source*": "Telithromycin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-telithromycin",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-terbutaline",
+    "source*": "Terbutaline",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-terbutaline",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-tetracaine",
+    "source*": "Tetracaine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-tetracaine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-tetracaine",
+    "source*": "Tetracaine",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-tetracaine",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-tetracycline",
+    "source*": "Tetracycline",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-tetracycline",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-thonzylamine",
+    "source*": "Thonzylamine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-thonzylamine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-ticagrelor",
+    "source*": "Ticagrelor",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-ticagrelor",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-tigecycline-1",
+    "source*": "Tigecycline",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-tigecycline-1",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-tigecycline-2",
+    "source*": "Tigecycline",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-tigecycline-2",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-tigecycline",
+    "source*": "Tigecycline",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-tigecycline",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-timolol",
+    "source*": "Timolol",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-timolol",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-tirofiban",
+    "source*": "Tirofiban",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-tirofiban",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-torsemide",
+    "source*": "Torsemide",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-torsemide",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-tramadol",
+    "source*": "Tramadol",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-tramadol",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-trandolapril",
+    "source*": "Trandolapril",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-trandolapril",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-trientine",
+    "source*": "Trientine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-trientine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-trimethobenzamide",
+    "source*": "Trimethobenzamide",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-trimethobenzamide",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-trimipramine",
+    "source*": "Trimipramine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-trimipramine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-ulipristal acetate",
+    "source*": "Ulipristal Acetate",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-ulipristal acetate",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-vancomycin",
+    "source*": "Vancomycin",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-vancomycin",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-varenicline",
+    "source*": "Varenicline",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-varenicline",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-venlafaxine",
+    "source*": "Venlafaxine",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-venlafaxine",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-vibegron",
+    "source*": "Vibegron",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-vibegron",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-vilanterol",
+    "source*": "Vilanterol",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-vilanterol",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-viloxazine",
+    "source*": "Viloxazine",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-viloxazine",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-vortioxetine",
+    "source*": "Vortioxetine",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-vortioxetine",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-zolmitriptan",
+    "source*": "Zolmitriptan",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-nitroso-desmethyl-zolmitriptan",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "1-cyclopentyl-4-nitroso-piperazine (CPNP)",
+    "source*": "Rifapentine",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "1-cyclopentyl-4-nitroso-piperazine (CPNP)",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-methylphenylamine or N-nitroso-N-methylaniline (NMPA)",
+    "source*": "Multiple",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "N-nitroso-methylphenylamine or N-nitroso-N-methylaniline (NMPA)",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-N-methyl-4-aminobutyric acid (NMBA)",
+    "source*": "Multiple",
+    "potency category": "4",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-N-methyl-4-aminobutyric acid (NMBA)",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-isopropylethylamine (NIPEA) or N-nitroso-ethylisopropylamine (NEIPA)",
+    "source*": "Multiple",
+    "potency category": "3",
+    "recommended ai limit": "400 ng/day"
+   },
+   "name": "N-nitroso-isopropylethylamine (NIPEA) or N-nitroso-ethylisopropylamine (NEIPA)",
+   "ai_ng_day": 400.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-nitroso-diisopropylamine (NDIPA)",
+    "source*": "Multiple",
+    "potency category": "5",
+    "recommended ai limit": "1500 ng/day"
+   },
+   "name": "N-nitroso-diisopropylamine (NDIPA)",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "7-Nitroso-3-(trifluoromethyl)-5,6,7,8-tetrahydro[1,2,4]triazolo-[4,3-a]pyrazine (NTTP)",
+    "source*": "Sitagliptin",
+    "potency category": "2",
+    "recommended ai limit": "100 ng/day"
+   },
+   "name": "7-Nitroso-3-(trifluoromethyl)-5,6,7,8-tetrahydro[1,2,4]triazolo-[4,3-a]pyrazine (NTTP)",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 0,
+   "columns": {
+    "nitrosamine name": "N-((2-isopropylthiazol-4-yl)methyl)-N-methylnitrous amide (NITMA) aka N-nitroso-2,4-thiazoleamine (NNTA)",
+    "source*": "Ritonavir",
+    "potency category": "1",
+    "recommended ai limit": "26.5 ng/day"
+   },
+   "name": "N-((2-isopropylthiazol-4-yl)methyl)-N-methylnitrous amide (NITMA) aka N-nitroso-2,4-thiazoleamine (NNTA)",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 1,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-diltiazem",
+    "source": "Diltiazem",
+    "recommended ai limit (ng/day)": "100",
+    "surrogate": "4-(methylnitrosoamino)-1-(3-pyridinyl)-1-butanone (NNK)",
+    "date added to table": "1/17/2025"
+   },
+   "name": "4-(methylnitrosoamino)-1-(3-pyridinyl)-1-butanone (NNK)",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 1,
+   "columns": {
+    "nitrosamine name": "N-nitroso-duloxetine",
+    "source": "Duloxetine",
+    "recommended ai limit (ng/day)": "100",
+    "surrogate": "4-(methylnitrosoamino)-1-(3-pyridinyl)-1-butanone (NNK)",
+    "date added to table": "8/4/2023"
+   },
+   "name": "4-(methylnitrosoamino)-1-(3-pyridinyl)-1-butanone (NNK)",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 1,
+   "columns": {
+    "nitrosamine name": "N-nitroso-fluoxetine",
+    "source": "Fluoxetine",
+    "recommended ai limit (ng/day)": "100",
+    "surrogate": "4-(methylnitrosoamino)-1-(3-pyridinyl)-1-butanone (NNK)",
+    "date added to table": "10/11/2023"
+   },
+   "name": "4-(methylnitrosoamino)-1-(3-pyridinyl)-1-butanone (NNK)",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 1,
+   "columns": {
+    "nitrosamine name": "N-nitroso-atomoxetine",
+    "source": "Atomoxetine",
+    "recommended ai limit (ng/day)": "100",
+    "surrogate": "4-(methylnitrosoamino)-1-(3-pyridinyl)-1-butanone (NNK)",
+    "date added to table": "12/1/2023"
+   },
+   "name": "4-(methylnitrosoamino)-1-(3-pyridinyl)-1-butanone (NNK)",
+   "ai_ng_day": 100.0
+  },
+  {
+   "table": 1,
+   "columns": {
+    "nitrosamine name": "N-nitroso-dimethylamine (NDMA)",
+    "source": "Multiple",
+    "recommended ai limit (ng/day)": "96",
+    "surrogate": "Compound specific",
+    "date added to table": "9/4/2024 ***"
+   },
+   "name": "N-nitroso-dimethylamine (NDMA)",
+   "ai_ng_day": 96.0
+  },
+  {
+   "table": 1,
+   "columns": {
+    "nitrosamine name": "N-nitroso-diethylamine (NDEA)",
+    "source": "Multiple",
+    "recommended ai limit (ng/day)": "26.5",
+    "surrogate": "Compound specific",
+    "date added to table": "9/4/2024 ***"
+   },
+   "name": "N-nitroso-diethylamine (NDEA)",
+   "ai_ng_day": 26.5
+  },
+  {
+   "table": 1,
+   "columns": {
+    "nitrosamine name": "N-nitroso-piperazine (NPZ)",
+    "source": "Ciprofloxacin",
+    "recommended ai limit (ng/day)": "1300",
+    "surrogate": "N-nitroso-piperidine (NPIP)",
+    "date added to table": "9/4/2024"
+   },
+   "name": "N-nitroso-piperidine (NPIP)",
+   "ai_ng_day": 1300.0
+  },
+  {
+   "table": 1,
+   "columns": {
+    "nitrosamine name": "N-nitroso-methylphenidate",
+    "source": "Methylphenidate",
+    "recommended ai limit (ng/day)": "1300",
+    "surrogate": "N-nitroso-piperidine (NPIP)",
+    "date added to table": "9/4/2024"
+   },
+   "name": "N-nitroso-piperidine (NPIP)",
+   "ai_ng_day": 1300.0
+  },
+  {
+   "table": 1,
+   "columns": {
+    "nitrosamine name": "N-nitroso-vonoprazan",
+    "source": "Vonoprazan",
+    "recommended ai limit (ng/day)": "96",
+    "surrogate": "N-nitroso-dimethylamine (NDMA)",
+    "date added to table": "9/4/2024"
+   },
+   "name": "N-nitroso-dimethylamine (NDMA)",
+   "ai_ng_day": 96.0
+  },
+  {
+   "table": 1,
+   "columns": {
+    "nitrosamine name": "N-nitroso-berotralstat",
+    "source": "Berotralstat",
+    "recommended ai limit (ng/day)": "1500",
+    "surrogate": "Compound specific",
+    "date added to table": "8/6/2026"
+   },
+   "name": "N-nitroso-berotralstat",
+   "ai_ng_day": 1500.0
+  },
+  {
+   "table": 2,
+   "columns": {
+    "nitrosamine name": "N-nitroso-sertraline",
+    "source": "Sertraline",
+    "recommended interim ai limit (ng/day)": "600 ng/day",
+    "recommended interim control limit (ppm)": "3 ppm",
+    "estimated duration***": "8/1/2027"
+   },
+   "name": "N-nitroso-sertraline",
+   "ai_ng_day": 600.0
+  },
+  {
+   "table": 2,
+   "columns": {
+    "nitrosamine name": "N-nitroso-protriptyline",
+    "source": "Protriptyline (tablets)",
+    "recommended interim ai limit (ng/day)": "3,000 ng/day",
+    "recommended interim control limit (ppm)": "50 ppm",
+    "estimated duration***": "8/1/2027"
+   },
+   "name": "N-nitroso-protriptyline",
+   "ai_ng_day": 3000.0
+  },
+  {
+   "table": 2,
+   "columns": {
+    "nitrosamine name": "N-nitroso-nortriptyline",
+    "source": "Nortriptyline (capsules)",
+    "recommended interim ai limit (ng/day)": "600 ng/day",
+    "recommended interim control limit (ppm)": "4 ppm",
+    "estimated duration***": "8/1/2027"
+   },
+   "name": "Nortriptyline (capsules)",
+   "ai_ng_day": 600.0
+  },
+  {
+   "table": 2,
+   "columns": {
+    "nitrosamine name": "N-nitroso-fluoxetine",
+    "source": "Fluoxetine (tablets and capsules)",
+    "recommended interim ai limit (ng/day)": "7,200 ng/day",
+    "recommended interim control limit (ppm)": "90 ppm",
+    "estimated duration***": "8/1/2027"
+   },
+   "name": "Fluoxetine (tablets and capsules)",
+   "ai_ng_day": 7200.0
+  },
+  {
+   "table": 2,
+   "columns": {
+    "nitrosamine name": "N-nitroso-dorzolamide",
+    "source": "Dorzolamide and Timolol",
+    "recommended interim ai limit (ng/day)": "500 ng/day",
+    "recommended interim control limit (ppm)": "139 ppm",
+    "estimated duration***": "8/1/2027"
+   },
+   "name": "Dorzolamide and Timolol",
+   "ai_ng_day": 500.0
+  },
+  {
+   "table": 2,
+   "columns": {
+    "nitrosamine name": "N-nitroso-dorzolamide",
+    "source": "Dorzolamide",
+    "recommended interim ai limit (ng/day)": "500 ng/day",
+    "recommended interim control limit (ppm)": "139 ppm",
+    "estimated duration***": "8/1/2027"
+   },
+   "name": "N-nitroso-dorzolamide",
+   "ai_ng_day": 500.0
+  },
+  {
+   "table": 2,
+   "columns": {
+    "nitrosamine name": "N-nitroso-desmethyl-amitriptyline",
+    "source": "Amitriptyline (tablets)",
+    "recommended interim ai limit (ng/day)": "450 ng/day",
+    "recommended interim control limit (ppm)": "1.5 ppm",
+    "estimated duration***": "8/1/2027"
+   },
+   "name": "N-nitroso-desmethyl-amitriptyline",
+   "ai_ng_day": 450.0
+  },
+  {
+   "table": 2,
+   "columns": {
+    "nitrosamine name": "N-nitroso-ciprofloxacin",
+    "source": "Ciprofloxacin (tablets)",
+    "recommended interim ai limit (ng/day)": "12,000 ng/day",
+    "recommended interim control limit (ppm)": "8 ppm",
+    "estimated duration***": "8/1/2027"
+   },
+   "name": "N-nitroso-ciprofloxacin",
+   "ai_ng_day": 12000.0
+  },
+  {
+   "table": 2,
+   "columns": {
+    "nitrosamine name": "1-methyl-4-nitrosopiperazine (MNP)",
+    "source": "Rifampin (injection and capsules)",
+    "recommended interim ai limit (ng/day)": "3,000 ng/day",
+    "recommended interim control limit (ppm)": "5 ppm",
+    "estimated duration***": "8/1/2027"
+   },
+   "name": "1-methyl-4-nitrosopiperazine (MNP)",
+   "ai_ng_day": 3000.0
+  }
+ ],
+ "revisions": [
+  {
+   "name": "Original Webpage Posting",
+   "date_posted": "8/4/2023**",
+   "change": "Initial posting of Updated Information/Recommended Acceptable Intake Limits for Nitrosamine Drug Substance-Related Impurities (NDSRIs)"
+  },
+  {
+   "name": "N-nitroso-arformoterol",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-hydrochlorothiazide",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-quinapril",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-nortriptyline",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-desmethyl-imipramine",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-avacopan",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-belumosudil",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-benzonatate",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-deucravacitinib",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-exametazime",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-finerenone",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-leniolisib",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-desmethyl-maralixibat",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-maribavir",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-omidenepag isopropyl",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-pafolacianine",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-viloxazine",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-lorcaserin",
+   "date_posted": "10/11/2023",
+   "change": "Deleted from Table 1"
+  },
+  {
+   "name": "N-nitroso-isoxsuprine",
+   "date_posted": "10/11/2023",
+   "change": "Deleted from Table 1"
+  },
+  {
+   "name": "N-nitroso-desmethyl-azithromycin",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-fluoxetine",
+   "date_posted": "10/11/2023",
+   "change": "Added to Table 2"
+  },
+  {
+   "name": "N-nitroso-ciprofloxacin",
+   "date_posted": "12/1/2023",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-ciprofloxacin",
+   "date_posted": "12/1/2023",
+   "change": "Deleted from Table 2"
+  },
+  {
+   "name": "N-nitroso-atomoxetine",
+   "date_posted": "12/1/2023",
+   "change": "Deleted from Table 1"
+  },
+  {
+   "name": "N-nitroso-duloxetine",
+   "date_posted": "2/23/2024",
+   "change": "Added to Table 3"
+  },
+  {
+   "name": "N-nitroso-bumetanide",
+   "date_posted": "2/23/2024",
+   "change": "Added Testing Method for the Determination of N-nitroso-bumetanide"
+  },
+  {
+   "name": "N-nitroso-propranolol",
+   "date_posted": "2/23/2024",
+   "change": "Added Testing Method for the Determination of N-nitroso-propranolol"
+  },
+  {
+   "name": "N-nitroso-varenicline",
+   "date_posted": "2/23/2024",
+   "change": "Added Testing Method for the Determination of N-nitroso-varenicline"
+  },
+  {
+   "name": "N-nitroso-varenicline",
+   "date_posted": "3/5/2024",
+   "change": "Deleted from Table 2"
+  },
+  {
+   "name": "N-nitroso-varenicline",
+   "date_posted": "3/5/2024",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-ciprofloxacin",
+   "date_posted": "4/18/2024",
+   "change": "Added to Table 3"
+  },
+  {
+   "name": "N-nitroso-dimethylamine",
+   "date_posted": "9/4/2024",
+   "change": "Added to Table 2"
+  },
+  {
+   "name": "N-nitroso-diethylamine",
+   "date_posted": "9/4/2024",
+   "change": "Added to Table 2"
+  },
+  {
+   "name": "N-nitroso-N-methyl-4-aminobutyric acid",
+   "date_posted": "9/4/2024",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-isopropylethylamine",
+   "date_posted": "9/4/2024",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-diisopropylamine",
+   "date_posted": "9/4/2024",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "1-methyl-4-nitrosopiperazine",
+   "date_posted": "9/4/2024",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "1-cyclopentyl-4-nitrosopiperazine (or 1-Nitroso-4-cyclopentylpiperazine)",
+   "date_posted": "9/4/2024",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-methylphenylamine",
+   "date_posted": "9/4/2024",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-methylphenidate",
+   "date_posted": "9/4/2024",
+   "change": "Added to Table 2"
+  },
+  {
+   "name": "N-nitroso-vonoprazan",
+   "date_posted": "9/4/2024",
+   "change": "Added to Table 2"
+  },
+  {
+   "name": "N-nitroso-piperazine (NPZ)",
+   "date_posted": "9/4/2024",
+   "change": "Added to Table 2"
+  },
+  {
+   "name": "N-nitroso-degarelix",
+   "date_posted": "9/4/2024",
+   "change": "Deleted from Table 1"
+  },
+  {
+   "name": "N-nitroso-duloxetine",
+   "date_posted": "9/27/2024",
+   "change": "Updated estimated duration of interim limit in Table 3 from 10/1/2024 to 12/31/2024"
+  },
+  {
+   "name": "Multiple",
+   "date_posted": "10/1/2024",
+   "change": "Added to Table 1 and Table 2 acronyms for certain nitrosamines: NIPEA/NEIPA, NDIPA, NMBA, MNP, CPNP, NMPA, NDMA, NDEA"
+  },
+  {
+   "name": "Multiple",
+   "date_posted": "10/1/2024",
+   "change": "Added to Table 5 previously available testing methods for detection of nitrosamines in angiotensin II receptor blocker (ARB)s valsartan, losartan, and irbesartan; bumetanide; metformin; propranolol; ranitidine; rifampin and rifapentine; and varenicline"
+  },
+  {
+   "name": "7-nitroso-3-(trifluoromethyl)-5,6,7,8-tetrahydro[1,2,4]triazolo-[4,3-a]pyrazine (NTTP)",
+   "date_posted": "10/7/2024",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "7-nitroso-3-(trifluoromethyl)-5,6,7,8-tetrahydro[1,2,4]triazolo-[4,3-a]pyrazine (NTTP)",
+   "date_posted": "10/7/2024",
+   "change": "Deleted from Table 2 recommended AI limit of 37 ng/day based on the surrogate N-nitroso-1,2,3,6-tetrahydropyridine (NTHP), previously communicated on August 9, 2022, and previously published in Table 2 on August 4, 2023"
+  },
+  {
+   "name": "N-nitroso-dorzolamide",
+   "date_posted": "10/15/2024",
+   "change": "Added to Table 3"
+  },
+  {
+   "name": "N-((2-isopropylthiazol-4-yl)methyl)-N-methylnitrous amide (NITMA) aka N-nitroso-2,4-thiazoleamine (NNTA)",
+   "date_posted": "10/28/2024",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-((2-isopropylthiazol-4-yl)methyl)-N-methylnitrous amide (NITMA) aka N-nitroso-2,4-thiazoleamine (NNTA)",
+   "date_posted": "10/28/2024",
+   "change": "Information on Ritonavir added to Emerging Issues section"
+  },
+  {
+   "name": "N-nitroso-sertraline",
+   "date_posted": "10/31/2024",
+   "change": "Added to Table 3"
+  },
+  {
+   "name": "N-nitroso-sertraline",
+   "date_posted": "11/1/2024",
+   "change": "Corrected duration in Table 3"
+  },
+  {
+   "name": "N-nitroso-ribociclib-1",
+   "date_posted": "11/20/2024",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-ribociclib-2",
+   "date_posted": "11/20/2024",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-ciprofloxacin",
+   "date_posted": "12/31/2024",
+   "change": "Corrected source in Table 3 to Ciprofloxacin tablets"
+  },
+  {
+   "name": "N-nitroso-protriptyline",
+   "date_posted": "12/31/2024",
+   "change": "Interim limit added to Table 3"
+  },
+  {
+   "name": "N-nitroso-duloxetine",
+   "date_posted": "12/31/2024",
+   "change": "Interim limit deleted from Table 3"
+  },
+  {
+   "name": "1-methyl-4-nitrosopiperazine (MNP)",
+   "date_posted": "12/31/2024",
+   "change": "Interim limit added to Table 3"
+  },
+  {
+   "name": "N-nitroso-desmethyl-diltiazem",
+   "date_posted": "1/17/2025",
+   "change": "Added to Table 2"
+  },
+  {
+   "name": "N-nitroso-desmethyl-diltiazem",
+   "date_posted": "1/17/2025",
+   "change": "Deleted from Table 1"
+  },
+  {
+   "name": "N-nitroso-ciprofloxacin",
+   "date_posted": "3/14/2025",
+   "change": "Updated estimated duration of interim limit in Table 3 from 3/31/2025 to 8/1/2025"
+  },
+  {
+   "name": "N-nitroso-norquetiapine",
+   "date_posted": "3/14/2025",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-desmethyl-amitriptyline",
+   "date_posted": "3/14/2025",
+   "change": "Interim limit added to Table 3"
+  },
+  {
+   "name": "N-nitroso-desmethyl-diphenhydramine",
+   "date_posted": "3/28/2025",
+   "change": "Added dimenhydrinate as additional source in Table 1"
+  },
+  {
+   "name": "N-nitroso-dalbavancin a0",
+   "date_posted": "3/28/2025",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-desmethyl-dalbavancin a0",
+   "date_posted": "3/28/2025",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-dalbavancin a1",
+   "date_posted": "3/28/2025",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-desmethyl-dalbavancin a1",
+   "date_posted": "3/28/2025",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-dalbavancin b0",
+   "date_posted": "3/28/2025",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-desmethyl-dalbavancin b0",
+   "date_posted": "3/28/2025",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-dalbavancin b1",
+   "date_posted": "3/28/2025",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-desmethyl-dalbavancin b1",
+   "date_posted": "3/28/2025",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-desmethyl-dalbavancin b2",
+   "date_posted": "3/28/2025",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-meglumine",
+   "date_posted": "3/28/2025",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "N-nitroso-benzathine",
+   "date_posted": "3/28/2025",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "Multiple",
+   "date_posted": "5/2/2025",
+   "change": "Corrected in Table 1 stereochemistry of chemical structures for certain nitrosamines: N-nitroso-dalbavancin a0, N-nitroso-desmethyl-dalbavancin a0, N-nitroso-dalbavancin a1, N-nitroso-desmethyl-dalbavancin a1, N-nitroso-dalbavancin b0, N-nitroso-desmethyl-dalbavancin b0, N-nitroso-dalbavancin b1, N-nitroso-desmethyl-dalbavancin b1, N-nitroso-desmethyl-dalbavancin b2."
+  },
+  {
+   "name": "1-methyl-4-nitrosopiperazine (MNP)",
+   "date_posted": "5/15/2025",
+   "change": "Added capsules as additional source in Table 3"
+  },
+  {
+   "name": "N-nitroso-fluoxetine",
+   "date_posted": "5/15/2025",
+   "change": "Interim limit added to Table 3"
+  },
+  {
+   "name": "N-nitroso-nortriptyline",
+   "date_posted": "5/28/2025",
+   "change": "Interim limit added to Table 3"
+  },
+  {
+   "name": "N/A",
+   "date_posted": "6/23/2025",
+   "change": "Added updated NDSRI timeline information below Table 4; revised footnote to Table 3"
+  },
+  {
+   "name": "Multiple",
+   "date_posted": "7/29/2025",
+   "change": "Updated estimated duration of interim limit in Table 3 from 8/1/2025 to 8/1/2026 for 1-methyl-4-nitrosopiperazine (MNP), N-nitroso-ciprofloxacin, N-nitroso-desmethyl-amitriptyline, N-nitroso-dorzolamide, N-nitroso-fluoxetine, N-nitroso-nortriptyline, N-nitroso-protriptyline, and N-nitroso-sertraline"
+  },
+  {
+   "name": "N-nitroso-protriptyline",
+   "date_posted": "7/29/2025",
+   "change": "Corrected source in Table 3 to protriptyline tablets"
+  },
+  {
+   "name": "Multiple",
+   "date_posted": "8/18/2025",
+   "change": "Information on Leachable NDBA and Other Small-Molecule Nitrosamines in Infusion Bags added to Emerging Issues section"
+  },
+  {
+   "name": "N-nitroso-dorzolamide",
+   "date_posted": "2/12/2026",
+   "change": "Interim limit added to Table 3 for Dorzolamide and Timolol"
+  },
+  {
+   "name": "N-nitroso-isavuconazonium",
+   "date_posted": "3/19/2026",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "1-cyclopropylmethyl-4-nitrosopiperazine (CPMNP)",
+   "date_posted": "7/24/2026",
+   "change": "Added to Table 1"
+  },
+  {
+   "name": "Multiple",
+   "date_posted": "7/29/2026",
+   "change": "Updated estimated duration of interim limit in Table 3 from 8/1/2026 to 8/1/2027 for 1-methyl-4-nitrosopiperazine (MNP), N-nitroso-ciprofloxacin, N-nitroso-desmethyl-amitriptyline, N-nitroso-dorzolamide, N-nitroso-fluoxetine, N-nitroso-nortriptyline, N-nitroso-protriptyline, and N-nitroso-sertraline"
+  },
+  {
+   "name": "N-nitroso-berotralstat",
+   "date_posted": "8/6/2026",
+   "change": "Added to Table 2"
+  },
+  {
+   "name": "N-nitroso-berotralstat",
+   "date_posted": "8/6/2026",
+   "change": "Deleted from Table 1"
+  },
+  {
+   "name": "Multiple",
+   "date_posted": "9/24/2026",
+   "change": "Added an Emerging Issues Statement regarding application of LTL adjustment factors for nitrosamine impurities. Added footnotes to tables 1 and 2."
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+# Core. Needed to score a structure.
+rdkit>=2023.9.1
+
+# Desktop window. Skip these if you only use the command line.
+PyQt6>=6.5.0
+Pillow>=10.0.0
+
+# Reading and writing the Excel outputs in tools/.
+openpyxl>=3.1.0
+
+# Reading the guidance PDFs in tools/extract_pdf.py and tools/render_pages.py.
+pymupdf>=1.23.0
+pypdf>=4.0.0
+
+# Figures in tools/make_figures.py.
+matplotlib>=3.7.0
+
+# Reading structures from images needs DECIMER, which pulls in TensorFlow and
+# wants its own environment. See the README. Do not add it here.

@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+title: NitroSight
+message: If you use this software, please cite the paper below.
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/aryanpshah/nitrosight"
+abstract: >-
+  NitroSight assigns a Carcinogenic Potency Categorization Approach potency
+  category and acceptable intake limit to a nitrosamine impurity, from a
+  structure image, a SMILES string, a compound name or a CAS number, and
+  reports which table of the FDA guidance produced every contributing factor.
+keywords:
+  - nitrosamine
+  - NDSRI
+  - CPCA
+  - impurity assessment
+  - optical chemical structure recognition
+  - regulatory cheminformatics
+
+authors:
+  - family-names: Shah
+    given-names: Aryan
+    orcid: "https://orcid.org/0009-0004-7063-6634"
+    affiliation: "Department of Computer Science, Texas A&M University"
+  - family-names: Sharma
+    given-names: Kushaan
+    orcid: "https://orcid.org/0009-0001-3704-2568"
+    affiliation: "Department of Biomedical Engineering, The University of Texas at Austin"
+  - family-names: Ali Hassan
+    given-names: Mariame
+    email: mariame_ali@tamu.edu
+    affiliation: >-
+      Department of Pharmaceutical Sciences, School of Pharmacy,
+      Texas A&M University
+
+preferred-citation:
+  type: article
+  title: >-
+    NitroSight: from chemical structure images to explainable nitrosamine
+    potency categorization
+  authors:
+    - family-names: Shah
+      given-names: Aryan
+      orcid: "https://orcid.org/0009-0004-7063-6634"
+    - family-names: Sharma
+      given-names: Kushaan
+      orcid: "https://orcid.org/0009-0001-3704-2568"
+    - family-names: Ali Hassan
+      given-names: Mariame
+  journal: Journal of Cheminformatics
+  year: 2026
+  status: submitted
