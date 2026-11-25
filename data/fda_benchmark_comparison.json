@@ -19,13 +19,13 @@
     "ours": 0
    },
    {
-    "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
-    "fda": 1,
+    "feature": "Beta-hydroxyl on BOTH sides score",
+    "fda": 2,
     "ours": 0
    },
    {
-    "feature": "Beta-hydroxyl on BOTH sides score",
-    "fda": 2,
+    "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
+    "fda": 1,
     "ours": 0
    }
   ],
@@ -170,7 +170,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 4,
-  "our_reason": "No N-nitroso site could be scored; see warnings"
+  "our_reason": "Site 1: an alpha-carbon is double bonded to a heteroatom (N-nitrosamide / urea / guanidine); CPCA does not apply to this site (section IV.C); Site 2: an alpha-carbon is double bonded to a heteroatom (N-nitrosamide / urea / guanidine); CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0033",
@@ -277,7 +277,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 5,
-  "our_reason": "No N-nitrosamine group found (needs a carbon on both sides of an N-nitroso group). CPCA does not apply."
+  "our_reason": "Site 1: N-nitroso group is within an aromatic ring; CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0048",
@@ -286,7 +286,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 5,
-  "our_reason": "No N-nitrosamine group found (needs a carbon on both sides of an N-nitroso group). CPCA does not apply."
+  "our_reason": "Site 1: N-nitroso group is within an aromatic ring; CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0053",
@@ -339,7 +339,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 4,
-  "our_reason": "No N-nitroso site could be scored; see warnings"
+  "our_reason": "Site 1: an alpha-carbon is double bonded to a heteroatom (N-nitrosamide / urea / guanidine); CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0067",
@@ -348,7 +348,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 4,
-  "our_reason": "No N-nitroso site could be scored; see warnings"
+  "our_reason": "Site 1: an alpha-carbon is double bonded to a heteroatom (N-nitrosamide / urea / guanidine); CPCA does not apply to this site (section IV.C); Site 2: an alpha-carbon is double bonded to a heteroatom (N-nitrosamide / urea / guanidine); CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0069",
@@ -890,6 +890,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -897,11 +902,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -922,6 +922,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -929,11 +934,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -1086,13 +1086,13 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
-    "feature": "Carboxylic acid group anywhere on molecule score",
-    "fda": 3,
+    "feature": "EWG on alpha-carbon on ONLY one side of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 1,
     "ours": 0
    },
    {
-    "feature": "EWG on alpha-carbon on ONLY one side of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 1,
+    "feature": "Carboxylic acid group anywhere on molecule score",
+    "fda": 3,
     "ours": 0
    },
    {
@@ -1118,13 +1118,13 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
-    "feature": "Carboxylic acid group anywhere on molecule score",
-    "fda": 3,
+    "feature": "EWG on alpha-carbon on ONLY one side of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 1,
     "ours": 0
    },
    {
-    "feature": "EWG on alpha-carbon on ONLY one side of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 1,
+    "feature": "Carboxylic acid group anywhere on molecule score",
+    "fda": 3,
     "ours": 0
    },
    {
@@ -1164,7 +1164,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 5,
-  "our_reason": "No N-nitrosamine group found (needs a carbon on both sides of an N-nitroso group). CPCA does not apply."
+  "our_reason": "Site 1: N-nitroso group is within an aromatic ring; CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0189",
@@ -1181,6 +1181,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -1188,11 +1193,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -1235,6 +1235,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -1242,11 +1247,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -1267,6 +1267,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -1274,11 +1279,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -1291,7 +1291,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 5,
-  "our_reason": "No N-nitrosamine group found (needs a carbon on both sides of an N-nitroso group). CPCA does not apply."
+  "our_reason": "Site 1: N-nitroso group is within an aromatic ring; CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0245",
@@ -1322,7 +1322,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 5,
-  "our_reason": "No N-nitroso site could be scored; see warnings"
+  "our_reason": "Site 1: an alpha-carbon is double bonded to a heteroatom (N-nitrosamide / urea / guanidine); CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0247",
@@ -1537,6 +1537,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -1544,11 +1549,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -1561,7 +1561,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 5,
-  "our_reason": "No N-nitrosamine group found (needs a carbon on both sides of an N-nitroso group). CPCA does not apply."
+  "our_reason": "Site 1: N-nitroso group is within an aromatic ring; CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0283",
@@ -1570,7 +1570,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 5,
-  "our_reason": "No N-nitrosamine group found (needs a carbon on both sides of an N-nitroso group). CPCA does not apply."
+  "our_reason": "Site 1: N-nitroso group is within an aromatic ring; CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0284",
@@ -1609,12 +1609,12 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
-    "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
+    "feature": "Beta-hydroxyl on ONLY one side score",
     "fda": 1,
     "ours": 0
    },
    {
-    "feature": "Beta-hydroxyl on ONLY one side score",
+    "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
     "ours": 0
    }
@@ -1746,13 +1746,13 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
-    "feature": "Carboxylic acid group anywhere on molecule score",
-    "fda": 3,
+    "feature": "EWG on alpha-carbon on ONLY one side of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 1,
     "ours": 0
    },
    {
-    "feature": "EWG on alpha-carbon on ONLY one side of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 1,
+    "feature": "Carboxylic acid group anywhere on molecule score",
+    "fda": 3,
     "ours": 0
    },
    {
@@ -1778,13 +1778,13 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
-    "feature": "Carboxylic acid group anywhere on molecule score",
-    "fda": 3,
+    "feature": "EWG on alpha-carbon on ONLY one side of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 1,
     "ours": 0
    },
    {
-    "feature": "EWG on alpha-carbon on ONLY one side of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 1,
+    "feature": "Carboxylic acid group anywhere on molecule score",
+    "fda": 3,
     "ours": 0
    },
    {
@@ -1810,13 +1810,13 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
-    "feature": "Carboxylic acid group anywhere on molecule score",
-    "fda": 3,
+    "feature": "EWG on alpha-carbon on ONLY one side of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 1,
     "ours": 0
    },
    {
-    "feature": "EWG on alpha-carbon on ONLY one side of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 1,
+    "feature": "Carboxylic acid group anywhere on molecule score",
+    "fda": 3,
     "ours": 0
    },
    {
@@ -1834,7 +1834,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 5,
-  "our_reason": "No N-nitrosamine group found (needs a carbon on both sides of an N-nitroso group). CPCA does not apply."
+  "our_reason": "Site 1: N-nitroso group is within an aromatic ring; CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0316",
@@ -1843,7 +1843,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 5,
-  "our_reason": "No N-nitroso site could be scored; see warnings"
+  "our_reason": "Site 1: an alpha-carbon is double bonded to a heteroatom (N-nitrosamide / urea / guanidine); CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0318",
@@ -1852,7 +1852,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 2,
-  "our_reason": "No N-nitroso site could be scored; see warnings"
+  "our_reason": "Site 1: an alpha-carbon is double bonded to a heteroatom (N-nitrosamide / urea / guanidine); CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0330",
@@ -1869,6 +1869,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -1876,11 +1881,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -2055,12 +2055,12 @@
   "our_triage_reason": "Tertiary alpha-carbon present (Figure 1, gate 3)",
   "feature_diffs": [
    {
-    "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
+    "feature": "Beta-hydroxyl on ONLY one side score",
     "fda": 1,
     "ours": 0
    },
    {
-    "feature": "Beta-hydroxyl on ONLY one side score",
+    "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
     "ours": 0
    }
@@ -2074,7 +2074,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 5,
-  "our_reason": "No N-nitrosamine group found (needs a carbon on both sides of an N-nitroso group). CPCA does not apply."
+  "our_reason": "Site 1: N-nitroso group is within an aromatic ring; CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0374",
@@ -2113,6 +2113,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -2120,11 +2125,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -2145,6 +2145,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -2152,11 +2157,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -2177,6 +2177,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -2184,11 +2189,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -2209,6 +2209,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -2216,11 +2221,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -2285,6 +2285,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -2292,11 +2297,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -2317,6 +2317,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -2324,11 +2329,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -2496,6 +2496,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -2503,11 +2508,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -2528,13 +2528,13 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
-    "feature": "Carboxylic acid group anywhere on molecule score",
-    "fda": 3,
+    "feature": "NNO in 5- or 6-membered ring (excluding pyrrolidine, 6-membered S-containing ring and morpholine) score",
+    "fda": 2,
     "ours": 0
    },
    {
-    "feature": "NNO in 5- or 6-membered ring (excluding pyrrolidine, 6-membered S-containing ring and morpholine) score",
-    "fda": 2,
+    "feature": "Carboxylic acid group anywhere on molecule score",
+    "fda": 3,
     "ours": 0
    }
   ],
@@ -2613,13 +2613,13 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
-    "feature": "Carboxylic acid group anywhere on molecule score",
-    "fda": 3,
+    "feature": "EWG on alpha-carbon on ONLY one side of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 1,
     "ours": 0
    },
    {
-    "feature": "EWG on alpha-carbon on ONLY one side of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 1,
+    "feature": "Carboxylic acid group anywhere on molecule score",
+    "fda": 3,
     "ours": 0
    },
    {
@@ -2795,6 +2795,11 @@
   "our_triage_reason": "No alpha-carbon carries more than one hydrogen (Figure 1, gate 2)",
   "feature_diffs": [
    {
+    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
+    "fda": 2,
+    "ours": 0
+   },
+   {
     "feature": "Carboxylic acid group anywhere on molecule score",
     "fda": 3,
     "ours": 0
@@ -2802,11 +2807,6 @@
    {
     "feature": "Chains of >=5-non-H atoms on both sides of NNO score",
     "fda": 1,
-    "ours": 0
-   },
-   {
-    "feature": "EWG on alpha-carbon on BOTH sides of NNO (excluding carboxylic acid, aryl and ketone) score",
-    "fda": 2,
     "ours": 0
    }
   ],
@@ -3088,7 +3088,7 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 5,
-  "our_reason": "No N-nitrosamine group found (needs a carbon on both sides of an N-nitroso group). CPCA does not apply."
+  "our_reason": "Site 1: N-nitroso group is within an aromatic ring; CPCA does not apply to this site (section IV.C)"
  },
  {
   "id": "R0662",
@@ -3168,6 +3168,6 @@
   "verdict": "we declined",
   "our_category": null,
   "fda_category": 5,
-  "our_reason": "No N-nitrosamine group found (needs a carbon on both sides of an N-nitroso group). CPCA does not apply."
+  "our_reason": "Site 1: N-nitroso group is within an aromatic ring; CPCA does not apply to this site (section IV.C)"
  }
 ]

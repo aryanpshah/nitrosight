@@ -143,7 +143,15 @@ METHYL_ON_BETA_CARBON_SCORE = -1
 #  N-nitrosoureas, N-nitrosoguanidines and other related structures are excluded).
 #  Additionally, [it] does not apply to NDSRIs where the N-nitroso group is within an
 #  aromatic ring."
-NITROSAMINE_CORE = Chem.MolFromSmarts("[NX3](-[#6])(-[#6])-[NX2]=[OX1]")
+# The pattern DETECTS an N-nitroso group; it does not decide applicability. The
+# aromatic-ring exclusion is applied in the scorer, which needs to find the group
+# first in order to say that the exclusion is why it declined.
+#
+# Both relaxations below are load bearing. Written as [NX3] the pattern matches
+# aliphatic nitrogen only, and written with "-" it demands explicit single bonds.
+# A nitrosated aromatic ring nitrogen fails both tests, and fixing either one
+# alone still matches nothing.
+NITROSAMINE_CORE = Chem.MolFromSmarts("[#7X3](~[#6])(~[#6])~[#7X2]=[OX1]")
 
 GUIDANCE_CITATION = (
     "FDA, Recommended Acceptable Intake Limits for Nitrosamine Drug Substance-Related "

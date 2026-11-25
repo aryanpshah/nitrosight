@@ -237,6 +237,37 @@ check("a structure with no nitrosamine anywhere still declines",
 
 print()
 print("=" * 74)
+print("  AN N-NITROSO GROUP ON AN AROMATIC RING NITROGEN IS RECOGNISED")
+print("=" * 74)
+
+# The CPCA does not apply to these, but the tool has to find the group before it
+# can say so. Detecting it needs BOTH [#7X3] instead of [NX3] and "~" instead of
+# "-", because an aromatic ring nitrogen is not aliphatic and its ring bonds are
+# not single bonds. Fixing either alone matches nothing, so both are tested.
+AROMATIC_RING_N = {
+    "N-nitroso esomeprazole": "COc1ccc2nc([S@](=O)Cc3ncc(C)c(OC)c3C)n(N=O)c2c1",
+    "N-nitroso imidazole": "O=Nn1ccnc1",
+    "N-nitroso benzimidazole": "O=NN1C=Nc2ccccc21",
+}
+
+for label, smi in AROMATIC_RING_N.items():
+    res = score_smiles(smi)
+    check(f"{label} is still out of scope", res.applicable, False)
+    check(f"{label} is told the real reason",
+          "aromatic ring" in res.not_applicable_reason.lower(), True)
+    check(f"{label} is not told the group is missing",
+          "no n-nitrosamine group found" in res.not_applicable_reason.lower(), False)
+
+# An exocyclic nitrogen carrying two aromatic carbons is a different case and was
+# always detected. It must keep scoring.
+check("N-nitrosodiphenylamine still scores",
+      category("O=NN(c1ccccc1)c1ccccc1", None), 5)
+check("NDEA is unaffected by the broader pattern",
+      category("CCN(N=O)CC", None), 1)
+
+
+print()
+print("=" * 74)
 print("  THE SWITCH IS USABLE")
 print("=" * 74)
 

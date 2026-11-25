@@ -550,9 +550,15 @@ def score_smiles(smiles: str,
     if governing is None:
         result.applicable = False
         notes = [n for s in result.sites for n in s.notes]
-        result.not_applicable_reason = (
-            "; ".join(notes) if notes
-            else "No N-nitroso site could be scored; see warnings")
+        if notes:
+            result.not_applicable_reason = "; ".join(notes)
+        elif result.warnings:
+            # Every site was excluded on applicability grounds before scoring, so
+            # the warnings hold the actual reason. Repeat it here rather than
+            # telling the caller to go and look.
+            result.not_applicable_reason = "; ".join(result.warnings)
+        else:
+            result.not_applicable_reason = "No N-nitroso site could be scored"
         return result
 
     # Section IV.C: with more than one N-nitroso group, the one with the highest
