@@ -178,7 +178,8 @@ Each script writes its results into `data/`, so you can check any number in the
 paper by rerunning the script and reading the file it produces.
 
 Tests: `test_cpca.py`, `test_fda_examples.py`, `test_policy.py`,
-`test_pipeline.py`, `test_nitrosate.py`.
+`test_pipeline.py`, `test_nitrosate.py`. All five run from a clean clone with no
+setup beyond `pip install -r requirements.txt`, and all five should pass.
 
 A few scripts in `tools/` read the vendor workbook, which is not included for
 the reasons below. `export_doubtful.py`, `count_doubtful.py` and
