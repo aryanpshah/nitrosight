@@ -177,14 +177,38 @@ Each claim in the paper comes from one of these scripts.
 Each script writes its results into `data/`, so you can check any number in the
 paper by rerunning the script and reading the file it produces.
 
+These scripts overwrite the committed results in place. That is deliberate — the
+file you get back is the one the paper cites — but it means a rerun replaces the
+published artefact rather than writing a copy beside it. Work on a clean
+checkout, or run `git diff data/` afterwards to see exactly what moved.
+`rescore.py` takes `--dry-run` if you only want to know whether anything would
+change.
+
+One script is not reproducible by rerunning: `tools/fetch_structures.py` queries
+PubChem live, so its output depends on what PubChem returns that day.
+`tools/rescore.py` exists to re-score the committed structures without
+refetching, and is the one to use when checking the scoring itself.
+
 Tests: `test_cpca.py`, `test_fda_examples.py`, `test_policy.py`,
 `test_pipeline.py`, `test_nitrosate.py`. All five run from a clean clone with no
 setup beyond `pip install -r requirements.txt`, and all five should pass.
 
-A few scripts in `tools/` read the vendor workbook, which is not included for
-the reasons below. `export_doubtful.py`, `count_doubtful.py` and
-`extract_workbook_images.py` will not run without it. They are here because they
-show how the data in `data/` was produced.
+Some scripts in `tools/` need material that is not redistributed, for the
+reasons below, and will not run from a clean clone:
+
+| Script | Needs |
+|---|---|
+| `export_doubtful.py`, `count_doubtful.py` | the vendor workbook and the structure images |
+| `extract_workbook_images.py` | the vendor workbook |
+| `run_osr.py` | the structure images and their index, plus the DECIMER environment |
+| `benchmark_fda.py` (full run) | FDA's Java tool built in `external/` |
+| `benchmark_tools.py` | the Novartis tool cloned into `external/` |
+
+They are included because they show how the data in `data/` was produced. What
+they generated is committed, so `osr_accuracy.py`, `validate_vs_fda.py`,
+`validate_vs_manual.py`, `holdout.py`, `export_report.py`, `rescore.py` and
+`benchmark_fda.py --compare` all run from a clean clone against those cached
+outputs.
 
 The two comparison scripts need the other tools, which are not included here:
 
@@ -239,6 +263,12 @@ determination.
 
 If you use NitroSight, please cite the paper. [CITATION.cff](CITATION.cff) has
 the details in a form GitHub and most reference managers can read directly.
+
+Each release is archived on Zenodo with its own DOI. Cite the version you
+actually used; the concept DOI below always resolves to the latest one.
+
+<!-- ZENODO_BADGE -->
+
 
 ## Licence
 
