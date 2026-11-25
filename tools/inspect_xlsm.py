@@ -11,6 +11,16 @@ PATH = Path(sys.argv[1]) if len(sys.argv) > 1 else (
 MAX_ROWS = int(sys.argv[2]) if len(sys.argv) > 2 else 60
 MAX_COLS = 14
 
+# Pass a path to inspect any workbook. Without one this defaults to the source
+# catalogue, which is not redistributed, so explain that rather than crashing.
+if not PATH.exists():
+    raise SystemExit(
+        f"{PATH.name} not found.\n"
+        "Pass the path to a workbook as the first argument. The default is the\n"
+        "commercial reference-standard catalogue, which belongs to its publisher\n"
+        "and is not redistributed with this repository."
+    )
+
 
 def dump(values_only: bool) -> None:
     wb = openpyxl.load_workbook(PATH, data_only=values_only, keep_vba=True)

@@ -108,7 +108,22 @@ def anchors(zf: zipfile.ZipFile, drawing_part: str) -> list[tuple[int, int, str]
     return out
 
 
+
+def _require_workbook(path):
+    """The source workbook is a commercial catalogue and is not redistributed.
+    Say so plainly rather than failing with a traceback."""
+    if path.exists():
+        return
+    raise SystemExit(
+        f"{path.name} is not in this repository.\n"
+        "It is a commercial reference-standard catalogue and belongs to its\n"
+        "publisher, so it is not redistributed. Everything derived from it is\n"
+        "in data/, so the published results can still be checked. See the\n"
+        "README section 'What is not in this repository, and why'."
+    )
+
 def main() -> int:
+    _require_workbook(WB)
     OUT.mkdir(parents=True, exist_ok=True)
     wb = openpyxl.load_workbook(WB, data_only=True, keep_vba=True)
 

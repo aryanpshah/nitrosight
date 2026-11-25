@@ -31,6 +31,7 @@ RDLogger.DisableLog("rdApp.*")
 
 WB = ROOT / "data" / "WEEK1_Nitroso_Impurities_MA.xlsm"
 RESULTS = ROOT / "data" / "resolved_structures.json"
+MANUAL = ROOT / "data" / "manual_scores.json"
 
 QUESTIONS = [
     ("I", "gate_any_alpha_h", "any hydrogens on an alpha-carbon?"),
@@ -51,15 +52,10 @@ def yn(value) -> bool | None:
     return None
 
 
-def main() -> int:
+def read_workbook() -> list[dict]:
+    """The assessor's answers, straight from the source workbook."""
     ws = openpyxl.load_workbook(WB, data_only=True, keep_vba=True)["Working Sheet"]
-    structures = {
-        r["impurity_name"]: r.get("smiles")
-        for r in json.loads(RESULTS.read_text(encoding="utf-8"))
-        if r.get("smiles")
-    }
-
-    manual_rows = []
+    out = []
     for row in ws.iter_rows(min_row=5, max_row=ws.max_row):
         c = {cell.column_letter: cell.value for cell in row}
         name = (c.get("F") or "").strip() if c.get("F") else ""
@@ -68,16 +64,45 @@ def main() -> int:
         answers = {col: yn(c.get(col)) for col, _, _ in QUESTIONS}
         if all(v is None for v in answers.values()):
             continue
-        manual_rows.append({"name": name, "answers": answers,
-                            "smiles": structures.get(name)})
+        out.append({"name": name, "answers": answers})
+    return out
+
+
+def main() -> int:
+    # The workbook is a commercial catalogue and is not redistributed, so the
+    # answers are cached alongside the other derived data. The cache holds only
+    # the assessor's own Y/N responses and the compound name, which is what this
+    # comparison needs; the catalogue itself stays out of the repository.
+    if WB.exists():
+        manual_rows = read_workbook()
+        MANUAL.write_text(json.dumps(manual_rows, indent=1), encoding="utf-8")
+        source = f"read from {WB.name} and cached to {MANUAL.name}"
+    elif MANUAL.exists():
+        manual_rows = json.loads(MANUAL.read_text(encoding="utf-8"))
+        source = f"read from {MANUAL.name}; the source workbook is not distributed"
+    else:
+        print(f"Neither {WB.name} nor {MANUAL.name} is present, so there is "
+              f"nothing to compare against.")
+        return 1
+
+    structures = {
+        r["impurity_name"]: r.get("smiles")
+        for r in json.loads(RESULTS.read_text(encoding="utf-8"))
+        if r.get("smiles")
+    }
+    for r in manual_rows:
+        r["smiles"] = structures.get(r["name"])
 
     have_structure = [r for r in manual_rows if r["smiles"]]
 
     print("=" * 76)
     print("  COMPARISON WITH MA'S HAND-SCORED ROWS")
     print("=" * 76)
-    print(f"  rows MA answered at least one question on : {len(manual_rows)}")
-    print(f"  ... for which we resolved a structure     : {len(have_structure)}")
+    print(f"  source: {source}")
+    print(f"  rows the assessor answered at least one question on : "
+          f"{len(manual_rows)}")
+    print(f"  ... for which we resolved a structure               : "
+          f"{len(have_structure)}")
     print()
 
     tallies = {col: {"agree": 0, "differ": 0} for col, _, _ in QUESTIONS}

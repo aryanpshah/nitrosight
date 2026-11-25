@@ -6,6 +6,17 @@ import openpyxl
 
 WB = Path(__file__).parent.parent / "data" / "WEEK1_Nitroso_Impurities_MA.xlsm"
 
+# The source workbook is a commercial catalogue and is not redistributed, so say
+# which file is missing and why rather than failing with a traceback.
+if not WB.exists():
+    raise SystemExit(
+        f"{WB.name} is not in this repository.\n"
+        "It is a commercial reference-standard catalogue and belongs to its\n"
+        "publisher, so it is not redistributed. Everything derived from it is\n"
+        "in data/, so the published results can still be checked. See the\n"
+        "README section 'What is not in this repository, and why'."
+    )
+
 wb = openpyxl.load_workbook(WB, data_only=True, keep_vba=True)
 ws = wb["Working Sheet"]
 

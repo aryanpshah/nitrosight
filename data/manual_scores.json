@@ -1,0 +1,762 @@
+[
+ {
+  "name": "Abacavir Nitroso 1",
+  "answers": {
+   "I": true,
+   "J": false,
+   "K": null
+  }
+ },
+ {
+  "name": "ABCRC-1 Dinitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": false,
+   "K": null
+  }
+ },
+ {
+  "name": "ABCRC-1 Nitroso Impurity-1",
+  "answers": {
+   "I": true,
+   "J": false,
+   "K": null
+  }
+ },
+ {
+  "name": "ABCRC-1 Nitroso Impurity-2",
+  "answers": {
+   "I": true,
+   "J": false,
+   "K": null
+  }
+ },
+ {
+  "name": "Acarbose Nitroso Impurity 1",
+  "answers": {
+   "I": true,
+   "J": false,
+   "K": null
+  }
+ },
+ {
+  "name": "Afatinib Nitroso Impurity 2",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Almotriptan Impurity 9",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Avanafil Nitroso Impurity 1",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Bilastine Nitroso Impurity 1",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Bilastine Nitroso Impurity 3",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Bis(2-aminoethyl)(nitroso)amine",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Bosutinib Nitroso Impurity",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Brimonidine Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Bupropion Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": false,
+   "K": null
+  }
+ },
+ {
+  "name": "Carvedilol Di-Nitroso",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Cilnidipine Nitroso Impurity",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Clevidipine Nitroso Impurity",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Clomipramine EP Impurity E (Nitroso Impurity)",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Clomipramine EP Impurity F Nitroso Impurity",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Clopidogrel Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Dabigatran Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Darolutamide Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Dasatinib Nitroso Impurity",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Di-Nitroso-Clonidine",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Di-Nitroso-Pyrrolopiperidine (DNPP)",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Diethyl 2-((nitroso(phenyl)amino)methylene)malonate",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Diethylamine Dinitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Diethylamine Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Dimethyl-[7-[methyl(nitroso)amino]phenothiazin-3-ylidene]ammonium;chloride",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "DiNitroso Lapatinib",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Dinitroso Palbociclib",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Dinitroso Sumatriptan",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Dinitroso-Methyl piperazine Gatifloxacin",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Elagolix Ethyl Ester Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Elagolix Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Eletriptan Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": false,
+   "K": null
+  }
+ },
+ {
+  "name": "Erlotinib Nitroso Impurity",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Ethyl 1-nitroso-1H-tetrazole-5-carboxylate",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Ethyl 1-nitroso-4-oxo-1,4-dihydroquinoline-3-carboxylate",
+  "answers": {
+   "I": true,
+   "J": false,
+   "K": null
+  }
+ },
+ {
+  "name": "Etodolac Nitroso Impurity",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Ezetimibe Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": false,
+   "K": null
+  }
+ },
+ {
+  "name": "Ezetimibe Nitroso Impurity 1",
+  "answers": {
+   "I": true,
+   "J": false,
+   "K": null
+  }
+ },
+ {
+  "name": "Ezetimibe Nitroso Impurity 2",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Fomepizole Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": false,
+   "K": null
+  }
+ },
+ {
+  "name": "Frovatriptan Nitroso Impurity 1",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Frovatriptan Nitroso Impurity 2",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Glipizide Nitroso Impurity 1",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Glipizide Nitroso Impurity 2",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Granisetron Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": false,
+   "K": null
+  }
+ },
+ {
+  "name": "Idelalisib Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": false,
+   "K": null
+  }
+ },
+ {
+  "name": "Indacaterol Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": true,
+   "K": false
+  }
+ },
+ {
+  "name": "Indacaterol Nitroso Impurity 1",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Irbesartan Nitroso Impurity 1",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Irbesartan Nitroso Impurity 2",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Irbesartan Nitroso Spiro Impurity",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Isopropyl (2-amino-6-((4-fluorobenzyl)(nitroso)amino)pyridin-3-yl)carbamate",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Ivacaftor Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Lansoprazole Nitroso Impurity",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Lapatinib Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Levomefolate Nitroso Impurity 1",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Levomefolate Nitroso Impurity 2",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Linagliptin Regio Isomer Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Lumateperone Nitroso Impurity 3",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Methyl (2-amino-6-((4-fluorobenzyl)(nitroso)amino)pyridin-3-yl)carbamate",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "methyl (Z)-3-(((4-(2-(4-methylpiperazin-1-yl)-N-nitrosoacetamido)phenyl)amino)(phenyl)methylene)-2-oxoindoline-6-carboxylate",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Methyl 2-((3-fluoro-4-(methylcarbamoyl)phenyl)(nitroso)amino)-2-methylpropanoate",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Methyl 2-(1,8-diethyl-9-nitroso-1,3,4,9-tetrahydropyrano[3,4-b]indol-1-yl)acetate",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "methyl 2-(2-chlorophenyl)-2-(nitroso(2-(thiophen-2-yl)ethyl)amino)acetate",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Methyl N-Methyl-N-Nitrosoanthranilate",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Metolazone Nitroso Impurity 1",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Mono Nitroso Pyrrolopiperidine",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Mono-Nitroso Clonidine Impurity",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Mononitroso Ethambutol (S-Isomer)",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Moxifloxacin Related Compound A Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Moxifloxacin Related Compound B Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Moxifloxacin Related Compound C Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Moxifloxacin Related Compound D Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Moxifloxacin Related Compound G Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "Moxonidine Imine Nitroso Impurity",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N Nitroso Bisoprolol EP Impurity A",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-((2-Isopropylthiazol-4-yl)methyl)-N-methylnitrous amide",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-(1-(2-cyanoacetyl)-4-methylpiperidin-3-yl)-N-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)nitrous amide",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-(2-((2-(dimethylamino)ethyl)(nitroso)amino)-4-methoxy-5-((4-(1-methyl-1H-indol-3-yl)pyrimidin-2-yl)amino)phenyl)acrylamide",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-(2-(ethyl(nitroso)amino)ethyl)-2,4-dimethyl-1H-pyrrole-3-carboxamide",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-(2-(ethyl(nitroso)amino)ethyl)-5-formyl-2,4-dimethyl-1H-pyrrole-3-carboxamide",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-(2-aminoethyl)-N-(2-chloroethyl)nitrous amide",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-(2-aminopyridin-3-yl)-N-(1-nitrosopiperidin-4-yl)nitrous amide",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-(2-chloroethyl)-N-methylnitrous amide",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-(2-ethylphenyl)nitrous Hydrazide",
+  "answers": {
+   "I": false,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-(3-((3-(3-chloro-10,11-dihydro-5H-dibenzo[b,f]azepin-5-yl)propyl)(methyl)amino)propyl)-N-methylnitrous amide",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-(3-(10,11-dihydro-5H-dibenzo[b,f]azepin-5-yl)propyl)-N-methylnitrous amide",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-(3-(3-chloro-10,11-dihydro-5H-dibenzo[b,f]azepin-5-yl)propyl)-N-(3-(dimethylamino)propyl)nitrous amide",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-(3-(3-chloro-5H-dibenzo[b,f]azepin-5-yl)propyl)-N-methylnitrous amide",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-(3-(3,7-dichloro-10,11-dihydro-5H-dibenzo[b,f]azepin-5-yl)propyl)-N-methylnitrous amide",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ },
+ {
+  "name": "N-(3-(dimethylamino)propyl)-N-methylnitrous amide",
+  "answers": {
+   "I": true,
+   "J": null,
+   "K": null
+  }
+ }
+]
