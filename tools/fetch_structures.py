@@ -35,6 +35,7 @@ sys.path.insert(0, str(ROOT))
 from cpca import score_smiles  # noqa: E402
 from resolve import (  # noqa: E402
     FDALimits, PubChemClient, enumerate_ndsris, groups_from_name,
+    name_implied_index,
 )
 
 RDLogger.DisableLog("rdApp.*")
@@ -159,6 +160,55 @@ def resolve_row(row: dict, pc: PubChemClient) -> dict:
                         "the vendor's name refers to. Worst case reported.")
     out |= score_best([c.smiles for c in cands])
     out["smiles"] = out.get("scored_smiles")
+    # Identity reading beside the screening value; see named_reading().
+    out |= named_reading(row["impurity_name"], out["candidates"], out.get("smiles"))
+    return out
+
+
+# The identity reading, recorded ALONGSIDE the screening category and never
+# replacing it. Shared with rescore.py so both tools produce identical fields
+# from the same candidates.
+NAMED_FIELDS = ("selected_by", "named_route", "named_site", "named_smiles",
+                "named_scored", "named_category", "named_ai_ng_day",
+                "named_differs_from_reported")
+
+
+def named_reading(impurity_name: str, candidates: list[dict],
+                  reported_smiles: str | None) -> dict:
+    """Which candidate the vendor name points at, and how it scores.
+
+    The SCREENING category is always the worst case across every candidate;
+    a vendor's wording does not get to relax a limit. This records, beside it,
+    the single candidate the name implies - when it implies exactly one -
+    because that is what an InChIKey and a comparison against a regulator's
+    table should be built on. `named_category` is therefore NOT a limit to
+    apply: it says which molecule the name means.
+
+    `candidates` are the stored candidate dicts ({"smiles", "site", "route"}),
+    so this works identically from a fresh resolution and from the committed
+    resolved_structures.json.
+    """
+    if not candidates:
+        return {}
+    out: dict = {"selected_by": "only_candidate" if len(candidates) == 1
+                 else "worst_case"}
+    if len(candidates) < 2:
+        return out
+    idx = name_implied_index(impurity_name, [c.get("route") for c in candidates])
+    if idx is None:
+        return out
+    chosen = candidates[idx]
+    scored = score_best([chosen["smiles"]])
+    out.update({
+        "named_route": chosen.get("route"),
+        "named_site": chosen.get("site"),
+        "named_smiles": chosen["smiles"],
+        "named_scored": bool(scored.get("scored")),
+        "named_differs_from_reported": chosen["smiles"] != reported_smiles,
+    })
+    if scored.get("scored"):
+        out["named_category"] = scored["category"]
+        out["named_ai_ng_day"] = scored["ai_ng_day"]
     return out
 
 

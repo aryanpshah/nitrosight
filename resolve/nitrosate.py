@@ -13,10 +13,49 @@ for screening, the safest reading is the worst-case category across all candidat
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 from itertools import combinations
 
 from rdkit import Chem
+
+
+# "Desmethyl" in a vendor name is not decoration: a tertiary amine cannot be
+# nitrosated directly, so an impurity named desmethyl-X must have lost a methyl
+# first. The absence of the word is the ordinary reading of an NDSRI name -
+# direct nitrosation of the parent's own secondary amine.
+_DESMETHYL_IN_NAME = re.compile(r"des-?methyl|de-?methylated", re.IGNORECASE)
+
+
+def implied_route(impurity_name: str) -> str | None:
+    """The formation route a vendor name implies, or None if there is no name.
+
+    This is an inference from a vendor's wording, not a structural
+    determination, so a caller that uses it must NOT raise its confidence on
+    the strength of it. Its value is that it often picks the right structure
+    out of several candidates, which is what makes the InChIKey and any
+    comparison against a regulator's table refer to the right molecule.
+    """
+    if not impurity_name or not impurity_name.strip():
+        return None
+    if _DESMETHYL_IN_NAME.search(impurity_name):
+        return "tertiary_demethylation"
+    return "secondary_amine"
+
+
+def name_implied_index(impurity_name: str, routes: list[str]) -> int | None:
+    """Index of the ONE candidate whose route the vendor name implies.
+
+    `routes` is the formation route of each candidate, in candidate order.
+    Returns None when the name implies nothing, or when the implied route
+    matches zero candidates or more than one: a name that does not single out
+    one structure must not be treated as if it did.
+    """
+    route = implied_route(impurity_name)
+    if route is None:
+        return None
+    hits = [i for i, r in enumerate(routes) if r == route]
+    return hits[0] if len(hits) == 1 else None
 
 
 @dataclass

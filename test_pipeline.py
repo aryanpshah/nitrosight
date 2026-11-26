@@ -82,6 +82,34 @@ def run() -> int:
     print()
 
     print("=" * 72)
+    print("  WORKBOOK PICTURES: ROW = WHERE THE PICTURE'S CENTRE SITS")
+    print("=" * 72)
+    # The extractor once used the row holding a picture's top-left corner. Pictures
+    # in the vendor workbook start a few points above their own row, so twenty were
+    # credited to the previous entry (N-Nitroso Midodrine Impurity got the
+    # migalastat picture of the next row). Rows below are 20 pt high.
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "extract_workbook_images",
+        Path(__file__).parent / "tools" / "extract_workbook_images.py")
+    ewi = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(ewi)
+    row_tops = [0.0, 0.0, 20.0, 40.0, 60.0, 80.0, 100.0]   # rows 1-5
+    PLACEMENT = [
+        # (description, picture top, picture bottom, top-left row, expected row)
+        ("wholly inside row 3", 42.0, 58.0, 3, 3),
+        ("2.5% in row 2, rest below (the midodrine case)", 39.0, 79.0, 2, 3),
+        ("mostly in row 2, spilling into row 3", 21.0, 44.0, 2, 2),
+    ]
+    for label, y0, y1, top_left, want in PLACEMENT:
+        got = ewi.centre_row(row_tops, y0, y1)
+        ok = got == want
+        failures += not ok
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}: row {got}"
+              f" (top-left corner says {top_left})")
+    print()
+
+    print("=" * 72)
     print(f"  {'ALL PASSED' if failures == 0 else str(failures) + ' FAILURE(S)'}")
     print("=" * 72)
 

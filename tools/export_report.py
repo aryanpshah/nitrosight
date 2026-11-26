@@ -25,6 +25,15 @@ COLUMNS = [
     "fda_published_category", "fda_published_ai_ng_day",
     "cpca_category", "cpca_ai_ng_day", "potency_score", "factors",
     "confidence", "method", "needs_review", "smiles", "issue", "override_note",
+    # Appended AFTER every existing column, so no existing column changes
+    # position and a reader that goes by column index keeps working.
+    #
+    # selected_by: how the reported structure was chosen among the candidates
+    # (only_candidate / worst_case). The rest is the identity reading, recorded
+    # alongside the screening category above. named_category is NOT a limit to
+    # apply; it says which molecule the vendor name points at, for matching
+    # against regulators' tables.
+    "selected_by", "named_route", "named_smiles", "named_category", "named_ai_ng_day",
 ]
 
 
@@ -64,6 +73,14 @@ def flatten(row: dict) -> dict:
                    or (row.get("triage_exit") or ""),
         "confidence": row.get("confidence", ""),
         "method": row.get("method", ""),
+        # How the reported structure was chosen among the candidates:
+        # only_candidate / vendor_name_route / worst_case. Without this a
+        # consumer cannot tell a determined structure from a worst-case pick.
+        "selected_by": row.get("selected_by", ""),
+        "named_route": row.get("named_route", "") or "",
+        "named_smiles": row.get("named_smiles", "") or "",
+        "named_category": row.get("named_category", "") or "",
+        "named_ai_ng_day": row.get("named_ai_ng_day", "") or "",
         "needs_review": "yes" if any(f.get("uncertain") for f in factors) else "",
         "smiles": row.get("smiles", "") or "",
         "issue": row.get("issue", ""),

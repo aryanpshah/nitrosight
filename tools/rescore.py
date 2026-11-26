@@ -13,9 +13,13 @@ resolution alone, so the difference is attributable to the scorer and nothing el
     python tools/rescore.py --dry-run     # show what would change
     python tools/rescore.py               # apply and write
 
-Limitation: where a row was chosen as the most potent of several nitrosation
-candidates, only the winner is stored, so this cannot re-pick a different candidate.
-Re-run fetch_structures.py when that matters.
+Candidates: every row with several nitrosation candidates stores ALL of them,
+with each one's formation route (verified on the committed data: all 69 such
+rows, counts matching n_candidates). That is what lets this tool record the
+name-implied candidate in the named_* fields without going back to the network.
+It still does NOT re-pick the screening structure: the stored worst-case winner
+is re-scored as it stands, so if a scorer change would make a DIFFERENT
+candidate the worst case, re-run fetch_structures.py.
 """
 
 from __future__ import annotations
@@ -31,7 +35,9 @@ sys.path.insert(0, str(ROOT))
 
 sys.path.insert(0, str(ROOT / "tools"))
 
-from fetch_structures import apply_published_limits, score_best  # noqa: E402
+from fetch_structures import (  # noqa: E402
+    NAMED_FIELDS, apply_published_limits, named_reading, score_best,
+)
 
 RESULTS = ROOT / "data" / "resolved_structures.json"
 
@@ -79,11 +85,27 @@ def main() -> int:
 
     apply_published_limits(rows)
 
+    # The identity reading, from the STORED candidates. Done after the limits so
+    # the new keys land at the end of each record and no existing key moves.
+    # Cleared first, like SCORE_FIELDS, so a re-run never leaves a stale value.
+    n_named = n_named_differs = 0
+    for row in rows:
+        for field in NAMED_FIELDS:
+            row.pop(field, None)
+        if row.get("candidates"):
+            row.update(named_reading(row["impurity_name"], row["candidates"],
+                                     row.get("smiles")))
+            if "named_smiles" in row:
+                n_named += 1
+                n_named_differs += bool(row.get("named_differs_from_reported"))
+
     print(f"\n{'=' * 72}\n  RESCORE\n{'=' * 72}")
     print(f"    {len(rows)} rows, {sum(1 for r in rows if r.get('smiles'))} with a structure")
     print(f"    category changed : {len(changed)}")
     print(f"    newly scored     : {gained}")
     print(f"    no longer scored : {lost}")
+    print(f"    name-implied reading recorded : {n_named}"
+          f"  ({n_named_differs} point at a different structure from the screening one)")
 
     if changed:
         print(f"\n{'-' * 72}")

@@ -116,6 +116,13 @@ def run_fda() -> None:
     print(f"  wrote {TSV_OUT.relative_to(ROOT)}")
 
 
+def frozen_input() -> dict[str, str]:
+    """{ID: SMILES} exactly as sent to FDA's tool by --export."""
+    with TSV_IN.open(encoding="utf-8", newline="") as fh:
+        rows = list(csv.reader(fh, delimiter="\t"))
+    return {r[0]: r[1] for r in rows[1:] if len(r) >= 2}
+
+
 def load_fda() -> dict[str, dict]:
     """Most potent site per structure, which is how we report a molecule."""
     best: dict[str, dict] = {}
@@ -154,8 +161,29 @@ def compare(ruleset: str = DEFAULT.name, quiet: bool = False) -> tuple[int, int]
     feature_mismatch = Counter()
     records = []
 
+    # PAIR BY STRUCTURE, NOT BY POSITION. FDA's output is keyed by the ID each
+    # structure had when --export ran (R0000, R0001, ... in catalogue order). If a
+    # row gains or loses a structure afterwards, every later position shifts and a
+    # positional match compares our score for one molecule with FDA's for another.
+    # Fixing the workbook-picture placement gave one more row a structure and
+    # misaligned 409 of 692 positions that way. So: keep the positional ID when the
+    # frozen input confirms it is the same SMILES (identical output when nothing
+    # moved), otherwise look the SMILES up, and report anything absent from the
+    # frozen run instead of pairing it with something else.
+    frozen = frozen_input()
+    id_for_smiles: dict[str, str] = {}
+    for fid, smi in frozen.items():
+        id_for_smiles.setdefault(smi, fid)
+    not_in_run = []
+
     for i, r in enumerate(rows):
         key = f"R{i:04d}"
+        if frozen.get(key) != r["smiles"]:
+            key = id_for_smiles.get(r["smiles"])
+        if key is None:
+            verdicts["structure not in the frozen FDA run"] += 1
+            not_in_run.append(r["impurity_name"])
+            continue
         theirs = fda.get(key)
         mine = score_smiles(r["smiles"], ruleset)
 
@@ -231,6 +259,12 @@ def compare(ruleset: str = DEFAULT.name, quiet: bool = False) -> tuple[int, int]
             print(f"    {n:>5}  {column[:64]}")
     else:
         print("\n  no feature-level disagreements")
+
+    if not_in_run:
+        print(f"\n  {len(not_in_run)} structure(s) not in the frozen FDA run, so not "
+              "benchmarked (re-run --export and --run to include them):")
+        for name in not_in_run:
+            print(f"    {name}")
 
     REPORT.write_text(json.dumps(records, indent=1), encoding="utf-8")
     print(f"\n  {len(records)} differing structures -> {REPORT.relative_to(ROOT)}")

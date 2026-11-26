@@ -4,6 +4,8 @@ from .fda_limits import FDALimits, PublishedLimit, normalise
 from .nitrosate import (
     NitrosoCandidate,
     enumerate_ndsris,
+    implied_route,
+    name_implied_index,
     find_nitrosatable_sites,
     groups_from_name,
 )
@@ -12,6 +14,7 @@ from .pubchem import Hit, PubChemClient
 __all__ = [
     "PubChemClient", "Hit",
     "enumerate_ndsris", "find_nitrosatable_sites", "groups_from_name",
+    "implied_route", "name_implied_index",
     "NitrosoCandidate",
     "FDALimits", "PublishedLimit", "normalise",
 ]

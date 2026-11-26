@@ -22,6 +22,20 @@ because two sources now agree and we are the outlier.
 
     python tools/merge_osr.py --dry-run
     python tools/merge_osr.py
+
+ONE NAME, SEVERAL DIFFERENT PICTURES. Records are matched to the catalogue by name, and
+two workbook rows can share a name while showing different pictures ("ABCRC-1
+Dinitroso Impurity" appears on two sheets, once with the dinitroso compound and once
+with a reused mono-nitroso picture). Taking whichever record happens to come first
+would make the result depend on sheet order. Instead: if the readings differ, keep only
+those carrying the number of N-nitroso groups the NAME implies (groups_from_name, the
+same rule fetch_structures.py uses); if exactly one reading survives, use it; otherwise
+take no picture, keep our structure and flag the row.
+
+RUN IT ONCE, ON THE OUTPUT OF fetch_structures.py. Taking an image overwrites the row
+and marks it "medium" confidence. Run again on that output, the "medium" makes this tool
+protect the earlier image reading as if it were our own structure, so a corrected
+picture can never replace a wrong one. The tool refuses to run on merged data.
 """
 
 from __future__ import annotations
@@ -32,13 +46,13 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-from rdkit import RDLogger
+from rdkit import Chem, RDLogger
 
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 
 from cpca import score_smiles  # noqa: E402
-from resolve import FDALimits  # noqa: E402
+from resolve import FDALimits, groups_from_name  # noqa: E402
 
 RDLogger.DisableLog("rdApp.*")
 
@@ -46,6 +60,27 @@ OSR = ROOT / "data" / "osr_results.json"
 RESULTS = ROOT / "data" / "resolved_structures.json"
 
 TAKE_IMAGE_WHEN = {"low", "conflict", "unresolved", None}
+N_NITROSO = Chem.MolFromSmarts("[#7][#7]=[O]")
+
+
+def nitroso_count(smiles: str) -> int | None:
+    mol = Chem.MolFromSmiles(smiles) if smiles else None
+    return len(mol.GetSubstructMatches(N_NITROSO)) if mol else None
+
+
+def pick_reading(name: str, records: list[dict]) -> tuple[dict | None, str]:
+    """The one image reading to use for this catalogue name, and how it was chosen.
+
+    Returns (record, "only_reading" | "name_nitroso_count") or (None, "ambiguous").
+    """
+    distinct = {r["osr_smiles"] for r in records}
+    if len(distinct) == 1:
+        return records[0], "only_reading"
+    want = groups_from_name(name)
+    fits = [r for r in records if nitroso_count(r["osr_smiles"]) == want]
+    if len({r["osr_smiles"] for r in fits}) == 1:
+        return fits[0], "name_nitroso_count"
+    return None, "ambiguous"
 
 
 def main() -> int:
@@ -54,22 +89,40 @@ def main() -> int:
     args = ap.parse_args()
 
     osr_rows = json.loads(OSR.read_text(encoding="utf-8"))
-    by_name: dict[str, dict] = {}
+    by_name: dict[str, list[dict]] = {}
     for r in osr_rows:
         if r.get("osr_smiles"):
-            by_name.setdefault(r["impurity_name"].strip().lower(), r)
+            by_name.setdefault(r["impurity_name"].strip().lower(), []).append(r)
 
     rows = json.loads(RESULTS.read_text(encoding="utf-8"))
+    if any(r.get("method") == "image_recognition" for r in rows):
+        raise SystemExit(
+            "resolved_structures.json already contains image-derived rows, so it has been "
+            "merged before. Run python tools/fetch_structures.py first. "
+            "Merging (or comparing) on already-merged data treats an earlier "
+            "image result as our own structure and protects it - which is how a "
+            "corrected picture would fail to replace a wrong one.")
     fda = FDALimits()
 
     stats = Counter()
     changes, flagged = [], []
 
     for row in rows:
-        osr = by_name.get(row["impurity_name"].strip().lower())
-        if osr is None:
+        records = by_name.get(row["impurity_name"].strip().lower())
+        if not records:
             continue
         stats["has an image"] += 1
+        osr, how = pick_reading(row["impurity_name"], records)
+        if osr is None:
+            row["image_disagrees"] = (
+                f"{len(records)} workbook pictures carry this name and read as different "
+                "structures; none matches the number of N-nitroso groups the name implies "
+                "uniquely, so no picture was used. Worth a look.")
+            flagged.append(row)
+            stats["several different pictures, none chosen (flagged)"] += 1
+            continue
+        if how == "name_nitroso_count":
+            stats["several different pictures, chosen by the name's nitroso count"] += 1
 
         confidence = row.get("confidence") if row.get("scored") else None
         take_image = confidence in TAKE_IMAGE_WHEN or not row.get("smiles")

@@ -1,656 +1,942 @@
 {
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Abacavir-Nitroso-1.png": {
-  "smiles": "C1=C[C@H](C[C@H]1CO)N(C2=C(C(=NC(=N2)N)Cl)NC([2H])=O)N=O"
+  "smiles": "C1=C[C@H](C[C@H]1CO)N(C2=C(C(=NC(=N2)N)Cl)NC([2H])=O)N=O",
+  "md5": "9c6bd451c682df5527d852e3bdc20376"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__ABCRC-1-Dinitroso-Impurity.png": {
-  "smiles": "C1CC1N(C2=NC(=NC3=C2N=CN3N=O)N)N=O"
+  "smiles": "C1=C[C@H](C[C@H]1CO)N(C2=C(C(=NC(=N2)N)Cl)NC([2H])=O)N=O",
+  "md5": "9c6bd451c682df5527d852e3bdc20376"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__ABCRC-1-Nitroso-Impurity-1.png": {
-  "smiles": "C1CC1N(C2=NC(=NC3C2N=CN3)N)N=O"
+  "smiles": "C1CC1N(C2=NC(=NC3C2N=CN3)N)N=O",
+  "md5": "3c21763abd7da5c4dfd2346a359c9add"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__ABCRC-1-Nitroso-Impurity-2.png": {
-  "smiles": "C1CC1NC2=NC(=NC3=C2N=CN3N=O)N"
+  "smiles": "C1CC1NC2=NC(=NC3=C2N=CN3N=O)N",
+  "md5": "b463b1051181d7be4edf7f44e05c7fa3"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Acarbose-Nitroso-Impurity-1.png": {
-  "smiles": "C[C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@@H](CO)O[C@@H]([C@@H]([C@H]2O)O)O[C@H]([C@@H](CO)O)[C@@H]([C@H](C=O)O)O)O)O)N([C@H]3C=C(CO)[C@H]([C@@H]([C@H]3O)O)O)N=O"
+  "smiles": "C[C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@@H](CO)O[C@@H]([C@@H]([C@H]2O)O)O[C@H]([C@@H](CO)O)[C@@H]([C@H](C=O)O)O)O)O)N([C@H]3C=C(CO)[C@H]([C@@H]([C@H]3O)O)O)N=O",
+  "md5": "3c36517c6340582bdd8fbaebf3e73b3f"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Avanafil-Nitroso-Impurity-1.png": {
-  "smiles": "COC1=CC=C(C=C1Cl)CN(C2=NC(=NC=C2C(=O)NCC3=NC=CC=N3)N4CCC[C@H]4CO)N=O"
+  "smiles": "COC1=CC=C(C=C1Cl)CN(C2=NC(=NC=C2C(=O)NCC3=NC=CC=N3)N4CCC[C@H]4CO)N=O",
+  "md5": "d512f0136713ccc1a34b06d4fafaaca2"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Abacavir-Nitroso-1.png": {
-  "smiles": "C1=C[C@H](C[C@H]1CO)N(C2=C(C(=NC(=N2)N)Cl)NC([2H])=O)N=O"
+  "smiles": "C1=C[C@H](C[C@H]1CO)N(C2=C(C(=NC(=N2)N)Cl)NC([2H])=O)N=O",
+  "md5": "9c6bd451c682df5527d852e3bdc20376"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__ABCRC-1-Dinitroso-Impurity.png": {
-  "smiles": "C1CC1N(C2=NC(=NC3=C2N=CN3N=O)N)N=O"
+  "smiles": "C1CC1N(C2=NC(=NC3=C2N=CN3N=O)N)N=O",
+  "md5": "604d1de79d61e51fd62fbe3f8eb0b0cc"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__ABCRC-1-Nitroso-Impurity-1.png": {
-  "smiles": "C1CC1N(C2=NC(=NC3C2N=CN3)N)N=O"
+  "smiles": "C1CC1N(C2=NC(=NC3C2N=CN3)N)N=O",
+  "md5": "3c21763abd7da5c4dfd2346a359c9add"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__ABCRC-1-Nitroso-Impurity-2.png": {
-  "smiles": "C1CC1NC2=NC(=NC3=C2N=CN3N=O)N"
+  "smiles": "C1CC1NC2=NC(=NC3=C2N=CN3N=O)N",
+  "md5": "b463b1051181d7be4edf7f44e05c7fa3"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Acarbose-Nitroso-Impurity-1.png": {
-  "smiles": "C[C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@@H](CO)O[C@@H]([C@@H]([C@H]2O)O)O[C@H]([C@@H](CO)O)[C@@H]([C@H](C=O)O)O)O)O)N([C@H]3C=C(CO)[C@H]([C@@H]([C@H]3O)O)O)N=O"
+  "smiles": "C[C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@@H](CO)O[C@@H]([C@@H]([C@H]2O)O)O[C@H]([C@@H](CO)O)[C@@H]([C@H](C=O)O)O)O)O)N([C@H]3C=C(CO)[C@H]([C@@H]([C@H]3O)O)O)N=O",
+  "md5": "3c36517c6340582bdd8fbaebf3e73b3f"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Avanafil-Nitroso-Impurity-1.png": {
-  "smiles": "COC1=CC=C(C=C1Cl)CN(C2=NC(=NC=C2C(=O)NCC3=NC=CC=N3)N4CCC[C@H]4CO)N=O"
+  "smiles": "COC1=CC=C(C=C1Cl)CN(C2=NC(=NC=C2C(=O)NCC3=NC=CC=N3)N4CCC[C@H]4CO)N=O",
+  "md5": "d512f0136713ccc1a34b06d4fafaaca2"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Bosutinib-Nitroso-Impurity.png": {
-  "smiles": "CN1CCN(CCCOC2=C(C=C3C(=C2)N=CC(=C3N(C4=CC(=C(C=C4Cl)Cl)OC)N=O)C#N)OC)CC1"
+  "smiles": "CN1CCN(CCCOC2=C(C=C3C(=C2)N=CC(=C3N(C4=CC(=C(C=C4Cl)Cl)OC)N=O)C#N)OC)CC1",
+  "md5": "a705b93eec14e305f034abb1493902de"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-ciprofloxacin.png": {
-  "smiles": "C1CC1N2C=C(C(=O)C3=C2C=C(C(=C3)F)N4CCN(CC4)N=O)C(=O)O"
+  "smiles": "C1CC1N2C=C(C(=O)C3=C2C=C(C(=C3)F)N4CCN(CC4)N=O)C(=O)O",
+  "md5": "68c940aecd0989de946bb739a9b9931f"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Desloratadine.png": {
-  "smiles": "C1=CN=C2C(=C1)CCC3=CC(=CC=C3C2=C4CCN(CC4)N=O)Cl"
+  "smiles": "C1=CN=C2C(=C1)CCC3=CC(=CC=C3C2=C4CCN(CC4)N=O)Cl",
+  "md5": "3ceb31d3e1f95695ea2b83efdc207b91"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__3-Amino-N-nitrosopiperidine.png": {
-  "smiles": "C1CC(CN(C1)N=O)N"
+  "smiles": "C1CC(CN(C1)N=O)N",
+  "md5": "cf1c094460637d7468784cb3c7f44c93"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Bupropion-Nitroso-Impurity.png": {
-  "smiles": "CC(C(=O)C1=CC(=CC=C1)Cl)N(C(C)(C)C)N=O"
+  "smiles": "CC(C(=O)C1=CC(=CC=C1)Cl)N(C(C)(C)C)N=O",
+  "md5": "7fdfe6073a1bb2b49d3bd3567eb6e546"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Carvedilol-Di-Nitroso.png": {
-  "smiles": "COC1=CC=CC=C1OCCN(CC(COC2=CC=CC3=C2C4=C(C=CC=C4)N3N=O)O)N=O"
+  "smiles": "COC1=CC=CC=C1OCCN(CC(COC2=CC=CC3=C2C4=C(C=CC=C4)N3N=O)O)N=O",
+  "md5": "a955aacd96a912321a1de6162d1a904c"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Cilnidipine-Nitroso-Impurity.png": {
-  "smiles": "CC1=C(C(C2=CC=CC(=C2)[N+](=O)[O-])C(=C(C)N1N=O)C(=O)OCCOC)C(=O)OC/C=C/C3=CC=CC=C3"
+  "smiles": "CC1=C(C(C2=CC=CC(=C2)[N+](=O)[O-])C(=C(C)N1N=O)C(=O)OCCOC)C(=O)OC/C=C/C3=CC=CC=C3",
+  "md5": "a06f190fe57ce1bef44d205ea0f92ec3"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Clevidipine-Nitroso-Impurity.png": {
-  "smiles": "CCCC(=O)OCOC(=O)C1=C(C)N(C(=C(C1C2=CC=CC(=C2Cl)Cl)C(=O)OC)C)N=O"
+  "smiles": "CCCC(=O)OCOC(=O)C1=C(C)N(C(=C(C1C2=CC=CC(=C2Cl)Cl)C(=O)OC)C)N=O",
+  "md5": "51be9765afc2b9aa7a756185162a736c"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Clomipramine-EP-Impurity-E-Nitroso-Impurity.png": {
-  "smiles": "C1=CC2=C(C=C1)N(C3=CC=CC=C3CC2)N=O"
+  "smiles": "C1=CC2=C(C=C1)N(C3=CC=CC=C3CC2)N=O",
+  "md5": "543de31ae9f876b5e2b87cbac58b5ecf"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Clomipramine-EP-Impurity-F-Nitroso-Impurity.png": {
-  "smiles": "C1=CC2=C(C=C1)N(C3=CC(=CC=C3CC2)Cl)N=O"
+  "smiles": "C1=CC2=C(C=C1)N(C3=CC(=CC=C3CC2)Cl)N=O",
+  "md5": "74c43efed0997a37aad0ffafc3466d39"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Nitroso-praziquanamine-2-nitroso-3-6-7-11b-tetra.png": {
-  "smiles": "C1=CC2=C(C=C1)C3CN(CC(=O)N3CC2)N=O"
+  "smiles": "C1=CC2=C(C=C1)C3CN(CC(=O)N3CC2)N=O",
+  "md5": "452c834b40d66a057b4b5af83c0435ee"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Nitroso-Piperazine-Acetamide.png": {
-  "smiles": "CC1=CC=CC(=C1NC(=O)CN2CCN(CC2)N=O)C"
+  "smiles": "CC1=CC=CC(=C1NC(=O)CN2CCN(CC2)N=O)C",
+  "md5": "cb06f94b031686f3f46c0585434d4e1f"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Rotigotine-EP-Impurity-C.png": {
-  "smiles": "C1=CC(=C2CC[C@@H](CC2=C1)N(CCC3=CC=CS3)N=O)O"
+  "smiles": "C1=CC(=C2CC[C@@H](CC2=C1)N(CCC3=CC=CS3)N=O)O",
+  "md5": "87f2e172bfea3fe4f3130e80a4d6d7b2"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Rotigotine-EP-Impurity-B.png": {
-  "smiles": "CCCN([C@H]1CCC2=C(C=CC=C2C1)O)N=O"
+  "smiles": "CCCN([C@H]1CCC2=C(C=CC=C2C1)O)N=O",
+  "md5": "81e5e92013045dc886a00bd5e272a5ed"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-ambroxol.png": {
-  "smiles": "C1CC(CCC1N(CC2=C(C(=CC(=C2)Br)Br)N)N=O)O"
+  "smiles": "C1CC(CCC1N(CC2=C(C(=CC(=C2)Br)Br)N)N=O)O",
+  "md5": "3ad0fdb22704524f3f1fff1e6ee3e3ab"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Aryl-Piperazine-Quatiapine.png": {
-  "smiles": "C1=CC=C2C(=C1)C(=NC3=CC=CC=C3S2)N4CCN(CC4)N=O"
+  "smiles": "C1=CC=C2C(=C1)C(=NC3=CC=CC=C3S2)N4CCN(CC4)N=O",
+  "md5": "794fec99f5aa378cdd6209a39da973e7"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitrosoatenolol.png": {
-  "smiles": "CC(C)N(CC(COC1=CC=C(C=C1)CC(=O)N)O)N=O"
+  "smiles": "CC(C)N(CC(COC1=CC=C(C=C1)CC(=O)N)O)N=O",
+  "md5": "7cfb3f6524679710524eae1ae7611024"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Vortioxetine.png": {
-  "smiles": "CC1=CC=C(C(=C1)C)SC2=C(C=CC=C2)N3CCN(CC3)N=O"
+  "smiles": "CC1=CC=C(C(=C1)C)SC2=C(C=CC=C2)N3CCN(CC3)N=O",
+  "md5": "eac0c38016c32891c668d3a1cc5fdd5f"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Ciprofloxacin.png": {
-  "smiles": "C1CC1N2C=C(C(=O)C3=C2C=C(C(=C3)F)N4CCN(CC4)N=O)C(=O)O"
+  "smiles": "C1CC1N2C=C(C(=O)C3=C2C=C(C(=C3)F)N4CCN(CC4)N=O)C(=O)O",
+  "md5": "68c940aecd0989de946bb739a9b9931f"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Varenicline-Nitrosamine-Impurity.png": {
-  "smiles": "C1=NC2=CC3=C(C=C2N=C1)C4CC3CN(C4)N=O"
+  "smiles": "C1=NC2=CC3=C(C=C2N=C1)C4CC3CN(C4)N=O",
+  "md5": "0a84eae6229fcf6d0abc3621c5b2c5b1"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Trimetazidine.png": {
-  "smiles": "COC1=CC=C(CN2CCN(CC2)N=O)C(=C1OC)OC"
+  "smiles": "COC1=CC=C(CN2CCN(CC2)N=O)C(=C1OC)OC",
+  "md5": "2b68062fcda4d907e1e89ef2f320d458"
  },
  "pre:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Tamsulosin-Impurity.png": {
-  "smiles": "CCOC1=C(C=CC=C1)OCCN([C@H](C)CC2=CC(=C(C=C2)OC)S(=O)(=O)N)N=O"
+  "smiles": "CCOC1=C(C=CC=C1)OCCN([C@H](C)CC2=CC(=C(C=C2)OC)S(=O)(=O)N)N=O",
+  "md5": "1ba251c57ded21b425bfdbecbfb566b2"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Bosutinib-Nitroso-Impurity.png": {
-  "smiles": "CN1CCN(CCCOC2=C(C=C3C(=C2)N=CC(=C3N(C4=CC(=C(C=C4Cl)Cl)OC)N=O)C#N)OC)CC1"
+  "smiles": "CN1CCN(CCCOC2=C(C=C3C(=C2)N=CC(=C3N(C4=CC(=C(C=C4Cl)Cl)OC)N=O)C#N)OC)CC1",
+  "md5": "a705b93eec14e305f034abb1493902de"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-ciprofloxacin.png": {
-  "smiles": "C1CC1N2C=C(C(=O)C3=C2C=C(C(=C3)F)N4CCN(CC4)N=O)C(=O)O"
+  "smiles": "C1CC1N2C=C(C(=O)C3=C2C=C(C(=C3)F)N4CCN(CC4)N=O)C(=O)O",
+  "md5": "68c940aecd0989de946bb739a9b9931f"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Desloratadine.png": {
-  "smiles": "C1=CN=C2C(=C1)CCC3=CC(=CC=C3C2=C4CCN(CC4)N=O)Cl"
+  "smiles": "C1=CN=C2C(=C1)CCC3=CC(=CC=C3C2=C4CCN(CC4)N=O)Cl",
+  "md5": "3ceb31d3e1f95695ea2b83efdc207b91"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__3-Amino-N-nitrosopiperidine.png": {
-  "smiles": "C1CC(CN(C1)N=O)N"
+  "smiles": "C1CC(CN(C1)N=O)N",
+  "md5": "cf1c094460637d7468784cb3c7f44c93"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Bupropion-Nitroso-Impurity.png": {
-  "smiles": "CC(C(=O)C1=CC(=CC=C1)Cl)N(C(C)(C)C)N=O"
+  "smiles": "CC(C(=O)C1=CC(=CC=C1)Cl)N(C(C)(C)C)N=O",
+  "md5": "7fdfe6073a1bb2b49d3bd3567eb6e546"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Carvedilol-Di-Nitroso.png": {
-  "smiles": "COC1=CC=CC=C1OCCN(CC(COC2=CC=CC3=C2C4=C(C=CC=C4)N3N=O)O)N=O"
+  "smiles": "COC1=CC=CC=C1OCCN(CC(COC2=CC=CC3=C2C4=C(C=CC=C4)N3N=O)O)N=O",
+  "md5": "a955aacd96a912321a1de6162d1a904c"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Cilnidipine-Nitroso-Impurity.png": {
-  "smiles": "CC1=C(C(C2=CC=CC(=C2)[N+](=O)[O-])C(=C(C)N1N=O)C(=O)OCCOC)C(=O)OC/C=C/C3=CC=CC=C3"
+  "smiles": "CC1=C(C(C2=CC=CC(=C2)[N+](=O)[O-])C(=C(C)N1N=O)C(=O)OCCOC)C(=O)OC/C=C/C3=CC=CC=C3",
+  "md5": "a06f190fe57ce1bef44d205ea0f92ec3"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Clevidipine-Nitroso-Impurity.png": {
-  "smiles": "CCCC(=O)OCOC(=O)C1=C(C)N(C(=C(C1C2=CC=CC(=C2Cl)Cl)C(=O)OC)C)N=O"
+  "smiles": "CCCC(=O)OCOC(=O)C1=C(C)N(C(=C(C1C2=CC=CC(=C2Cl)Cl)C(=O)OC)C)N=O",
+  "md5": "51be9765afc2b9aa7a756185162a736c"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Clomipramine-EP-Impurity-E-Nitroso-Impurity.png": {
-  "smiles": "C1=CC2=C(C=C1)N(C3=CC=CC=C3CC2)N=O"
+  "smiles": "C1=CC2=C(C=C1)N(C3=CC=CC=C3CC2)N=O",
+  "md5": "543de31ae9f876b5e2b87cbac58b5ecf"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Clomipramine-EP-Impurity-F-Nitroso-Impurity.png": {
-  "smiles": "C1=CC2=C(C=C1)N(C3=CC(=CC=C3CC2)Cl)N=O"
+  "smiles": "C1=CC2=C(C=C1)N(C3=CC(=CC=C3CC2)Cl)N=O",
+  "md5": "74c43efed0997a37aad0ffafc3466d39"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Nitroso-praziquanamine-2-nitroso-3-6-7-11b-tetra.png": {
-  "smiles": "C1=CC2=C(C=C1)C3CN(CC(=O)N3CC2)N=O"
+  "smiles": "C1=CC2=C(C=C1)C3CN(CC(=O)N3CC2)N=O",
+  "md5": "452c834b40d66a057b4b5af83c0435ee"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Nitroso-Piperazine-Acetamide.png": {
-  "smiles": "CC1=CC=CC(=C1NC(=O)CN2CCN(CC2)N=O)C"
+  "smiles": "CC1=CC=CC(=C1NC(=O)CN2CCN(CC2)N=O)C",
+  "md5": "cb06f94b031686f3f46c0585434d4e1f"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Rotigotine-EP-Impurity-C.png": {
-  "smiles": "C1=CC(=C2CC[C@@H](CC2=C1)N(CCC3=CC=CS3)N=O)O"
+  "smiles": "C1=CC(=C2CC[C@@H](CC2=C1)N(CCC3=CC=CS3)N=O)O",
+  "md5": "87f2e172bfea3fe4f3130e80a4d6d7b2"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Rotigotine-EP-Impurity-B.png": {
-  "smiles": "CCCN([C@H]1CCC2=C(C=CC=C2C1)O)N=O"
+  "smiles": "CCCN([C@H]1CCC2=C(C=CC=C2C1)O)N=O",
+  "md5": "81e5e92013045dc886a00bd5e272a5ed"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-ambroxol.png": {
-  "smiles": "C1CC(CCC1N(CC2=C(C(=CC(=C2)Br)Br)N)N=O)O"
+  "smiles": "C1CC(CCC1N(CC2=C(C(=CC(=C2)Br)Br)N)N=O)O",
+  "md5": "3ad0fdb22704524f3f1fff1e6ee3e3ab"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Aryl-Piperazine-Quatiapine.png": {
-  "smiles": "C1=CC=C2C(=C1)C(=NC3=CC=CC=C3S2)N4CCN(CC4)N=O"
+  "smiles": "C1=CC=C2C(=C1)C(=NC3=CC=CC=C3S2)N4CCN(CC4)N=O",
+  "md5": "794fec99f5aa378cdd6209a39da973e7"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitrosoatenolol.png": {
-  "smiles": "CC(C)N(CC(COC1=CC=C(C=C1)CC(=O)N)O)N=O"
+  "smiles": "CC(C)N(CC(COC1=CC=C(C=C1)CC(=O)N)O)N=O",
+  "md5": "7cfb3f6524679710524eae1ae7611024"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Vortioxetine.png": {
-  "smiles": "CC1=CC=C(C(=C1)C)SC2=C(C=CC=C2)N3CCN(CC3)N=O"
+  "smiles": "CC1=CC=C(C(=C1)C)SC2=C(C=CC=C2)N3CCN(CC3)N=O",
+  "md5": "eac0c38016c32891c668d3a1cc5fdd5f"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Ciprofloxacin.png": {
-  "smiles": "C1CC1N2C=C(C(=O)C3=C2C=C(C(=C3)F)N4CCN(CC4)N=O)C(=O)O"
+  "smiles": "C1CC1N2C=C(C(=O)C3=C2C=C(C(=C3)F)N4CCN(CC4)N=O)C(=O)O",
+  "md5": "68c940aecd0989de946bb739a9b9931f"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Varenicline-Nitrosamine-Impurity.png": {
-  "smiles": "C1=NC2=CC3=C(C=C2N=C1)C4CC3CN(C4)N=O"
+  "smiles": "C1=NC2=CC3=C(C=C2N=C1)C4CC3CN(C4)N=O",
+  "md5": "0a84eae6229fcf6d0abc3621c5b2c5b1"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Trimetazidine.png": {
-  "smiles": "COC1=CC=C(CN2CCN(CC2)N=O)C(=C1OC)OC"
+  "smiles": "COC1=CC=C(CN2CCN(CC2)N=O)C(=C1OC)OC",
+  "md5": "2b68062fcda4d907e1e89ef2f320d458"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Tamsulosin-Impurity.png": {
-  "smiles": "CCOC1=C(C=CC=C1)OCCN([C@H](C)CC2=CC(=C(C=C2)OC)S(=O)(=O)N)N=O"
+  "smiles": "CCOC1=C(C=CC=C1)OCCN([C@H](C)CC2=CC(=C(C=C2)OC)S(=O)(=O)N)N=O",
+  "md5": "1ba251c57ded21b425bfdbecbfb566b2"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Sotalol.png": {
-  "smiles": "CC(C)N(CC(C1=CC=C(C=C1)NS(=O)(=O)C)O)N=O"
+  "smiles": "CC(C)N(CC(C1=CC=C(C=C1)NS(=O)(=O)C)O)N=O",
+  "md5": "7c1365a0575e71a26da22b6724ce3b23"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Sertraline-Impurity.png": {
-  "smiles": "CN(C1CC[C@@H](C2=CC=C(C(=C2)Cl)Cl)C3=C1C=CC=C3)N=O"
+  "smiles": "CN(C1CC[C@@H](C2=CC=C(C(=C2)Cl)Cl)C3=C1C=CC=C3)N=O",
+  "md5": "1302c7f6b2d505e30128c16618349910"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Salbutamol.png": {
-  "smiles": "CC(C)(C)N(CC(C1=CC(=C(C=C1)O)CO)O)N=O"
+  "smiles": "CC(C)(C)N(CC(C1=CC(=C(C=C1)O)CO)O)N=O",
+  "md5": "a37b4dd5f91af1985fc1755df25274e6"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Ramipril.png": {
-  "smiles": "CCOC(=O)[C@H](CCC1=CC=CC=C1)N([C@@H](C)C(=O)N2[C@H]3CCC[C@H]3C[C@H]2C(=O)O)N=O"
+  "smiles": "CCOC(=O)[C@H](CCC1=CC=CC=C1)N([C@@H](C)C(=O)N2[C@H]3CCC[C@H]3C[C@H]2C(=O)O)N=O",
+  "md5": "6353d1a3d37be3ecbd6f3c9eb11efeb0"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Pseudoephedrine.png": {
-  "smiles": "C[C@@H]([C@H](C1=CC=CC=C1)O)N(C)N=O"
+  "smiles": "C[C@@H]([C@H](C1=CC=CC=C1)O)N(C)N=O",
+  "md5": "a6b19aebc831c409cad2ee7e665d0502"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Propranolol.png": {
-  "smiles": "CC(C)N(CC(COC1=CC=CC2=CC=CC=C21)O)N=O"
+  "smiles": "CC(C)N(CC(COC1=CC=CC2=CC=CC=C21)O)N=O",
+  "md5": "bcde1920d0925db15c0f23d7541c38b4"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Pramipexole.png": {
-  "smiles": "CCCN(C1CCC2=C(C1)SC(=N2)N)N=O"
+  "smiles": "CCCN(C1CCC2=C(C1)SC(=N2)N)N=O",
+  "md5": "bf826433dfe8c78ae735df28e4a52683"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Perindopril.png": {
-  "smiles": "CCC[C@@H](C(=O)OCC)N([C@@H](C)C(=O)N1[C@@H](C[C@]2(C)CCCC[C@@]21C)C(=O)O)N=O"
+  "smiles": "CCC[C@@H](C(=O)OCC)N([C@@H](C)C(=O)N1[C@@H](C[C@]2(C)CCCC[C@@]21C)C(=O)O)N=O",
+  "md5": "07adbdf65f7fdafd223d8209a9f53cf6"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-nitroso-N-ethyl-valacyclovir.png": {
-  "smiles": "CCN([C@@H](C(C)C)C(=O)OCCOCN1C=NC2=C1N=C(N)NC2=O)N=O"
+  "smiles": "CCN([C@@H](C(C)C)C(=O)OCCOCN1C=NC2=C1N=C(N)NC2=O)N=O",
+  "md5": "7e1e41d3aa3b732e59ec06622c1e5f7c"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-nebivolol.png": {
-  "smiles": "C1CC(C(CN(CC(C2CCC3=C(C=CC(=C3)F)O2)O)N=O)O)OC4C=CC(=CC14)F"
+  "smiles": "C1CC(C(CN(CC(C2CCC3=C(C=CC(=C3)F)O2)O)N=O)O)OC4C=CC(=CC14)F",
+  "md5": "352f16d9c6ffd0d26c04ca284b85d6e3"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Moxifloxacin.png": {
-  "smiles": "COC1=C(C(=CC2=C1N(C=C(C2=O)C(=O)O)C3CC3)F)N4C[C@@H]5CCCN([C@@H]5C4)N=O"
+  "smiles": "COC1=C(C(=CC2=C1N(C=C(C2=O)C(=O)O)C3CC3)F)N4C[C@@H]5CCCN([C@@H]5C4)N=O",
+  "md5": "a7a8e1e165a2037ead7680a6ae587fc7"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Mirabegron.png": {
-  "smiles": "C1=C(C2=C(C(=C1)O)C(=O)C3=C(C=CC(=C3C2=O)NCCNCCO)N(CCNCCO)N=O)O"
+  "smiles": "C1=CC=C(C=C1)[C@H](CN(CCC2=CC=C(C=C2)NC(=O)CC3=CSC(=N3)N)N=O)O",
+  "md5": "67c3a32d2a4edba796fe5f656eaf5fd0"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Metoprolol.png": {
-  "smiles": "CC(C)N(CC(COC1=CC=C(C=C1)CCOC)O)N=O"
+  "smiles": "CC(C)N(CC(COC1=CC=C(C=C1)CCOC)O)N=O",
+  "md5": "b1b237dd24b3e3bab8725a0fc6a29cb0"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Lisinopril.png": {
-  "smiles": "C1=CC=C(C=C1)CC[C@@H](C(=O)O)N([C@@H](CCCCN)C(=O)N2CCC[C@H]2C(=O)O)N=O"
+  "smiles": "C1=CC=C(C=C1)CC[C@@H](C(=O)O)N([C@@H](CCCCN)C(=O)N2CCC[C@H]2C(=O)O)N=O",
+  "md5": "ccac02c053cf0972878701f641c6e9f5"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Levofloxacin-Impurity-1.png": {
-  "smiles": "C[C@H]1COC2=C(C(=CC3=C2N1C=C(C3=O)C(=O)O)F)N4CCN(CC4)N=O"
+  "smiles": "C[C@H]1COC2=C(C(=CC3=C2N1C=C(C3=O)C(=O)O)F)N4CCN(CC4)N=O",
+  "md5": "cbff51c856244fe02564752d86fdfae4"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-landiolol.png": {
-  "smiles": "CC1N(C(CS1)C(=O)O)N=O"
+  "smiles": "CC1N(C(CS1)C(=O)O)N=O",
+  "md5": "448f185b5b53249762f6a324654dac76"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__1-Methyl-4-nitrosopiperazine.png": {
-  "smiles": "CN1CCN(CC1)N=O"
+  "smiles": "CN1CCN(CC1)N=O",
+  "md5": "e9f31bd768b5a46f4b0bec7f9a49de05"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Ropivacaine.png": {
-  "smiles": "CCCN1CCCC[C@H]1C(=O)N(C2=C(C)C=CC=C2C)N=O"
+  "smiles": "CCCN1CCCC[C@H]1C(=O)N(C2=C(C)C=CC=C2C)N=O",
+  "md5": "b94b6010b6894a767e546402972a310b"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Benazepril.png": {
-  "smiles": "CCOC(=O)[C@H](CCC1=CC=CC=C1)N([C@H]2CCC3=CC=CC=C3N(CC(=O)O)C2=O)N=O"
+  "smiles": "CCOC(=O)[C@H](CCC1=CC=CC=C1)N([C@H]2CCC3=CC=CC=C3N(CC(=O)O)C2=O)N=O",
+  "md5": "0a97354d73e47dd8c4ad7cd5d96dcac1"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Bisoprolol.png": {
-  "smiles": "CC(C)N(CC(COC1=CC=C(C=C1)COCCOC(C)C)O)N=O"
+  "smiles": "CC(C)N(CC(COC1=CC=C(C=C1)COCCOC(C)C)O)N=O",
+  "md5": "165a4dc494381d87991eb9e6bce314e8"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Bumetanide-Impurity.png": {
-  "smiles": "CCCCN(C1=CC(=CC(=C1OC2=CC=CC=C2)S(=O)(=O)N)C(=O)O)N=O"
+  "smiles": "CCCCN(C1=CC(=CC(=C1OC2=CC=CC=C2)S(=O)(=O)N)C(=O)O)N=O",
+  "md5": "a1c6c0ccf841c1b4d9eed70854e9114c"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-cilazapril.png": {
-  "smiles": "CCOC(=O)[C@H](CCC1=CC=CC=C1)N([C@H]2CCCN3CCC[C@@H](C(=O)O)N3C2=O)N=O"
+  "smiles": "CCOC(=O)[C@H](CCC1=CC=CC=C1)N([C@H]2CCCN3CCC[C@@H](C(=O)O)N3C2=O)N=O",
+  "md5": "09678ee26123caac43f1e68507071e8f"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-desmethyl-Trimebutine.png": {
-  "smiles": "CCC(COC(=O)C1=CC(=C(C(=C1)OC)OC)OC)(C2=CC=CC=C2)N(C)N=O"
+  "smiles": "CCC(COC(=O)C1=CC(=C(C(=C1)OC)OC)OC)(C2=CC=CC=C2)N(C)N=O",
+  "md5": "e810be530cdc4ee899bc81ed4d113cb7"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Diclofenac.png": {
-  "smiles": "C1=CC=C(C(=C1)CC(=O)O)N(C2=C(C=CC=C2Cl)Cl)N=O"
+  "smiles": "C1=CC=C(C(=C1)CC(=O)O)N(C2=C(C=CC=C2Cl)Cl)N=O",
+  "md5": "6831b910403b3f8199f80ff86dc5c3a9"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Enalapril.png": {
-  "smiles": "CCOC(=O)[C@H](CCC1=CC=CC=C1)N([C@@H](C)C(=O)N2CCCC2C(=O)O)N=O"
+  "smiles": "CCOC(=O)[C@H](CCC1=CC=CC=C1)N([C@@H](C)C(=O)N2CCCC2C(=O)O)N=O",
+  "md5": "11d56f408ae099cc171f57afb2d97c67"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Felodipine.png": {
-  "smiles": "CCOC(=O)C1=C(C)N(C(=C(C1C2=CC=CC(=C2Cl)Cl)C(=O)OC)C)N=O"
+  "smiles": "CCOC(=O)C1=C(C)N(C(=C(C1C2=CC=CC(=C2Cl)Cl)C(=O)OC)C)N=O",
+  "md5": "ea213bf6cca6558242a9288447628c55"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-folic-acid.png": {
-  "smiles": "C1=C(C=CC(=C1)N(CC2=CNC3=NC(=NC(=O)C3=N2)N)N=O)C(=O)N[C@@H](CCC(=O)O)C(=O)O"
+  "smiles": "C1=C(C=CC(=C1)N(CC2=CNC3=NC(=NC(=O)C3=N2)N)N=O)C(=O)N[C@@H](CCC(=O)O)C(=O)O",
+  "md5": "8d8a10f873e6bb911d2e52ef00e7aec8"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-ketamine.png": {
-  "smiles": "CN(C1(CCCCC1=O)C2=CC=CC=C2Cl)N=O"
+  "smiles": "CN(C1(CCCCC1=O)C2=CC=CC=C2Cl)N=O",
+  "md5": "b2db5b137892e6d848d566820cc89c89"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-labetalol.png": {
-  "smiles": "CC(C)(C)N(C[C@@H](C1=CC=C(C(=C1)CO)O)O)N=O"
+  "smiles": "CC(CCC1=CC=CC=C1)N(CC(C2=CC=C(C(=C2)C(=O)N)O)O)N=O",
+  "md5": "557cdb4548f19c26efc2c584887757e3"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-nitroso-N-ethyl-valaciclovir.png": {
-  "smiles": "CCN([C@@H](C(C)C)C(=O)OCCOCN1C=NC2=C1N=C(N)NC2=O)N=O"
+  "smiles": "CCN([C@@H](C(C)C)C(=O)OCCOCN1C=NC2=C1N=C(N)NC2=O)N=O",
+  "md5": "7e1e41d3aa3b732e59ec06622c1e5f7c"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Phenylephrine.png": {
-  "smiles": "CN(C[C@@H](C1=CC=CC(=C1)O)O)N=O"
+  "smiles": "CN(C[C@@H](C1=CC=CC(=C1)O)O)N=O",
+  "md5": "78515adfd5016cc1873a6e6a00de8701"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-nitroso-betahistine.png": {
-  "smiles": "CN(CCC1=NC=CC=C1)N=O"
+  "smiles": "CN(CCC1=NC=CC=C1)N=O",
+  "md5": "c706162dea62de52da09bd3aa2f2b64a"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-nitroso-desmethyl-chloropyramine-N-DMCP.png": {
-  "smiles": "CN(CCC(C1=CC=C(C=C1)Cl)C2=NC=CC=C2)N=O"
+  "smiles": "CN(CCC(C1=CC=C(C=C1)Cl)C2=NC=CC=C2)N=O",
+  "md5": "1e7bd315fd47fa557b05bc8049cfdbc6"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-nitroso-desmethyl-tripelennamine.png": {
-  "smiles": "C1=CC=C(C=C1)S(=O)(=O)CCC2=CC=C3C(=C2)C(=CN3)C[C@H]4CCCN4N=O"
+  "smiles": "C1=CC=C(C=C1)S(=O)(=O)CCC2=CC=C3C(=C2)C(=CN3)C[C@H]4CCCN4N=O",
+  "md5": "7430f721d0b4e2865242dabaeaf301b3"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-nitroso-orphenadrine.png": {
-  "smiles": "CC1=CC=CC=C1C(C2=CC=CC=C2)OCCN(C)N=O"
+  "smiles": "CC1=CC=CC=C1C(C2=CC=CC=C2)OCCN(C)N=O",
+  "md5": "6c518ac86f2e055adb555f11a61bedd2"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Darolutamide-Nitroso-Impurity.png": {
-  "smiles": "C[C@@H](CN1C=CC(=N1)C2=CC(=C(C=C2)C#N)Cl)NC(=O)C3=NN(CC(=C3)C([2H])O)N=O"
+  "smiles": "C[C@@H](CN1C=CC(=N1)C2=CC(=C(C=C2)C#N)Cl)NC(=O)C3=NN(CC(=C3)C([2H])O)N=O",
+  "md5": "4fbde01a7b29bf62729211671be7679b"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Dasatinib-Nitroso-Impurity.png": {
-  "smiles": "CC1=C(C(=CC=C1)Cl)NC(=O)C2=CN=C(N(C3=NC(=NC(=C3)N4CCN(CC4)CCO)C)N=O)S2"
+  "smiles": "CC1=C(C(=CC=C1)Cl)NC(=O)C2=CN=C(N(C3=NC(=NC(=C3)N4CCN(CC4)CCO)C)N=O)S2",
+  "md5": "c2b4cc653f783952fd87e885f86d84bf"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Di-Nitroso-Clonidine.png": {
-  "smiles": "C1=CC(=C(C(=C1)Cl)N=C2N(CCN2N=O)N=O)Cl"
+  "smiles": "C1=CC(=C(C(=C1)Cl)N=C2N(CCN2N=O)N=O)Cl",
+  "md5": "7d69e09b55868c755b388c84cf701698"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__DiNitroso-Lapatinib.png": {
-  "smiles": "CS(=O)(=O)CCN(CC1=CC=C(C2=CC3=C(N=CN=C3C=C2)N(C4=CC=C(C(=C4)Cl)OCC5=CC=CC(=C5)F)N=O)O1)N=O"
+  "smiles": "CS(=O)(=O)CCN(CC1=CC=C(C2=CC3=C(N=CN=C3C=C2)N(C4=CC=C(C(=C4)Cl)OCC5=CC=CC(=C5)F)N=O)O1)N=O",
+  "md5": "d596e05cb71c4efa42e55a289823e923"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Diethyl-2-nitroso-phenyl-amino-methylene-malonat.png": {
-  "smiles": "CCOC(=O)C(=CN(C1=CC=CC=C1)N=O)C(=O)OCC"
+  "smiles": "CCOC(=O)C(=CN(C1=CC=CC=C1)N=O)C(=O)OCC",
+  "md5": "348f7c180701640ed32aa22dada8913f"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Dinitroso-Palbociclib.png": {
-  "smiles": "CC1=C(C(=O)C)C(=O)N(C2CCCC2)C3=C1C=NC(=N3)N(C4=CC=C(C=N4)N5CCN(CC5)N=O)N=O"
+  "smiles": "CC1=C(C(=O)C)C(=O)N(C2CCCC2)C3=C1C=NC(=N3)N(C4=CC=C(C=N4)N5CCN(CC5)N=O)N=O",
+  "md5": "bc822cefea92f2c151fa453edf3307a5"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Dinitroso-Methyl-piperazine-Gatifloxacin.png": {
-  "smiles": "CC1CN(CCN1N=O)N=O"
+  "smiles": "CC1CN(CCN1N=O)N=O",
+  "md5": "8240b900d3a04dd8a85572d54ff2eed5"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Duloxetine-Nitroso-Impurity.png": {
-  "smiles": "CN(CC[C@@H](C1=CC=CS1)OC2=C3C=CC=CC3=CC=C2)N=O"
+  "smiles": "CN(CC[C@@H](C1=CC=CS1)OC2=C3C=CC=CC3=CC=C2)N=O",
+  "md5": "5bcb735846ff7edefc0c91fb8ca9ba67"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Elagolix-Nitroso-Impurity.png": {
-  "smiles": "CC1=C(C2=C(C(=CC=C2)OC)F)C(=O)N(C[C@@H](C3=CC=CC=C3)N(CCCC(=O)O)N=O)C(=O)N1CC4=C(C=CC=C4F)C(F)(F)F"
+  "smiles": "CC1=C(C2=C(C(=CC=C2)OC)F)C(=O)N(C[C@@H](C3=CC=CC=C3)N(CCCC(=O)O)N=O)C(=O)N1CC4=C(C=CC=C4F)C(F)(F)F",
+  "md5": "a6efa1263ac49b517fbbe9e58dcf1752"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Elagolix-ethyl-ester-nitroso-impurity.png": {
-  "smiles": "CCOC(=O)CCCN([C@@H](CN1C(=O)C(=C(C)N(CC2=C(C=CC=C2F)C(F)(F)F)C1=O)C3=CC=CC(=C3F)OC)C4=CC=CC=C4)N=O"
+  "smiles": "CCOC(=O)CCCN([C@@H](CN1C(=O)C(=C(C)N(CC2=C(C=CC=C2F)C(F)(F)F)C1=O)C3=CC=CC(=C3F)OC)C4=CC=CC=C4)N=O",
+  "md5": "711051478d606c37293ea2cf7948b1cc"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Eletriptan-Nitroso-Impurity.png": {
-  "smiles": "CN1CCCC1CC2=CN(C3=C2C=C(C=C3)CCS(=O)(=O)C4=CC=CC=C4)N=O"
+  "smiles": "CN1CCCC1CC2=CN(C3=C2C=C(C=C3)CCS(=O)(=O)C4=CC=CC=C4)N=O",
+  "md5": "36e7cd9fc3cc4fe1fa0cd48a37157812"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Ethyl-1-nitroso-4-oxo-1-4-dihydroquinoline-3-car.png": {
-  "smiles": "CC[Hg]C(=O)C1=CN(C2=CC=CC=C2C1=O)N=O"
+  "smiles": "CC[Hg]C(=O)C1=CN(C2=CC=CC=C2C1=O)N=O",
+  "md5": "9fba363361a5e2434ea26e3ea161ab3d"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Ezetimibe-Nitroso-Impurity.png": {
-  "smiles": "C[Si](C)(C)OC1=CC=C(C=C1)C(C(CCC(C2=CC=C(C=C2)F)O[Si](C)(C)C)C(=O)N3C(COC3=O)C4=CC=CC=C4)N(C5=CC=C(C=C5)F)N=O"
+  "smiles": "C[Si](C)(C)OC1=CC=C(C=C1)C(C(CCC(C2=CC=C(C=C2)F)O[Si](C)(C)C)C(=O)N3C(COC3=O)C4=CC=CC=C4)N(C5=CC=C(C=C5)F)N=O",
+  "md5": "43c5d4ea0b0cbce25d0e4803f640b06c"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Ezetimibe-Nitroso-Impurity-1.png": {
-  "smiles": "C1=C(C=CC(=C1)F)[C@H](CC[C@@H]2[C@@H](C3=CC=C(C=C3)O)N(C2=O)N=O)O"
+  "smiles": "C1=C(C=CC(=C1)F)[C@H](CC[C@@H]2[C@@H](C3=CC=C(C=C3)O)N(C2=O)N=O)O",
+  "md5": "088feb23576d66fad9be992188ef9f8e"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Ezetimibe-Nitroso-Impurity-2.png": {
-  "smiles": "C1=CC(C=CC1=CC(CC[C@@H](C2=CC=C(C=C2)F)O)C(=O)N(C3=CC=C(C=C3)F)N=O)O"
+  "smiles": "C1=CC(C=CC1=CC(CC[C@@H](C2=CC=C(C=C2)F)O)C(=O)N(C3=CC=C(C=C3)F)N=O)O",
+  "md5": "75126107d2d25bbff0c38773e5111982"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Fomepizole-Nitroso-Impurity.png": {
-  "smiles": "CC1=CN(N=C1)N=O"
+  "smiles": "CC1=CN(N=C1)N=O",
+  "md5": "367f3a409796b3b6a11591ed74ee696d"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Frovatriptan-Nitroso-Impurity-1.png": {
-  "smiles": "CN[C@@H]1CCC2=C(C1)C3=C(C=CC(=C3)C(=O)N)N2N=O"
+  "smiles": "CN[C@@H]1CCC2=C(C1)C3=C(C=CC(=C3)C(=O)N)N2N=O",
+  "md5": "00bb1f0fe81f21a3f85c28b7cfefbc2e"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Frovatriptan-Nitroso-Impurity-2.png": {
-  "smiles": "CN([C@@H]1CCC2=C(C1)C3=C(C=CC(=C3)C(=O)N)N2)N=O"
+  "smiles": "CN([C@@H]1CCC2=C(C1)C3=C(C=CC(=C3)C(=O)N)N2)N=O",
+  "md5": "445b2a965cb444a020be3b8927391cd8"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Granisetron-Nitroso-Impurity.png": {
-  "smiles": "CN1[C@H]2CCC[C@@H]1C[C@H](C2)N(C(=O)C3=NN(C)C4=CC=CC=C43)N=O"
+  "smiles": "CN1[C@H]2CCC[C@@H]1C[C@H](C2)N(C(=O)C3=NN(C)C4=CC=CC=C43)N=O",
+  "md5": "e9017fbd400bc266ed257b12f4c540a3"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Imidazole-Impurity.png": {
-  "smiles": "C1=CN(C=N1)N=O"
+  "smiles": "C1=CN(C=N1)N=O",
+  "md5": "801e43e095bc87757b162deda291a3b6"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Indacaterol-Nitroso-Impurity.png": {
-  "smiles": "CCC1=CC2=C(C=C1CC)CC(C2)N(C[C@@H](C3=C4C=CC(=O)NC4=C(C=C3)O)O)N=O"
+  "smiles": "CCC1=CC2=C(C=C1CC)CC(C2)N(C[C@@H](C3=C4C=CC(=O)NC4=C(C=C3)O)O)N=O",
+  "md5": "c54b2d99ebdf5778dee87e407bf2ea25"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Irbesartan-Nitroso-Impurity-1.png": {
-  "smiles": "CCCCC1=NC2(CCCC2)C(=O)N1CC3=CC=C(C=C3)C4=C(C=CC=C4)C5=NN=NN5N=O"
+  "smiles": "CCCCC1=NC2(CCCC2)C(=O)N1CC3=CC=C(C=C3)C4=C(C=CC=C4)C5=NN=NN5N=O",
+  "md5": "3a78c43f01fd4b15117c568500289b50"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Isopropyl-2-amino-6-4-fluorobenzyl-nitroso-amino.png": {
-  "smiles": "CC(C)OC(=O)NC1=CC=C(N=C1N)N(CC2=CC=C(C=C2)F)N=O"
+  "smiles": "CC(C)OC(=O)NC1=CC=C(N=C1N)N(CC2=CC=C(C=C2)F)N=O",
+  "md5": "1026c50316e4dde362559f48bc9dca8f"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Ivacaftor-Nitroso-Impurity.png": {
-  "smiles": "CC(C)(C)C1=C(C=C(C(=C1)C(C)(C)C)O)NC(=O)C2=CN(C3=C(C=CC=C3)C2=O)N=O"
+  "smiles": "CC(C)(C)C1=C(C=C(C(=C1)C(C)(C)C)O)NC(=O)C2=CN(C3=C(C=CC=C3)C2=O)N=O",
+  "md5": "e61237468fb3434ebfc42627515e6f55"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Lansoprazole-Nitroso-Impurity.png": {
-  "smiles": "CC1=C(C=CN=C1CS(=O)C2=NC3=CC=CC=C3N2N=O)OCC(F)(F)F"
+  "smiles": "CC1=C(C=CN=C1CS(=O)C2=NC3=CC=CC=C3N2N=O)OCC(F)(F)F",
+  "md5": "228becf6f92846e8389fc033b43815a4"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Levomefolate-Nitroso-Impurity-1.png": {
-  "smiles": "CN1[C@@H](CNC2=CC=C(C=C2)C(=O)N[C@@H](CCC(=O)O)C(=O)O)CNC3=C1C(=O)N=C(N)N3N=O"
+  "smiles": "CN1[C@@H](CNC2=CC=C(C=C2)C(=O)N[C@@H](CCC(=O)O)C(=O)O)CNC3=C1C(=O)N=C(N)N3N=O",
+  "md5": "2ce69c0ee164b02a6ec05971e4094c3a"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Linagliptin-Nitroso-Pyrimidine-Impurity.png": {
-  "smiles": "CN1C(=C(C(=O)NC1=O)N=O)N"
+  "smiles": "CN1C(=C(C(=O)NC1=O)N=O)N",
+  "md5": "5ede56015cd4285cc4cac440855b9458"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Lumateperone-Nitroso-Impurity-3.png": {
-  "smiles": "C1=CC2=C(C=C1)N([C@H]3CCNC[C@@H]23)N=O"
+  "smiles": "C1=CC2=C(C=C1)N([C@H]3CCNC[C@@H]23)N=O",
+  "md5": "9de6cf65b32f14f5146649be4191ac80"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Methyl-N-Methyl-N-Nitrosoanthranilate.png": {
-  "smiles": "CC1=CC=CC=C1N2C(C)N(C3=CC(=C(C=C3C2=O)S(=O)(=O)N)Cl)N=O"
+  "smiles": "CN(C1=C(C=CC=C1)C(=O)OC)N=O",
+  "md5": "d94a1e22662ead44b526f1d46e125651"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Mononitroso-Ethambutol-S-Isomer.png": {
-  "smiles": "CC[C@H](CO)NCCN([C@H](CC)CO)N=O"
+  "smiles": "CC[C@H](CO)NCCN([C@H](CC)CO)N=O",
+  "md5": "a924e322740b3ffdf199c909f23ba19a"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Moxonidine-Imine-Nitroso-Impurity.png": {
-  "smiles": "CC1=NC(=C(C(=N1)OC)N=C2N(CCN2N=O)N=O)Cl"
+  "smiles": "CC1=NC(=C(C(=N1)OC)N=C2N(CCN2N=O)N=O)Cl",
+  "md5": "3f5c76bc62f60f90a461b93a4470f751"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-N-dimethyl-2-1-nitroso-5-pyrrolidin-1-ylsulfon.png": {
-  "smiles": "CN(C)CCC1=CN(C2=C1C=C(C=C2)CS(=O)(=O)N3CCCC3)N=O"
+  "smiles": "CN(C)CCC1=CN(C2=C1C=C(C=C2)CS(=O)(=O)N3CCCC3)N=O",
+  "md5": "e7ed99c9dc61642de5bd8c16afeeaafa"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Diamyl-Amine.png": {
-  "smiles": "CCCCCN(CCCCC)N=O"
+  "smiles": "CCCCCN(CCCCC)N=O",
+  "md5": "a92d976af24a949872278f11557a10a2"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-2-2-dimethylamino-ethyl-nitroso-amino-4-methox.png": {
-  "smiles": "C=CC(=O)NC1=CC(=C(C=C1N(CCN(C)C)N=O)OC)NC2=NC=CC(=N2)C3=CN(C)C4=C3C=CC=C4"
+  "smiles": "C=CC(=O)NC1=CC(=C(C=C1N(CCN(C)C)N=O)OC)NC2=NC=CC(=N2)C3=CN(C)C4=C3C=CC=C4",
+  "md5": "8244b4bc72a2062dd36d5e7bc05f3af3"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-3-MPPP.png": {
-  "smiles": "C[C@@]12CC[C@@H](CC2=CCC3C4CC=C(C5=C[N+](=CC=C5)N=O)[C@@]4(C)CCC31)OC([2H])=O.[N+](=O)([2H])=O"
+  "smiles": "CC1=NN(C2=CC=CC=C2)C(=C1)N3CCN(CC3)N=O",
+  "md5": "104fb8d1851b3ae23f5b472f243e81e5"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Aceclofenac.png": {
-  "smiles": "C1=CC(=C(C=C1)N(C2=C(C=CC=C2Cl)Cl)N=O)CC(=O)OCC(=O)O"
+  "smiles": "C1=CC(=C(C=C1)N(C2=C(C=CC=C2Cl)Cl)N=O)CC(=O)OCC(=O)O",
+  "md5": "2c9c9520e876c553bb62795211f62375"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Allopurinol.png": {
-  "smiles": "C1=NN(C2=C1C(=O)NC=N2)N=O"
+  "smiles": "C1=NN(C2=C1C(=O)NC=N2)N=O",
+  "md5": "513db6025faaa319cb0d8e65184786cb"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Altizide.png": {
-  "smiles": "CCOC(=O)C1=C(COCCNC(=O)C2=C(C=CC=C2)C(=O)NC)N(C(=C(C1C3=C(C=CC=C3)Cl)C(=O)OC)C)N=O"
+  "smiles": "C=CCSCC1NS(=O)(=O)C2=C(C=C(C(=C2)S(=O)(=O)N)Cl)N1N=O",
+  "md5": "dac975db55f022e496cdaceaff8a56c5"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Apremilast.png": {
-  "smiles": "CCOC1=CC(=CC=C1OC)[C@@H](CS(=O)(=O)C)N2C(=O)C3=CC=CC(=C3C2=O)N(C(=O)C)N=O"
+  "smiles": "CCOC1=CC(=CC=C1OC)[C@@H](CS(=O)(=O)C)N2C(=O)C3=CC=CC(=C3C2=O)N(C(=O)C)N=O",
+  "md5": "991aa5d35cc34522a46b8e023dfc5139"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Argatroban.png": {
-  "smiles": "C[C@@H]1CCN([C@H](C1)C(=O)O)C(=O)[C@H](CCCNC(=N)N)NS(=O)(=O)C2=C3C(=CC=C2)CC(C)CN3N=O"
+  "smiles": "C[C@@H]1CCN([C@H](C1)C(=O)O)C(=O)[C@H](CCCNC(=N)N)NS(=O)(=O)C2=C3C(=CC=C2)CC(C)CN3N=O",
+  "md5": "4d0a422a1e2c96659a8616fc979a993a"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Atazanavir.png": {
-  "smiles": "CC[C@H]([C@](C)([C@@H]([C@@H](C)N(C[C@H](C)C[C@](C)([C@@H]([C@@H](C)[C@@H]([C@@H](C)C(=O)O1)O[C@]2([2H])C[C@](C)([C@H]([C@H](C)O2)O)OC)O[C@H]3[C@@H]([C@H](C[C@@H](C)O3)N(C)C)O)O)N=O)O)O)O"
+  "smiles": "CC(C)C1=NC(=CS1)CN(C)N=O",
+  "md5": "7e4d42ee5f0f3e02674d837a179f068a"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Balofloxacin.png": {
-  "smiles": "CN(C1CCCN(C1)C2=C(C3=C(C=C2F)C(=O)C(=CN3C4CC4)C(=O)O)OC)N=O"
+  "smiles": "CN(C1CCCN(C1)C2=C(C3=C(C=C2F)C(=O)C(=CN3C4CC4)C(=O)O)OC)N=O",
+  "md5": "2f78b65a01058f19fd5a9bb18fbc376d"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Bendamustine.png": {
-  "smiles": "C1=CC(=NC=C1)CCN(CCC2=NC=CC=C2)N=O"
+  "smiles": "CN1C2=C(C=C(C=C2)N(CCCl)N=O)N=C1CCCC(=O)O",
+  "md5": "56aad94972981e79484b4069e546708e"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Binimetinib.png": {
-  "smiles": "CN1C=NC2=C(C(=C(C=C21)C(=O)NOCCO)N(C3=C(C=C(C=C3)Br)F)N=O)F"
+  "smiles": "CN1C=NC2=C(C(=C(C=C21)C(=O)NOCCO)N(C3=C(C=C(C=C3)Br)F)N=O)F",
+  "md5": "651bcce4f2c9b004a63bd090593fedf7"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Brinzolamide.png": {
-  "smiles": "CCN([C@H]1CN(CCCOC)S(=O)(=O)C2=C1C=C(S2)S(=O)(=O)N)N=O"
+  "smiles": "CCN([C@H]1CN(CCCOC)S(=O)(=O)C2=C1C=C(S2)S(=O)(=O)N)N=O",
+  "md5": "e7ac2dc3053aaf87f7f70d90c44b174a"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Candesartan-Cilexetil-EP-Impurity-A.png": {
-  "smiles": "CCOC1=NC2=C(C(=CC=C2)C(=O)O[C@](C)(C)OC(=O)OC3CCCCC3)N1CC4=CC=C(C=C4)C5=C(C=CC=C5)C6=NN=NN6N=O"
+  "smiles": "CCOC1=NC2=C(C(=CC=C2)C(=O)O[C@](C)(C)OC(=O)OC3CCCCC3)N1CC4=CC=C(C=C4)C5=C(C=CC=C5)C6=NN=NN6N=O",
+  "md5": "38f4ed1abb1735b20a2d8c9544cfe2f8"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Cangrelor.png": {
-  "smiles": "CSCCN(C1=NC(=NC2=C1N=CN2[C@H]3[C@@H]([C@@H]([C@@H](COP(=O)(O)OP(=O)(C(Cl)(Cl)P(=O)(O)O)O)O3)O)O)SCCC(F)(F)F)N=O"
+  "smiles": "CSCCN(C1=NC(=NC2=C1N=CN2[C@H]3[C@@H]([C@@H]([C@@H](COP(=O)(O)OP(=O)(C(Cl)(Cl)P(=O)(O)O)O)O3)O)O)SCCC(F)(F)F)N=O",
+  "md5": "2cadba864a5c5249ba024433f203d207"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Carbidopa.png": {
-  "smiles": "C[C@](CC1=CC(=C(C=C1)O)O)(C(=O)O)N(N)N=O"
+  "smiles": "C[C@](CC1=CC(=C(C=C1)O)O)(C(=O)O)N(N)N=O",
+  "md5": "21875181212ba917cb88eec271143da6"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Caspofungin.png": {
-  "smiles": "CC[C@H](C)C[C@H](C)CCCCCCCCC(=O)N[C@H]1C[C@H]([C@H](NC(=O)[C@@H]2[C@H](CCN2C(=O)[C@H]([C@@H](CCN)O)NC(=O)C([C@@H]([C@H](C3=CC=C(C=C3)O)O)O)NC(=O)[C@@H]4C[C@H](CN4C(=O)C([C@@H](C)O)NC1=O)O)O)N(CCN)N=O)O"
+  "smiles": "CC[C@H](C)C[C@H](C)CCCCCCCCC(=O)N[C@H]1C[C@H]([C@H](NC(=O)[C@@H]2[C@H](CCN2C(=O)[C@H]([C@@H](CCN)O)NC(=O)C([C@@H]([C@H](C3=CC=C(C=C3)O)O)O)NC(=O)[C@@H]4C[C@H](CN4C(=O)C([C@@H](C)O)NC1=O)O)O)N(CCN)N=O)O",
+  "md5": "af5c3795a139907696b7e9ea0ba67495"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Celiprolol.png": {
-  "smiles": "CCN(CC)C(=O)NC1=CC=C(C(=C1)C(=O)C)OCC(CN(C(C)(C)C)N=O)O"
+  "smiles": "CCN(CC)C(=O)NC1=CC=C(C(=C1)C(=O)C)OCC(CN(C(C)(C)C)N=O)O",
+  "md5": "c7b17ec1790cb7b46cdf808661f6fe77"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Cetirizine-EP-Impurity-A.png": {
-  "smiles": "C1=CC=C(C=C1)C(C2=CC=C(C=C2)Cl)N3CCN(CC3)N=O"
+  "smiles": "C1=CC=C(C=C1)C(C2=CC=C(C=C2)Cl)N3CCN(CC3)N=O",
+  "md5": "9c225699b2ba64d4777e1c489bc9360e"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Chloroquine.png": {
-  "smiles": "CCN(CC)CCCC(C)N(C1=CC=NC2=CC(=CC=C21)Cl)N=O"
+  "smiles": "CCN(CC)CCCC(C)N(C1=CC=NC2=CC(=CC=C21)Cl)N=O",
+  "md5": "e6854acc23776be4783b703570e8cd42"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Cinacalcet.png": {
-  "smiles": "CN1CCN(CC1)C2=NC3=C(C=CC(=C3)Cl)N(C4=C2C=CC=C4)N=O"
+  "smiles": "C[C@H](C1=CC=CC2=C1C=CC=C2)N(CCCC3=CC(=CC=C3)C(F)(F)F)N=O",
+  "md5": "c3680f3cf1584be5c2849e7ddfad78a5"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Cyclophosphamide.png": {
-  "smiles": "C1CN(N=O)P(=O)(N(CCCl)CCCl)OC1"
+  "smiles": "C1CN(N=O)P(=O)(N(CCCl)CCCl)OC1",
+  "md5": "635d62047d8fb6e696e87dcdde7db5c7"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Dabigatran-Impurity-14.png": {
-  "smiles": "CCOC(=O)CCN(C1=NC=CC=C1)C(=O)C2=CC=C(C(=C2)[N+](=O)[O-])N(C)N=O"
+  "smiles": "CCOC(=O)CCN(C1=NC=CC=C1)C(=O)C2=CC=C(C(=C2)[N+](=O)[O-])N(C)N=O",
+  "md5": "8190689c2a9cc7453cf4e383d3b07e2f"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Daclatasvir.png": {
-  "smiles": "CC(C)[C@@H](C(=O)N1CCC[C@H]1C2=NC=C(C3=CC=C(C=C3)C4=CC=C(C=C4)C5=CN=C([C@@H]6CCCN6C(=O)[C@H](C(C)C)NC(=O)OC)N5N=O)N2)NC(=O)OC"
+  "smiles": "CC(C)[C@@H](C(=O)N1CCC[C@H]1C2=NC=C(C3=CC=C(C=C3)C4=CC=C(C=C4)C5=CN=C([C@@H]6CCCN6C(=O)[C@H](C(C)C)NC(=O)OC)N5N=O)N2)NC(=O)OC",
+  "md5": "0628a10981b0d662c2aa432e99bdb183"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Desipramine.png": {
-  "smiles": "CN(CCCN1C2=C(C=CC=C2)CCC3=CC=CC=C31)N=O"
+  "smiles": "CN(CCCN1C2=C(C=CC=C2)CCC3=CC=CC=C31)N=O",
+  "md5": "9abb4832d50843b92cf0c82971d382f7"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Desmethyl-Azelastine.png": {
-  "smiles": "C1=CC=C2C(=C1)C(=NN(C3CCCN(CC3)N=O)C2=O)CC4=CC=C(C=C4)Cl"
+  "smiles": "C1=CC=C2C(=C1)C(=NN(C3CCCN(CC3)N=O)C2=O)CC4=CC=C(C=C4)Cl",
+  "md5": "26d5354464911df11ab284b57a17d6e3"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Desmethyl-Cabergoline.png": {
-  "smiles": "C=CCN1C[C@@H](C[C@@H]2C3=CC=CC4=C3C(=CN4)C[C@H]21)C(=O)N(CCCN(C)N=O)C(=O)NCC"
+  "smiles": "C=CCN1C[C@@H](C[C@@H]2C3=CC=CC4=C3C(=CN4)C[C@H]21)C(=O)N(CCCN(C)N=O)C(=O)NCC",
+  "md5": "9bd28d1fe3db1fbe9a19a616c05bc44c"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Desmethyl-Chlorpheniramine.png": {
-  "smiles": "CN(CCC(C1=CC=C(C=C1)Cl)C2=NC=CC=C2)N=O"
+  "smiles": "CN(CCC(C1=CC=C(C=C1)Cl)C2=NC=CC=C2)N=O",
+  "md5": "96bb80838881bcaff251f96416fe7a43"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Desmethyl-Clarithromycin.png": {
-  "smiles": "CC[C@H]([C@](C)([C@@H]([C@@H](C)C(=O)[C@H](C)C[C@](C)([C@@H]([C@@H](C)[C@@H]([C@@H](C)C(=O)O[C@H](CC)[C@](C)([C@@H]([C@@H](C)C(=O)[C@H](C)C[C@](C)(OC)OC)O[C@H]1C[C@](C)([C@H]([C@H](C)O1)O)OC)O)O)OC)OC)O)O)O"
+  "smiles": "CC[C@H]([C@](C)([C@@H]([C@@H](C)C(=O)[C@H](C)C[C@](C)([C@@H]([C@@H](C)[C@@H]([C@@H](C)C(=O)O[C@H](CC)[C@](C)([C@@H]([C@@H](C)C(=O)[C@H](C)C[C@](C)(OC)OC)O[C@H]1C[C@](C)([C@H]([C@H](C)O1)O)OC)O)O)OC)OC)O)O)O",
+  "md5": "6ad22f69a600f1e18d1edf5227a13a59"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Desmethyl-Cyclobenzaprine.png": {
-  "smiles": "CN(CCC=C1C2=C(C=CC=C2)C=CC3=CC=CC=C31)N=O"
+  "smiles": "CN(CCC=C1C2=C(C=CC=C2)C=CC3=CC=CC=C31)N=O",
+  "md5": "109cd2ebcc5d00720f59b8d23f2088ba"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Desmethyl-N-Nitroso-Sumatriptan-Impuri.png": {
-  "smiles": "CN(C)CCC1=CN(C2=C1C=C(C=C2)CS(=O)(=O)N(C)N=O)N=O"
+  "smiles": "CN(C)CCC1=CN(C2=C1C=C(C=C2)CS(=O)(=O)N(C)N=O)N=O",
+  "md5": "0cf4c4e0209b424bf1616261023ff0ce"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Desmethyl-Tamoxifen.png": {
-  "smiles": "CC/C(=C(\\C1=CC=CC=C1)/C2=CC=C(C=C2)OCCN(C)N=O)/C3=CC=CC=C3"
+  "smiles": "CC/C(=C(\\C1=CC=CC=C1)/C2=CC=C(C=C2)OCCN(C)N=O)/C3=CC=CC=C3",
+  "md5": "2fa8ca217e9da80c1fb75d4c6b45279b"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Desmethyl-Tapentadol.png": {
-  "smiles": "CC[C@H]([C@@H](C)CN(C)N=O)C1=CC(=CC=C1)O"
+  "smiles": "CC[C@H]([C@@H](C)CN(C)N=O)C1=CC(=CC=C1)O",
+  "md5": "308a970a7c61631f9f6e006530535b00"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Diphenhydramine.png": {
-  "smiles": "CN(CCOC(C1=CC=CC=C1)C2=CC=CC=C2)N=O"
+  "smiles": "CN(CCOC(C1=CC=CC=C1)C2=CC=CC=C2)N=O",
+  "md5": "68a3c032873833d0ffbdee76cea7a2b1"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Dolutegravir.png": {
-  "smiles": "C1=CC2=C(C=C1)N(C(=O)N2CCCN3CCC(CC3)N4C5=CC=C(C=C5NC4=O)Cl)N=O"
+  "smiles": "C[C@@H]1CCO[C@H]2CN3C=C(C(=O)C(=C3C(=O)N12)O)C(=O)N(CC4=CC=C(C=C4F)F)N=O",
+  "md5": "a8fbc19416cddfc9ef4970ba74cdb598"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Dorzolamide.png": {
-  "smiles": "CCN([C@H]1C[C@H](C)S(=O)(=O)C2=C1C=C(S2)S(=O)(=O)N)N=O"
+  "smiles": "CCN([C@H]1C[C@H](C)S(=O)(=O)C2=C1C=C(S2)S(=O)(=O)N)N=O",
+  "md5": "f4ea88043624bec1fc67edcabe19fd41"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Doxepin-EP-Impurity-C.png": {
-  "smiles": "CN(CC/C=C/1\\C2=C(C=CC=C2)COC3=CC=CC=C13)N=O"
+  "smiles": "CN(CC/C=C/1\\C2=C(C=CC=C2)COC3=CC=CC=C13)N=O",
+  "md5": "a27f149018ecace18d7eff21e91c601d"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Ertapenem.png": {
-  "smiles": "C[C@@H]1[C@@H]2[C@@H]([C@@H](C)O)C(=O)N2C(=C1S[C@H]3C[C@@H](C(=O)NC4=CC=CC(=C4)C(=O)O)N(C3)N=O)C(=O)O"
+  "smiles": "C[C@@H]1[C@@H]2[C@@H]([C@@H](C)O)C(=O)N2C(=C1S[C@H]3C[C@@H](C(=O)NC4=CC=CC(=C4)C(=O)O)N(C3)N=O)C(=O)O",
+  "md5": "7210c53285003558af558400bd3635c6"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Escitalopram-Impurity.png": {
-  "smiles": "CN(CCC[C@]1(C2=CC=C(C=C2)F)C3=CC=C(C=C3CO1)C#N)N=O"
+  "smiles": "CN(CCC[C@]1(C2=CC=C(C=C2)F)C3=CC=C(C=C3CO1)C#N)N=O",
+  "md5": "8dced12bc6e98e424629ce604fde0a13"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Esmolol.png": {
-  "smiles": "CC(C)N(CC(COC1=CC=C(C=C1)CCC(=O)OC)O)N=O"
+  "smiles": "CC(C)N(CC(COC1=CC=C(C=C1)CCC(=O)OC)O)N=O",
+  "md5": "67d3109943378fc28553b7f663e7eb24"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Esomeprazole.png": {
-  "smiles": "CC1=C(C(=C(C[S@@](=O)C2=NC3=CC=C(C=C3N2N=O)OC)N=C1)C)OC"
+  "smiles": "CC1=C(C(=C(C[S@@](=O)C2=NC3=CC=C(C=C3N2N=O)OC)N=C1)C)OC",
+  "md5": "14730b67a3e93bb00660c99bbae9c22c"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Etravirine.png": {
-  "smiles": "CC1=C(C(=CC(=C1)C#N)C)OC2=C(C(=NC(=N2)N(C3=CC=C(C=C3)C#N)N=O)N)Br"
+  "smiles": "CC1=C(C(=CC(=C1)C#N)C)OC2=C(C(=NC(=N2)N(C3=CC=C(C=C3)C#N)N=O)N)Br",
+  "md5": "bd304ecd091b9ce497a6a5bcce864a12"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Famotidine-1.png": {
-  "smiles": "C(CSCC1=CSC(=N1)N(C(=N)N)N=O)C(=NS(=O)(=O)N)N"
+  "smiles": "C(CSCC1=CSC(=N1)N(C(=N)N)N=O)C(=NS(=O)(=O)N)N",
+  "md5": "3132901bb69abfe6d0f62c648ba73576"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Fenoldopam-Impurity.png": {
-  "smiles": "C1=C(C=CC(=C1)O)C2CN(CCC3=C(C(=C(C=C32)O)O)Cl)N=O"
+  "smiles": "C1=C(C=CC(=C1)O)C2CN(CCC3=C(C(=C(C=C32)O)O)Cl)N=O",
+  "md5": "ffd2c045eedad7021e00b04a820bc7c4"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Finasteride-Impurity-1.png": {
-  "smiles": "CC(C)(C)NC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@@H]4[C@](C)(C=CC(=O)N4N=O)[C@H]3CC[C@@]21C"
+  "smiles": "CC(C)(C)NC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@@H]4[C@](C)(C=CC(=O)N4N=O)[C@H]3CC[C@@]21C",
+  "md5": "5f43fb43ed65d728b2191c7a37f2296e"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Finerenone.png": {
-  "smiles": "CCOC1=NC=C(C)C2=C1[C@H](C3=CC=C(C=C3OC)C#N)C(=C(C)N2N=O)C(=O)N"
+  "smiles": "CCOC1=NC=C(C)C2=C1[C@H](C3=CC=C(C=C3OC)C#N)C(=C(C)N2N=O)C(=O)N",
+  "md5": "baf93697576efad0042e037790c2dd1a"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Fluoxetine.png": {
-  "smiles": "CN(CCC(C1=CC=CC=C1)OC2=CC=C(C=C2)C(F)(F)F)N=O"
+  "smiles": "CN(CCC(C1=CC=CC=C1)OC2=CC=C(C=C2)C(F)(F)F)N=O",
+  "md5": "243a40c8e03c0cfb386797b21dc2152f"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Fluphenazine-Impurity-4.png": {
-  "smiles": "CCOC(=O)NC1=CC=C(N=C1N)N(CC2=CC=C(C=C2)F)N=O"
+  "smiles": "C1=CC2=C(C=C1)SC3=CC=C(C=C3N2N=O)C(F)(F)F",
+  "md5": "c0b355a43a2096ef8d7e6fdf9410dd84"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Flupirtine.png": {
-  "smiles": "C1=C(C=CC(=C1)N(CC2=NC3=C(N=C2)N=C(N)NC3=O)N=O)C(=O)NC(CCC(=O)O)C(=O)O"
+  "smiles": "CCOC(=O)NC1=CC=C(N=C1N)N(CC2=CC=C(C=C2)F)N=O",
+  "md5": "339aae99ca83fc217f3c49e7035ff063"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Fostamatinib-1.png": {
-  "smiles": "CC1(C)C(=O)N(COP(=O)(O)O)C2=NC(=CC=C2O1)N(C3=NC(=NC=C3F)NC4=CC(=C(C(=C4)OC)OC)OC)N=O"
+  "smiles": "CC1(C)C(=O)N(COP(=O)(O)O)C2=NC(=CC=C2O1)N(C3=NC(=NC=C3F)NC4=CC(=C(C(=C4)OC)OC)OC)N=O",
+  "md5": "afc0afa1a36ee1922d2c6fe6d48f4d4c"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Gefitinib.png": {
-  "smiles": "COC1=CC2=NC=NC(=C2C=C1OCCCN3CCOCC3)N(C4=CC=C(C(=C4)Cl)F)N=O"
+  "smiles": "COC1=CC2=NC=NC(=C2C=C1OCCCN3CCOCC3)N(C4=CC=C(C(=C4)Cl)F)N=O",
+  "md5": "442e63862301da6d839aadb037bebbea"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Gentamicin-1.png": {
-  "smiles": "CC([C@@H]1CC[C@H]([C@H](O1)O[C@@H]2[C@H](C[C@H]([C@@H]([C@@H]2O)O[C@@H]3[C@H]([C@H]([C@](C)(CO3)O)N(C)N=O)O)N)N)N)NC"
+  "smiles": "CC([C@@H]1CC[C@H]([C@H](O1)O[C@@H]2[C@H](C[C@H]([C@@H]([C@@H]2O)O[C@@H]3[C@H]([C@H]([C@](C)(CO3)O)N(C)N=O)O)N)N)N)NC",
+  "md5": "03d18f91daef0c284742a51ccfda2563"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Hydralazine.png": {
-  "smiles": "C1=CC2=C(C=C1)C(=NN=C2)N(N)N=O"
+  "smiles": "C1=CC2=C(C=C1)C(=NN=C2)N(N)N=O",
+  "md5": "1da5bb6d154ec0e0723f43665ce64a1c"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Hydrochlorothiazide-Impurity.png": {
-  "smiles": "CC1=C(C=C2C(=C1)N(CNS2(=O)=O)N=O)S(=O)(=O)N"
+  "smiles": "CC1=C(C=C2C(=C1)N(CNS2(=O)=O)N=O)S(=O)(=O)N",
+  "md5": "88613f6573f890ae5e801350fc2bb082"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Imatinib.png": {
-  "smiles": "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(C)CC3)N(C4=NC(=CC=N4)C5=CC=CN=C5)N=O"
+  "smiles": "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(C)CC3)N(C4=NC(=CC=N4)C5=CC=CN=C5)N=O",
+  "md5": "66afab6a23691c977e61c99c22df4a94"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Imidazole-Ester-Olmesartan.png": {
-  "smiles": "CCCC1=NC(=C(C(=O)OCC)N1N=O)C(C)(C)O"
+  "smiles": "CCCC1=NC(=C(C(=O)OCC)N1N=O)C(C)(C)O",
+  "md5": "5087c7e48dc3e90e39907ccf62542dd9"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Iminostilbene.png": {
-  "smiles": "C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2N=O"
+  "smiles": "C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2N=O",
+  "md5": "07e8f59fba00b0e3313b0012c32602fb"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Isradipine.png": {
-  "smiles": "CC(C)OC(=O)C1=C(C)N(C(=C(C1CC2=CC=CC3=NON=C23)C(=O)OC)C)N=O"
+  "smiles": "CC(C)OC(=O)C1=C(C)N(C(=C(C1CC2=CC=CC3=NON=C23)C(=O)OC)C)N=O",
+  "md5": "51869c4e2fccababa985ac6fdad0b271"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Labetalol.png": {
-  "smiles": "CC(C)(C)N(C[C@@H](C1=CC=C(C(=C1)CO)O)O)N=O"
+  "smiles": "CC(CCC1=CC=CC=C1)N(CC(C2=CC=C(C(=C2)C(=O)N)O)O)N=O",
+  "md5": "557cdb4548f19c26efc2c584887757e3"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Levodropropizine-EP-Impurity-B.png": {
-  "smiles": "CC(=O)NCCC1=CN(C2=C1C=C(C=C2)OC)N=O"
+  "smiles": "C1=CC=C(C=C1)N2CCN(CC2)N=O",
+  "md5": "120477e03d516d32bcbb6b6cc3ebb094"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Melphalan-EP-Impurity-K-D10.png": {
-  "smiles": "C([2H])([2H])([2H])C([2H])([2H])N(C([2H])([2H])C([2H])([2H])[2H])N=O"
+  "smiles": "C([2H])([2H])([2H])C([2H])([2H])N(C([2H])([2H])C([2H])([2H])[2H])N=O",
+  "md5": "41018c0827bb072d8fa14f70bbae39a8"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Metformin.png": {
-  "smiles": "CN(C)C(=N)N(C(=N)N)N=O"
+  "smiles": "CN(C)C(=N)N(C(=N)N)N=O",
+  "md5": "88852a0a7662a090eee3276980db2b4b"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Midodrine-Impurity.png": {
-  "smiles": "C1[C@@H]([C@H]([C@H]([C@@H](CO)N1N=O)O)O)O"
+  "smiles": "COC1=CC=C(C(=C1)C(CN(C(=O)CN)N=O)O)OC",
+  "md5": "85b74e68e21f3f975c78d17306b057c6"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Moexipril.png": {
-  "smiles": "C1=CC(=CC(=C1)C(F)(F)F)N(C2=NC=CC=C2C(=O)OCCN3CCOCC3)N=O"
+  "smiles": "CCOC(=O)[C@H](CCC1=CC=CC=C1)N([C@@H](C)C(=O)N2CC3=C(C[C@H]2C(=O)O)C=C(C(=C3)OC)OC)N=O",
+  "md5": "0c14fbea43a02cca9c02638d5dcc578f"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-N-BOC-Piperazine-Teneligliptin.png": {
-  "smiles": "CC1=C(C(C2=CC=CC(=C2)[N+](=O)[O-])C(=C(C)N1)C(=O)OCCN(C)N=O)C(=O)OC"
+  "smiles": "CC(C)(C)OC(=O)N1CCN(CC1)N=O",
+  "md5": "37756944281c277f5ec7037aa0524210"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-N-Desbenzyl-Nicardipine-Impurity.png": {
-  "smiles": "CN(CCCC1(C2=CC=C(C=C2)F)C3=CC=C(C=C3CO1)C#N)N=O"
+  "smiles": "CC1=C(C(C2=CC=CC(=C2)[N+](=O)[O-])C(=C(C)N1)C(=O)OCCN(C)N=O)C(=O)OC",
+  "md5": "da495c83f187224bdf1699f1e313307e"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-N-Desmethyl-Doxylamine.png": {
-  "smiles": "CC(C1=CC=CC=C1)(C2=NC=CC=C2)OCCN(C)N=O"
+  "smiles": "CC(C1=CC=CC=C1)(C2=NC=CC=C2)OCCN(C)N=O",
+  "md5": "7e1f109c46150908ff1e4e135e7e4056"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-N-Desmethyl-Methadone.png": {
-  "smiles": "CCC(=O)C(CC(C)N(C)N=O)(C1=CC=CC=C1)C2=CC=CC=C2"
+  "smiles": "CCC(=O)C(CC(C)N(C)N=O)(C1=CC=CC=C1)C2=CC=CC=C2",
+  "md5": "bff52e8bbc8540884766642a457339f4"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-N-Desmethyl-Mifepristone.png": {
-  "smiles": "CC#C[C@@]1(CC[C@H]2[C@@H]3CCC4=CC(=O)CCC4=C3[C@H](C[C@@]21C)C5=CC=C(C=C5)N(C)N=O)O"
+  "smiles": "CC#C[C@@]1(CC[C@H]2[C@@H]3CCC4=CC(=O)CCC4=C3[C@H](C[C@@]21C)C5=CC=C(C=C5)N(C)N=O)O",
+  "md5": "968a1f3d77057a5fb4d761e819c19299"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-N-Desmethyl-Nicardipine-Impurity.png": {
-  "smiles": "CC1=C(C(C2=CC=CC(=C2)[N+](=O)[O-])C(=C(C)N1)C(=O)OCCN(CC3=CC=CC=C3)N=O)C(=O)OC"
+  "smiles": "CC1=C(C(C2=CC=CC(=C2)[N+](=O)[O-])C(=C(C)N1)C(=O)OCCN(CC3=CC=CC=C3)N=O)C(=O)OC",
+  "md5": "c98641d096f18f3f3893d66e87e833ef"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-N-desmethyl-Pheniramine.png": {
-  "smiles": "CN(CCC(C1=CC=CC=C1)C2=CC=CC=N2)N=O"
+  "smiles": "CN(CCC(C1=CC=CC=C1)C2=CC=CC=N2)N=O",
+  "md5": "3762c909155bc19461be4a09c66b75e3"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Nadolol-Impurity.png": {
-  "smiles": "C1=CC2=CC=CC(=C2C=C1)CC3=NCCN3N=O"
+  "smiles": "CC(C)(C)N(CC(COC1=CC=CC2=C1C[C@@H]([C@@H](C2)O)O)O)N=O",
+  "md5": "5dd5fd88987c9f9c566b8e047f55c9d0"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Niflumic-Acid.png": {
-  "smiles": "C1=CC(=CC(=C1)C(F)(F)F)N(C2=NC=CC=C2C(=O)O)N=O"
+  "smiles": "C1=CC(=CC(=C1)C(F)(F)F)N(C2=NC=CC=C2C(=O)O)N=O",
+  "md5": "1adb9c888d6e466c23c07554e3fe2fcd"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Nilotinib.png": {
-  "smiles": "CC(C)OC(=O)C1=C(C)N(C(=C(C1C2=CC(=CC=C2)[N+](=O)[O-])C(=O)OCCOC)C)N=O"
+  "smiles": "CC1=C(C=C(C=C1)C(=O)NC2=CC(=CC(=C2)C(F)(F)F)N3C=C(C)N=C3)N(C4=NC=CC(=N4)C5=CC=CN=C5)N=O",
+  "md5": "9ff23ba9f03fdb512a732e98111124cb"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Nimodipine.png": {
-  "smiles": "CC(C)COC(=O)C1=C(C)N(C(=C(C1C2=C(C=CC=C2)[N+](=O)[O-])C(=O)OC)C)N=O"
+  "smiles": "CC(C)OC(=O)C1=C(C)N(C(=C(C1C2=CC(=CC=C2)[N+](=O)[O-])C(=O)OCCOC)C)N=O",
+  "md5": "06fbcf352e611413902b79c170381003"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Nortriptyline.png": {
-  "smiles": "CN(CCC=C1C2=C(C=CC=C2)CCC3=CC=CC=C31)N=O"
+  "smiles": "CN(CCC=C1C2=C(C=CC=C2)CCC3=CC=CC=C31)N=O",
+  "md5": "def1ebc7c8df7f90413c38384717e54f"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Omeprazole-Impurity.png": {
-  "smiles": "CC1=CN=C(CS(=O)C2=NC3=CC(=CC=C3N2N=O)OC)C(=C1OC)C"
+  "smiles": "CC1=CN=C(CS(=O)C2=NC3=CC(=CC=C3N2N=O)OC)C(=C1OC)C",
+  "md5": "d1ec36dcffcca3502cb5d61a3f369142"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Oxomemazine.png": {
-  "smiles": "CC(CN(C)N=O)CN1C2=C(C=CC=C2)S(=O)(=O)C3=C1C=CC=C3"
+  "smiles": "CC(CN(C)N=O)CN1C2=C(C=CC=C2)S(=O)(=O)C3=C1C=CC=C3",
+  "md5": "fbaecd5f37aa610b8264ee15e79c627e"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__7-nitroso-7H-purine-6-thiol.png": {
-  "smiles": "C1=NC(=C2C(=N1)N=CN2N=O)S"
+  "smiles": "C1=NC(=C2C(=N1)N=CN2N=O)S",
+  "md5": "27eeaddcb4a4dfe73af50ef06837acc8"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__8-bromo-3-methyl-1-4-methylquinazolin-2-yl-methy.png": {
-  "smiles": "CC1=C2C=CC=CC2=NC(=N1)CN3C(=O)C4=C(N=C(Br)N4N=O)N(C)C3=O"
+  "smiles": "CC1=C2C=CC=CC2=NC(=N1)CN3C(=O)C4=C(N=C(Br)N4N=O)N(C)C3=O",
+  "md5": "bd3b0796963fa34db97c4f5b9c3fe903"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-N-Phenyl-Glycine-Anilide.png": {
-  "smiles": "C1=CC=C(C=C1)NC(=O)CN(C2=CC=CC=C2)N=O"
+  "smiles": "C1=CC=C(C=C1)NC(=O)CN(C2=CC=CC=C2)N=O",
+  "md5": "70bfa919a0d988c6dac40c9ccb991e73"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__1-5-Dimethyl-3-oxo-2-phenyl-2-3-dihydro-1H-pyraz.png": {
-  "smiles": "CC1=C(C(=O)N(C2=CC=CC=C2)N1C)N(CS(=O)(=O)O)N=O"
+  "smiles": "CC1=C(C(=O)N(C2=CC=CC=C2)N1C)N(CS(=O)(=O)O)N=O",
+  "md5": "c337205864dd73def9f859bf42dfcb0d"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__1-2-1-Nitroso-1H-tetrazol-5-yl-1-1-biphenyl-4-yl.png": {
-  "smiles": "CCCCC(=O)C(C1=CC=C(C=C1)C2=C(C=CC=C2)C3=NN=NN3N=O)N[C@@H](C(C)C)C(=O)O"
+  "smiles": "CCCCC(=O)C(C1=CC=C(C=C1)C2=C(C=CC=C2)C3=NN=NN3N=O)N[C@@H](C(C)C)C(=O)O",
+  "md5": "7467264d3da1b119650663a122b34c3a"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__1-nitrosopiperidin-4-yl-diphenylmethanol.png": {
-  "smiles": "C1=CC=C(C=C1)C(C2=CC=CC=C2)(C3CCN(CC3)N=O)O"
+  "smiles": "C1=CC=C(C=C1)C(C2=CC=CC=C2)(C3CCN(CC3)N=O)O",
+  "md5": "d1f70e4037b44eaaa751357899047f8b"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__2R-2-R-1-3-5-bis-trifluoromethyl-phenyl-ethoxy-3.png": {
-  "smiles": "C[C@H](C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F)O[C@@H]2C(C3=CC=C(C=C3)F)N(CCO2)N=O"
+  "smiles": "C[C@H](C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F)O[C@@H]2C(C3=CC=C(C=C3)F)N(CCO2)N=O",
+  "md5": "d4eb96fa34c169983f76f537c2b10796"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__2R-3S-2-R-1-3-5-bis-trifluoromethyl-phenyl-ethox.png": {
-  "smiles": "C[C@H](C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F)O[C@@H]2[C@H](C3=CC=C(C=C3)F)N(CCO2)N=O"
+  "smiles": "C[C@H](C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F)O[C@@H]2[C@H](C3=CC=C(C=C3)F)N(CCO2)N=O",
+  "md5": "a00bb42a536793ad443dbb344b98dacd"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__3R-4R-1-Nitroso-Tofacitinib.png": {
-  "smiles": "C[C@@H]1CCN(C[C@@H]1N(C)C2=C3CC=NC3=NC=N2)N=O"
+  "smiles": "C[C@@H]1CCN(C[C@@H]1N(C)C2=C3CC=NC3=NC=N2)N=O",
+  "md5": "6df05d528a3086fd49bfba1164318aae"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__4Z-1-3-4-dimethylphenyl-4-hydroxyimino-3-methyl-.png": {
-  "smiles": "CC1=CC=C(C=C1C)N2C(=O)C(=NO)C(=N2)C"
+  "smiles": "CC1=CC=C(C=C1C)N2C(=O)C(=NO)C(=N2)C",
+  "md5": "13e06c4a56dd1f4e9a422f89fbd34d5b"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__4bS-8aS-9S-3-methoxy-11-nitroso-6-7-8-8a-9-10-he.png": {
-  "smiles": "COC1=CC=C2C[C@H]3[C@H]4CCCC[C@]4(CCN3N=O)C2=C1"
+  "smiles": "COC1=CC=C2C[C@H]3[C@H]4CCCC[C@]4(CCN3N=O)C2=C1",
+  "md5": "c76f9a180e18a560c5ebb5f794cda104"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Nitrosoimino-bisacetic-Acid-Diethyl-Ester.png": {
-  "smiles": "CCOC(=O)CN(CC(=O)OCC)N=O"
+  "smiles": "CCOC(=O)CN(CC(=O)OCC)N=O",
+  "md5": "5da011f2abcb8980a95d244165ec0dd5"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__R-2-2-aminothiazol-4-yl-N-4-2-2-hydroxy-2-phenyl.png": {
-  "smiles": "C1=CC=C(C=C1)[C@H](CNCCC2=CC=C(C=C2)N(C(=O)CC3=CSC(=N3)N)N=O)O"
+  "smiles": "C1=CC=C(C=C1)[C@H](CNCCC2=CC=C(C=C2)N(C(=O)CC3=CSC(=N3)N)N=O)O",
+  "md5": "384a60db790762c39dbd404cc9477a5b"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__R-2-hydroxy-N-4-nitrophenethyl-N-nitroso-2-pheny.png": {
-  "smiles": "C1=CC=C(C=C1)[C@H](C(=O)N(CCC2=CC=C(C=C2)[N+](=O)[O-])N=O)O"
+  "smiles": "C1=CC=C(C=C1)[C@H](C(=O)N(CCC2=CC=C(C=C2)[N+](=O)[O-])N=O)O",
+  "md5": "a012f364a10b5b58bf579f9bbb887473"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__R-7-chloro-1-nitroso-2-3-4-5-tetrahydro-1H-benzo.png": {
-  "smiles": "C1C[C@H](C2=CC(=CC=C2N(C1)N=O)Cl)O"
+  "smiles": "C1C[C@H](C2=CC(=CC=C2N(C1)N=O)Cl)O",
+  "md5": "4a16de49d922adf7c69d0a88ba2536f9"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__R-8-3-aminopiperidin-1-yl-3-methyl-1-4-methylqui.png": {
-  "smiles": "CC1=C2C=CC=CC2=NC(=N1)CN3C(=O)C4=C(N=C(N5CCC[C@H](C5)N)N4N=O)N(C)C3=O"
+  "smiles": "CC1=C2C=CC=CC2=NC(=N1)CN3C(=O)C4=C(N=C(N5CCC[C@H](C5)N)N4N=O)N(C)C3=O",
+  "md5": "1e0f129127645e81e63cd4d0edd5a871"
  },
  "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Z-N-2-ethyl-nitroso-amino-ethyl-5-5-fluoro-2-oxo.png": {
-  "smiles": "CCN(CCNC(=O)C1=C(C)NC(=C1C)/C=C\\2/C3=CC(=CC=C3NC2=O)F)N=O"
+  "smiles": "CCN(CCNC(=O)C1=C(C)NC(=C1C)/C=C\\2/C3=CC(=CC=C3NC2=O)F)N=O",
+  "md5": "fac02f5c8bd71866bed9101a4951a977"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__ABCRC-1-Dinitroso-Impurity__r2.png": {
+  "smiles": "C1CC1N(C2=NC(=NC3=C2N=CN3N=O)N)N=O",
+  "md5": "604d1de79d61e51fd62fbe3f8eb0b0cc"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__Metolazone-Nitroso-Impurity-1.png": {
+  "smiles": "CC1=CC=CC=C1N2C(C)N(C3=CC(=C(C=C3C2=O)S(=O)(=O)N)Cl)N=O",
+  "md5": "da046c35a7da977ce125b4926d6d9c18"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-3-MPPP__r103.png": {
+  "smiles": "C[C@@]12CC[C@@H](CC2=CCC3C4CC=C(C5=C[N+](=CC=C5)N=O)[C@@]4(C)CCC31)OC([2H])=O.[N+](=O)([2H])=O",
+  "md5": "5cdc6b3914448f55081d3584c430c20f"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Amlodipine-EP-Impurity-B.png": {
+  "smiles": "CCOC(=O)C1=C(COCCNC(=O)C2=C(C=CC=C2)C(=O)NC)N(C(=C(C1C3=C(C=CC=C3)Cl)C(=O)OC)C)N=O",
+  "md5": "5d5cc2d1c02c7ea4660ab91b974db72e"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Azithromycin.png": {
+  "smiles": "CC[C@H]([C@](C)([C@@H]([C@@H](C)N(C[C@H](C)C[C@](C)([C@@H]([C@@H](C)[C@@H]([C@@H](C)C(=O)O1)O[C@]2([2H])C[C@](C)([C@H]([C@H](C)O2)O)OC)O[C@H]3[C@@H]([C@H](C[C@@H](C)O3)N(C)C)O)O)N=O)O)O)O",
+  "md5": "00ac9c9cd26850ef6d8c12cf7e3361ce"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Betahistine-EP-Impurity-C.png": {
+  "smiles": "C1=CC(=NC=C1)CCN(CCC2=NC=CC=C2)N=O",
+  "md5": "063e23aaa217caaa0c61b7bac5586a1c"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Clozapine.png": {
+  "smiles": "CN1CCN(CC1)C2=NC3=C(C=CC(=C3)Cl)N(C4=C2C=CC=C4)N=O",
+  "md5": "7f8bfba9ecbe97de2670a3ede2c570ec"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Domperidone.png": {
+  "smiles": "C1=CC2=C(C=C1)N(C(=O)N2CCCN3CCC(CC3)N4C5=CC=C(C=C5NC4=O)Cl)N=O",
+  "md5": "c0ce8625296f5c4c5feeb4352634fb94"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Folic-Acid-Impurity-II.png": {
+  "smiles": "C1=C(C=CC(=C1)N(CC2=NC3=C(N=C2)N=C(N)NC3=O)N=O)C(=O)NC(CCC(=O)O)C(=O)O",
+  "md5": "a349d75f20387625b8d0f1fcfd7a4e5c"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Levalbuterol.png": {
+  "smiles": "CC(C)(C)N(C[C@@H](C1=CC=C(C(=C1)CO)O)O)N=O",
+  "md5": "1d5203e7b98468815820c49271a811ac"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Melatonin.png": {
+  "smiles": "CC(=O)NCCC1=CN(C2=C1C=C(C=C2)OC)N=O",
+  "md5": "d79004da094902777ab87b0e21b6db19"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Migalastat.png": {
+  "smiles": "C1[C@@H]([C@H]([C@H]([C@@H](CO)N1N=O)O)O)O",
+  "md5": "4ba1155ec4b7fb4dd2422f14b81f5db6"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Mitoxantrone-Impurity-1.png": {
+  "smiles": "C1=C(C2=C(C(=C1)O)C(=O)C3=C(C=CC(=C3C2=O)NCCNCCO)N(CCNCCO)N=O)O",
+  "md5": "cb0c51455aab28fb7ed4ebc7e1f392aa"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Morniflumate.png": {
+  "smiles": "C1=CC(=CC(=C1)C(F)(F)F)N(C2=NC=CC=C2C(=O)OCCN3CCOCC3)N=O",
+  "md5": "f4901efd2f2f9f9d0cf3e786c8ddd0fc"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-N-Desmethyl-Citalopram.png": {
+  "smiles": "CN(CCCC1(C2=CC=C(C=C2)F)C3=CC=C(C=C3CO1)C#N)N=O",
+  "md5": "44bfd6eab9a071275440102f408173c7"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Naphazoline.png": {
+  "smiles": "C1=CC2=CC=CC(=C2C=C1)CC3=NCCN3N=O",
+  "md5": "79f6519b53103c11a50415238c880050"
+ },
+ "raw:C:\\Users\\aryan\\OneDrive\\impurity-scanner\\data\\structure_images\\unnamed__N-Nitroso-Nisoldipine.png": {
+  "smiles": "CC(C)COC(=O)C1=C(C)N(C(=C(C1C2=C(C=CC=C2)[N+](=O)[O-])C(=O)OC)C)N=O",
+  "md5": "9ebecf5ceea6c25a96fce70cd42f0284"
  }
 }

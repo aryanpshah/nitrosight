@@ -16,11 +16,26 @@ three-way split:
     python tools/run_osr.py --limit 20            # try a sample first
     python tools/run_osr.py --limit 20 --preprocess
     python tools/run_osr.py                        # all of them
+    python tools/run_osr.py --stamp-legacy         # one-time cache migration, see below
+
+CACHING IS BY CONTENT, NOT BY FILE NAME. A cached recognition is reused only when the
+image behind the file name still has the same content hash. It used to be keyed on the
+path alone, so when extract_workbook_images.py was fixed to put the right picture
+behind a file name, the cache would have handed back the old picture's reading. Old
+cache entries carry no hash; `--stamp-legacy` records one for each from the image
+currently on disk, and must be run BEFORE re-extracting, while those images are still
+the ones the entries were made from. An entry with no hash is treated as a miss.
+
+INPUT MUST BE UN-MERGED. "Our" structure is read from resolved_structures.json, so it
+must be the output of fetch_structures.py, before merge_osr.py has replaced anything
+with an image reading. Otherwise the comparison is between the picture and an earlier
+reading of a picture. The tool refuses to run on merged data.
 """
 
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import subprocess
 import sys
@@ -79,6 +94,10 @@ def skeleton(smiles: str | None) -> str | None:
     return Chem.MolToSmiles(mol)
 
 
+def file_md5(path: Path) -> str:
+    return hashlib.md5(Path(path).read_bytes()).hexdigest()
+
+
 def run_worker(paths: list[Path], preprocess: bool) -> dict[str, dict]:
     """Invoke the recogniser in its own environment, handing work over via files.
 
@@ -122,10 +141,36 @@ def main() -> int:
     ap.add_argument("--preprocess", action="store_true",
                     help="strip the pale watermark before recognition")
     ap.add_argument("--no-cache", action="store_true")
+    ap.add_argument("--stamp-legacy", action="store_true",
+                    help="record a content hash for cache entries that lack one, from "
+                         "the image now on disk, then stop. Run BEFORE re-extracting.")
     args = ap.parse_args()
+
+    if args.stamp_legacy:
+        cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
+        stamped = missing = 0
+        for key, value in cache.items():
+            _tag, _, path = key.partition(":")
+            if isinstance(value, dict) and "md5" not in value:
+                if Path(path).exists():
+                    value["md5"] = file_md5(Path(path))
+                    stamped += 1
+                else:
+                    missing += 1
+        CACHE.write_text(json.dumps(cache, indent=1), encoding="utf-8")
+        print(f"  stamped {stamped} cache entries with the hash of the image now on disk"
+              f" ({missing} entries point at a file that no longer exists)")
+        return 0
 
     index = json.loads(INDEX.read_text(encoding="utf-8"))
     rows = json.loads(RESULTS.read_text(encoding="utf-8"))
+    if any(r.get("method") == "image_recognition" for r in rows):
+        raise SystemExit(
+            "resolved_structures.json already contains image-derived rows, so it has been "
+            "merged before. Run python tools/fetch_structures.py first. "
+            "Merging (or comparing) on already-merged data treats an earlier "
+            "image result as our own structure and protects it - which is how a "
+            "corrected picture would fail to replace a wrong one.")
     by_name = {r["impurity_name"].strip().lower(): r for r in rows}
 
     entries = [e for e in index if (IMAGES / e["file"]).exists()]
@@ -137,8 +182,27 @@ def main() -> int:
         cache = json.loads(CACHE.read_text(encoding="utf-8"))
 
     tag = "pre" if args.preprocess else "raw"
-    todo = [IMAGES / e["file"] for e in entries
-            if f"{tag}:{IMAGES / e['file']}" not in cache]
+    # Content-addressed: a reading made from identical bytes is reused whatever the
+    # file is called. Two index names can be the SAME file on Windows and macOS
+    # ("N-Nitroso-labetalol.png" / "N-Nitroso-Labetalol.png"), and Windows paths
+    # compare equal regardless of case, so only one of them is sent to the worker;
+    # looking up by name alone left the other with its old reading.
+    def by_content() -> dict[str, dict]:
+        return {v["md5"]: v for k, v in cache.items()
+                if k.startswith(f"{tag}:") and isinstance(v, dict) and v.get("md5")}
+
+    def reading(path: Path) -> dict | None:
+        md5 = file_md5(path)
+        value = cache.get(f"{tag}:{path}")
+        if isinstance(value, dict) and value.get("md5") == md5:
+            return value
+        return by_content().get(md5)
+
+    def cached(path: Path) -> bool:
+        return reading(path) is not None
+
+    todo = list(dict.fromkeys(IMAGES / e["file"] for e in entries
+                              if not cached(IMAGES / e["file"])))
 
     print(f"  {len(entries)} images, {len(todo)} to recognise "
           f"({'watermark stripped' if args.preprocess else 'raw'})")
@@ -146,13 +210,15 @@ def main() -> int:
         print("  running DECIMER, this is slow on CPU...\n")
         fresh = run_worker(todo, args.preprocess)
         for path, value in fresh.items():
-            cache[f"{tag}:{path}"] = value
+            cache[f"{tag}:{path}"] = {**value, "md5": file_md5(Path(path))}
         CACHE.write_text(json.dumps(cache, indent=1), encoding="utf-8")
 
     verdicts, results = Counter(), []
     for e in entries:
         path = IMAGES / e["file"]
-        payload = cache.get(f"{tag}:{path}", {})
+        payload = reading(path) or {}
+        if payload:
+            cache[f"{tag}:{path}"] = payload      # record it under this name too
         osr_smiles = canon(payload.get("smiles"))
 
         row = by_name.get(e["impurity_name"].strip().lower())
@@ -195,6 +261,7 @@ def main() -> int:
         results.append(record)
 
     OUT.write_text(json.dumps(results, indent=1), encoding="utf-8")
+    CACHE.write_text(json.dumps(cache, indent=1), encoding="utf-8")
 
     total = len(results)
     AGREEING = ("agree_exact", "agree_skeleton", "agree_category")
