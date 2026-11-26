@@ -230,6 +230,8 @@ The guidance PDFs are not included. The FDA guidance is at https://www.fda.gov/m
 
 If you use NitroSight, please cite the paper. [CITATION.cff](CITATION.cff) has the details.
 
+The code is archived on Zenodo at https://doi.org/10.5281/zenodo.24572986. This link always points to the newest version. Version 1.0.0, the one described in the paper, is at https://doi.org/10.5281/zenodo.24572987.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
