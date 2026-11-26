@@ -8,11 +8,11 @@ why.
 
 Sources:
 
-- **Guidance** — FDA, *Recommended Acceptable Intake Limits for Nitrosamine Drug
+- **Guidance:** FDA, *Recommended Acceptable Intake Limits for Nitrosamine Drug
   Substance-Related Impurities (NDSRIs)*, August 2023.
   <https://www.fda.gov/media/170794/download>. Figure 1 is on p.10, Figure 2 on p.11,
   and Appendix A (Tables A, B and C) on pp.18-20.
-- **Reference code** — FDA, Featurize-Nitrosamines.
+- **Reference code:** FDA, Featurize-Nitrosamines.
   <https://github.com/FDA/featurize-nitrosamines>. The relevant logic is in
   `FeaturizeNitrosamine.java` and `AtomTest.java`.
 - EMA's Appendix 2 (EMA/451665/2023) carries the same tables as the FDA guidance and is
@@ -130,7 +130,7 @@ to Category 5 and its 1500 ng/day limit.
 > Beta-Carbon must be in an sp3 hybridization state for this feature to apply.
 
 **Reference code.** It asks only that the beta-carbon carry no double bond. An aromatic
-bond is not a `DOUBLE` bond, so a hydroxyl on an aromatic beta-carbon — a phenol —
+bond is not a `DOUBLE` bond, so a hydroxyl on an aromatic beta-carbon, a phenol,
 satisfies the code's test and not the guidance's.
 
 **What follows.** For `CN(N=O)c1ccccc1O` the guidance gives Category 2 and the code

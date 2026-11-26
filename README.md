@@ -177,9 +177,9 @@ Each claim in the paper comes from one of these scripts.
 Each script writes its results into `data/`, so you can check any number in the
 paper by rerunning the script and reading the file it produces.
 
-These scripts overwrite the committed results in place. That is deliberate — the
-file you get back is the one the paper cites — but it means a rerun replaces the
-published artefact rather than writing a copy beside it. Work on a clean
+These scripts overwrite the committed results in place. That is deliberate,
+because the file you get back is the one the paper cites. But it means a rerun
+replaces the published file rather than writing a copy beside it. Work on a clean
 checkout, or run `git diff data/` afterwards to see exactly what moved.
 `rescore.py` takes `--dry-run` if you only want to know whether anything would
 change.
