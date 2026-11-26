@@ -178,7 +178,11 @@ def compare(ruleset: str = DEFAULT.name, quiet: bool = False) -> tuple[int, int]
 
         ours = our_features(site)
         diffs = []
-        for column in set(FEATURE_MAP.values()):
+        # Sorted, not just deduplicated. Python randomises string hashing per
+        # process, so iterating the bare set writes feature_diffs in a different
+        # order on every run. That makes the committed JSON churn between runs
+        # and makes a diff look like the results moved when nothing did.
+        for column in sorted(set(FEATURE_MAP.values())):
             want = ours.get(column, 0)
             try:
                 got = int(theirs.get(column, 0) or 0)
