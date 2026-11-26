@@ -210,9 +210,10 @@ class StructureView(QWidget):
     """The molecule, with the scored atoms colour-coded.
 
     When the input was a picture, the source picture is shown beside our redrawing of
-    what was read from it. Recognition gets roughly one structure in seven wrong
-    (86.5% category agreement against CAS-verified references), so the only safe
-    design is to put both in front of the user and let them compare.
+    what was read from it. Recognition reaches 97.4% category agreement on the 39
+    CAS-verified references but only 83.6% across all 134 graded compounds, and
+    the verified set is too small to trust the higher figure on its own, so the
+    only safe design is to put both in front of the user and let them compare.
     """
 
     def __init__(self) -> None:

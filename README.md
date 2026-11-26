@@ -242,9 +242,12 @@ it is not an estimate of risk to a patient.
 A compound appearing in a supplier catalogue means a reference standard exists.
 It does not mean the impurity has ever been found in a medicine.
 
-Image recognition reproduces the correct category about 86 percent of the time
-against verified structures, so roughly one compound in seven would be wrong if
-nobody checked. Always look at the structure it shows you.
+Image recognition gets the category right for 38 of the 39 compounds whose
+structure we could check against a verified source. That sounds better than it
+is. Thirty-nine is a small sample, and across every compound we could check it
+is right about 84 percent of the time, so roughly one in six would be wrong if
+nobody checked. It does worst on large molecules and ones with several rings.
+Always look at the structure it shows you.
 
 This is a screening aid for a qualified assessor, not a regulatory
 determination.
