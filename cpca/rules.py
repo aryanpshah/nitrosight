@@ -3,7 +3,7 @@ Constants transcribed from FDA's Carcinogenic Potency Categorization Approach (C
 
 Source: "Recommended Acceptable Intake Limits for Nitrosamine Drug Substance-Related
 Impurities (NDSRIs)", FDA Guidance for Industry, August 2023.
-Local copy: guidelines/FDA_nitrosamine_AI_limits.pdf
+https://www.fda.gov/media/170794/download
 
 This module holds ONLY the guidance's own numbers and definitions, kept separate from
 the algorithm so a reviewer can check it line-by-line against the PDF. Every entry
@@ -12,8 +12,7 @@ carries the figure/table it came from.
 
 from rdkit import Chem
 
-# Figure 1 (p.10): potency category to recommended acceptable intake
-
+# Figure 1, p.10.
 CATEGORY_AI_NG_DAY: dict[int, float] = {
     1: 26.5,    # equal to the class-specific limit for nitrosamines, based on NDEA
     2: 100.0,   # representative of NDMA (96 ng/day) and NNK (100 ng/day)
@@ -43,9 +42,7 @@ def category_for_score(potency_score: int) -> int:
     return 1
 
 
-# Table A (p.18-19): alpha-hydrogen score
-# Key is the count of hydrogens on each alpha-carbon, LOWEST FIRST.
-
+# Table A, p.18-19. Key is the count of hydrogens on each alpha-carbon, lowest first.
 ALPHA_HYDROGEN_SCORE: dict[tuple[int, int], int] = {
     (0, 2): 3,  # see ETHYL_EXCEPTION below
     (0, 3): 2,
@@ -87,8 +84,7 @@ REFERENCE_ALPHA_HYDROGEN_SCORE: dict[tuple[int, int], int] = {
 }
 
 
-# Table B (p.19-20): deactivating features (positive scores)
-
+# Table B, p.19-20. Deactivating features raise the score.
 CARBOXYLIC_ACID = Chem.MolFromSmarts("[CX3](=[OX1])[OX2H1,OX1-]")
 
 RING_FEATURE_PYRROLIDINE = 3      # N-nitroso group in a pyrrolidine ring
@@ -108,41 +104,16 @@ EWG_BOTH_SIDES_SCORE = 2
 BETA_HYDROXYL_ONE_SIDE_SCORE = 1
 BETA_HYDROXYL_BOTH_SIDES_SCORE = 2
 
-# Table B footnote **: electron-withdrawing groups EXCLUDE carboxylic acid and aryl
-# (counted separately) and ketone (conflicting data). The guidance defers to
-# Cross KP & Ponting DJ (2021), Comput Toxicol 20:100186, for the full list.
-#
-# CAUTION: this is the single least precisely specified part of CPCA. The list below is
-# a deliberate, conservative reading; the scorer flags every structure where it fires so
-# a qualified assessor can confirm. Do not treat these matches as settled.
-ELECTRON_WITHDRAWING_GROUPS: list[tuple[str, str]] = [
-    ("ester (C-bonded)",   "[CX3](=[OX1])[OX2][#6]"),
-    ("ester (O-bonded)",   "[OX2][CX3]=[OX1]"),
-    ("amide",              "[CX3](=[OX1])[NX3]"),
-    ("nitrile",            "[NX1]#[CX2]"),
-    ("nitro",              "[NX3+](=[OX1])[OX1-]"),
-    ("sulfonyl / sulfone", "[SX4](=[OX1])(=[OX1])"),
-    ("sulfoxide",          "[SX3](=[OX1])"),
-    ("halogen",            "[F,Cl,Br,I]"),
-    ("trifluoromethyl",    "[CX4](F)(F)F"),
-]
-
-EWG_PATTERNS = [(name, Chem.MolFromSmarts(sma)) for name, sma in ELECTRON_WITHDRAWING_GROUPS]
-
-
-# Table C (p.20): activating features (negative scores)
-
+# Table C, p.20. Activating features lower the score.
 ARYL_ON_ALPHA_CARBON_SCORE = -1   # benzylic / pseudo-benzylic substituent
 METHYL_ON_BETA_CARBON_SCORE = -1
 
 
-# Applicability (section IV.C, p.9)
-
-# "applies to NDSRIs bearing a carbon atom on both sides of the N-nitroso group, where
-#  the carbon is not directly double bonded to a heteroatom (i.e., N-nitrosamides,
-#  N-nitrosoureas, N-nitrosoguanidines and other related structures are excluded).
-#  Additionally, [it] does not apply to NDSRIs where the N-nitroso group is within an
-#  aromatic ring."
+# Section IV.C, p.9: the CPCA "applies to NDSRIs bearing a carbon atom on both sides
+# of the N-nitroso group, where the carbon is not directly double bonded to a heteroatom
+# (i.e., N-nitrosamides, N-nitrosoureas, N-nitrosoguanidines and other related
+# structures are excluded). Additionally, [it] does not apply to NDSRIs where the
+# N-nitroso group is within an aromatic ring."
 # The pattern DETECTS an N-nitroso group; it does not decide applicability. The
 # aromatic-ring exclusion is applied in the scorer, which needs to find the group
 # first in order to say that the exclusion is why it declined.

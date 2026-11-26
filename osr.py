@@ -82,8 +82,6 @@ class OsrService:
         self.work_dir = work_dir
         self._proc: subprocess.Popen | None = None
 
-    # lifecycle
-
     @property
     def running(self) -> bool:
         return self._proc is not None and self._proc.poll() is None
@@ -130,8 +128,6 @@ class OsrService:
             self._proc.kill()
         finally:
             self._proc = None
-
-    # requests
 
     def recognise(self, image: Path, timeout: float = REQUEST_TIMEOUT) -> Recognition:
         if not self.running:

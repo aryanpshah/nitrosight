@@ -61,7 +61,6 @@ def main() -> int:
     args = ap.parse_args()
 
     rows = json.loads(RESULTS.read_text(encoding="utf-8"))
-    before = {id(r): (r.get("scored"), r.get("category")) for r in rows}
     snapshot = [dict(r) for r in rows]
 
     changed, lost, gained = [], 0, 0

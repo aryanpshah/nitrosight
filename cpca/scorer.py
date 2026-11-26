@@ -20,9 +20,6 @@ from . import ewg, policy, rules
 from .policy import GUIDANCE, Ruleset
 
 
-# Result types
-
-
 @dataclass
 class Factor:
     """One line item in the potency score."""
@@ -78,9 +75,6 @@ class CPCAResult:
         """The N-nitroso group that determines the molecule's limit."""
         scored = [s for s in self.sites if s.category]
         return min(scored, key=lambda s: s.category) if scored else None
-
-
-# Structure helpers
 
 
 def _alpha_carbons(mol: Chem.Mol, amine_n_idx: int, nitroso_n_idx: int) -> list[Chem.Atom]:
@@ -252,9 +246,6 @@ def _classify_ring(mol: Chem.Mol, amine_n_idx: int) -> tuple[int, str] | None:
     return None
 
 
-# Feature scoring
-
-
 def _beta_hydroxyl_sides(amine_n_idx: int, alphas: list[Chem.Atom],
                          ruleset: Ruleset) -> int:
     """How many sides of the N-nitroso group carry a beta-hydroxyl (Table B).
@@ -296,7 +287,6 @@ def _deactivating_factors(mol: Chem.Mol, site: SiteResult, amine_n_idx: int,
         score, label = ring
         factors.append(Factor(label, score, "Table B"))
 
-    # Long chains on both sides, only for an acyclic N-nitroso group.
     if not mol.GetAtomWithIdx(amine_n_idx).IsInRing():
         if all(_chain_of_length_exists(mol, a, amine_n_idx,
                                        rules.CHAIN_MIN_LENGTH,
@@ -327,7 +317,7 @@ def _deactivating_factors(mol: Chem.Mol, site: SiteResult, amine_n_idx: int,
         # Flagged for review because the guidance never enumerates the EWG list: it
         # defers to Cross & Ponting (2021). This is the one Table B feature whose
         # membership is a reading rather than a transcription, so an assessor is
-        # told to confirm it. See rules.ELECTRON_WITHDRAWING_GROUPS.
+        # told to confirm it.
         factors.append(Factor(
             f"Electron-withdrawing group bonded to alpha-carbon on {side_word}",
             score, "Table B", detail=detail, uncertain=True))
@@ -341,41 +331,6 @@ def _deactivating_factors(mol: Chem.Mol, site: SiteResult, amine_n_idx: int,
             f"Hydroxyl group bonded to beta-carbon on {side_word}", score, "Table B"))
 
     return factors
-
-
-def _ewg_on_atom(mol: Chem.Mol, alpha: Chem.Atom) -> list[str]:
-    """Electron-withdrawing groups bonded to this alpha-carbon. Table B footnote **
-    excludes carboxylic acid, aryl and ketone, which are handled elsewhere."""
-    neighbour_idxs = {nb.GetIdx() for nb in alpha.GetNeighbors()}
-    acid_atoms = {i for match in mol.GetSubstructMatches(rules.CARBOXYLIC_ACID) for i in match}
-
-    hits = []
-    for name, patt in rules.EWG_PATTERNS:
-        for match in mol.GetSubstructMatches(patt):
-            if not (set(match) & neighbour_idxs):
-                continue
-            if set(match) & acid_atoms:
-                continue  # carboxylic acid counted separately
-            if _is_ketone(mol, match):
-                continue  # ketone excluded: conflicting data
-            hits.append(name)
-            break
-    return hits
-
-
-def _is_ketone(mol: Chem.Mol, match: tuple[int, ...]) -> bool:
-    for idx in match:
-        atom = mol.GetAtomWithIdx(idx)
-        if atom.GetAtomicNum() != 6:
-            continue
-        has_carbonyl_o = any(
-            nb.GetAtomicNum() == 8
-            and mol.GetBondBetweenAtoms(idx, nb.GetIdx()).GetBondType() == Chem.BondType.DOUBLE
-            for nb in atom.GetNeighbors())
-        carbon_nbrs = sum(1 for nb in atom.GetNeighbors() if nb.GetAtomicNum() == 6)
-        if has_carbonyl_o and carbon_nbrs == 2:
-            return True
-    return False
 
 
 def _activating_factors(mol: Chem.Mol, amine_n_idx: int,
@@ -397,9 +352,6 @@ def _activating_factors(mol: Chem.Mol, amine_n_idx: int,
     return factors
 
 
-# Main entry point
-
-
 def score_site(mol: Chem.Mol, site_id: int, amine_n_idx: int,
                nitroso_n_idx: int, ruleset: Ruleset | str | None = None) -> SiteResult:
     ruleset = policy.get(ruleset)
@@ -409,7 +361,6 @@ def score_site(mol: Chem.Mol, site_id: int, amine_n_idx: int,
     counts = sorted(a.GetTotalNumHs() for a in alphas)
     site.alpha_h_counts = (counts[0], counts[1])
 
-    # Figure 1 triage gates
     site.gate_any_alpha_h = sum(counts) > 0
     site.gate_multiple_alpha_h = max(counts) >= 2
     site.gate_tertiary_alpha_c = any(_is_tertiary_alpha_carbon(a, ruleset)
@@ -458,7 +409,6 @@ def score_site(mol: Chem.Mol, site_id: int, amine_n_idx: int,
     site.alpha_h_score = alpha_score
     site.factors.append(Factor("alpha-Hydrogen Score", alpha_score, "Table A", detail))
 
-    # Tables B and C
     site.factors.extend(
         _deactivating_factors(mol, site, amine_n_idx, alphas, ruleset))
     site.factors.extend(_activating_factors(mol, amine_n_idx, alphas))

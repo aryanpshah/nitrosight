@@ -75,9 +75,6 @@ EXAMPLES = [
 ]
 
 
-#  Single compound
-
-
 class SingleTab(QWidget):
     def __init__(self, client: PubChemClient, limits: FDALimits, osr: OsrService):
         super().__init__()
@@ -89,7 +86,6 @@ class SingleTab(QWidget):
         self._result: ScanResult | None = None
         self.setAcceptDrops(True)
 
-        # input row
         self._input = QLineEdit()
         self._input.setPlaceholderText(
             "SMILES, compound name, or CAS number.  Example: CCN(N=O)CC")
@@ -144,7 +140,6 @@ class SingleTab(QWidget):
         examples.addWidget(rules_label)
         examples.addWidget(self._rules)
 
-        # left: structure + dose
         self._structure = StructureView()
 
         self._mdd = QDoubleSpinBox()
@@ -188,7 +183,6 @@ class SingleTab(QWidget):
         left_layout.addLayout(dose)
         left_layout.addStretch(1)
 
-        # right: verdict + factors
         self._verdict = VerdictCard()
         self._factors = FactorTable()
 
@@ -210,7 +204,6 @@ class SingleTab(QWidget):
         split.addWidget(right)
         split.setSizes([460, 640])
 
-        # actions
         self._copy = QPushButton("Copy report")
         self._save = QPushButton("Save report…")
         for b in (self._copy, self._save):
@@ -229,13 +222,9 @@ class SingleTab(QWidget):
         layout.addWidget(split, 1)
         layout.addLayout(actions)
 
-    # behaviour
-
     def _use_example(self, smiles: str) -> None:
         self._input.setText(smiles)
         self.assess()
-
-    # reading a structure from a picture
 
     def dragEnterEvent(self, event) -> None:  # noqa: N802
         urls = event.mimeData().urls() if event.mimeData().hasUrls() else []
@@ -403,9 +392,6 @@ class SingleTab(QWidget):
             Path(path).write_text(self._report_text(), encoding="utf-8")
 
 
-#  Batch
-
-
 class BatchTab(QWidget):
     COLUMNS = ["Input", "Category", "AI (ng/day)", "Basis", "Score", "Notes"]
 
@@ -474,8 +460,6 @@ class BatchTab(QWidget):
         layout.addWidget(self._progress)
         layout.addWidget(self._table, 1)
 
-    # loading
-
     def _open_file(self) -> None:
         path, _ = QFileDialog.getOpenFileName(
             self, "Open compound list", str(Path.home()),
@@ -503,8 +487,6 @@ class BatchTab(QWidget):
             f"{len(self._queries)} compounds loaded from {Path(path).name}")
         self._run.setEnabled(True)
         self._export.setEnabled(False)
-
-    # running
 
     def _run_batch(self) -> None:
         self._run.setEnabled(False)

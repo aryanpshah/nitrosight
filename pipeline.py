@@ -37,8 +37,6 @@ class ScanResult:
     error: str | None = None
     notes: list[str] = field(default_factory=list)
 
-    # the governing answer
-
     @property
     def final_ai_ng_day(self) -> float | None:
         if self.published is not None:

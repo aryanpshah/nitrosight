@@ -44,9 +44,6 @@ OSR = ROOT / "data" / "osr_results.json"
 OUT = ROOT / "data" / "osr_accuracy.json"
 
 
-# Structure comparison
-
-
 def parse(smiles: str | None):
     if not smiles:
         return None
@@ -85,9 +82,6 @@ def category_of(smiles: str | None):
         return None
     r = score_smiles(smiles)
     return r.category if r.applicable else None
-
-
-# Error taxonomy, most specific first
 
 
 def classify(ref, got, ref_k, got_k) -> str:
@@ -147,7 +141,6 @@ def main() -> int:
 
     rows = json.loads(OSR.read_text(encoding="utf-8"))
 
-    # One record per compound.
     by_name: dict[str, dict] = {}
     for r in rows:
         by_name.setdefault(r["impurity_name"].strip().lower(), r)
@@ -212,8 +205,6 @@ def main() -> int:
         need = sum(1 for g in rows_ if g["ref_nitroso"] >= 1)
         right_n = sum(1 for g in rows_ if g["osr_nitroso"] == g["ref_nitroso"])
         cat_ok = sum(1 for g in rows_ if g["osr_category"] == g["ref_category"])
-        cat_comparable = sum(1 for g in rows_ if g["ref_category"] is not None
-                             or g["osr_category"] is not None)
 
         print(f"\n{'-' * 76}\n  {title}  (n = {n})\n{'-' * 76}")
         print(f"    exact structure (full InChIKey)        {exact:>4}/{n}  {pct(exact, n)}")

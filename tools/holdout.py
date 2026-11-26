@@ -94,7 +94,6 @@ def main() -> int:
             seen.setdefault((r.get("catalogue_no") or "").strip()
                             or r["impurity_name"].lower(), r)
 
-    # Every compound where FDA publishes a potency category we can be graded against.
     graded = []
     for r in seen.values():
         pub = fda.lookup(r["impurity_name"])
@@ -115,7 +114,6 @@ def main() -> int:
             g[f"cat_{preset}"] = res.category if res.applicable else None
         g["agrees"] = g["cat_balanced"] == g["published_category"]
 
-    # Which compounds did we inspect individually during development?
     inspected: set[str] = set()
     if BENCH.exists():
         for rec in json.loads(BENCH.read_text(encoding="utf-8")):
@@ -132,7 +130,6 @@ def main() -> int:
     print(f"    {n} compounds have an FDA-published potency category and a structure")
     print(f"    overall agreement: {agree}/{n}  ({pct(agree, n)})")
 
-    # 1. temporal
     dated = [g for g in graded if g["date_added"]]
     undated = n - len(dated)
     recent = [g for g in dated if date.fromisoformat(g["date_added"]) >= CUTOFF]
@@ -160,7 +157,6 @@ def main() -> int:
         ok = sum(1 for g in subset if g["agrees"])
         print(f"      {year}   {ok:>3}/{len(subset):<4} {pct(ok, len(subset))}")
 
-    # 2. rule-choice sensitivity
     print(f"\n{'-' * 78}\n  2. RULE-CHOICE SENSITIVITY\n{'-' * 78}")
     print("    If the four discretionary guidance-vs-code choices had been made to fit")
     print("    this evaluation set, flipping them would move the number.\n")
@@ -174,7 +170,6 @@ def main() -> int:
         print("    The discretionary choices do not affect this metric at all, so this")
         print("    evaluation cannot have been tuned by making them.")
 
-    # 3. inspected vs not
     print(f"\n{'-' * 78}\n  3. INSPECTED DURING DEVELOPMENT vs NOT\n{'-' * 78}")
     for label, flag in (("looked at individually", True), ("never inspected", False)):
         subset = [g for g in graded if g["inspected_during_development"] is flag]

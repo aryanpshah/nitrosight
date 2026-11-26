@@ -89,7 +89,6 @@ def main() -> int:
         header = [c.lower() for c in table[0]]
         print(f"    table {t_i}: {len(table)-1} rows | header: {header[:5]}")
 
-        # Find the column holding the AI limit, and a plausible name column.
         ai_col = next((i for i, h in enumerate(header)
                        if "ai" in h and ("limit" in h or "ng" in h)), None)
         if ai_col is None:
@@ -157,7 +156,6 @@ def main() -> int:
 
     # resolve/fda_limits.py falls back to this copy when the package is installed
     # rather than run from a clone, so the two must not drift apart.
-    # tools/validate_data.py fails if they do.
     packaged = ROOT / "resolve" / "data" / "fda_published_limits.json"
     packaged.parent.mkdir(parents=True, exist_ok=True)
     packaged.write_text(text, encoding="utf-8")

@@ -6,7 +6,7 @@ from pathlib import Path
 
 from PyQt6.QtCore import QThread, pyqtSignal
 
-from osr import OsrService, Recognition
+from osr import OsrService
 from pipeline import ScanResult, scan
 from resolve import FDALimits, PubChemClient
 

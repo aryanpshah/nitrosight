@@ -41,17 +41,8 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-gui = ["PyQt6>=6.5.0", "Pillow>=10.0.0"]
-# Pillow and numpy are listed here as well as under gui: tools/osr_worker.py and
-# tools/export_doubtful.py use them without the desktop window.
-tools = [
-    "openpyxl>=3.1.0",
-    "pymupdf>=1.23.0",
-    "pypdf>=4.0.0",
-    "matplotlib>=3.7.0",
-    "Pillow>=10.0.0",
-    "numpy>=1.24",
-]
+gui = ["PyQt6>=6.5.0"]
+tools = ["openpyxl>=3.1.0"]
 
 [project.urls]
 Homepage = "https://github.com/aryanpshah/nitrosight"

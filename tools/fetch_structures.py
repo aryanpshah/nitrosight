@@ -105,7 +105,6 @@ def score_best(smiles_list: list[str]) -> dict:
 def resolve_row(row: dict, pc: PubChemClient) -> dict:
     out = dict(row)
 
-    # Tier 1: CAS
     if CAS_RE.match(row["cas"]):
         hit = pc.lookup(row["cas"])
         if hit.found:
@@ -121,7 +120,6 @@ def resolve_row(row: dict, pc: PubChemClient) -> dict:
                     "scored": False}
             return out
 
-    # Tier 2: build from the parent drug
     parent = row["parent_drug"]
     if not parent or parent in {"-", "N/A"}:
         out |= {"method": "none", "confidence": "unresolved",
@@ -160,7 +158,6 @@ def resolve_row(row: dict, pc: PubChemClient) -> dict:
                         "the vendor's name refers to. Worst case reported.")
     out |= score_best([c.smiles for c in cands])
     out["smiles"] = out.get("scored_smiles")
-    # Identity reading beside the screening value; see named_reading().
     out |= named_reading(row["impurity_name"], out["candidates"], out.get("smiles"))
     return out
 
@@ -283,7 +280,6 @@ def main() -> int:
     apply_published_limits(results)
     OUT_PATH.write_text(json.dumps(results, indent=1), encoding="utf-8")
 
-    # summary
     conf = Counter(r.get("confidence", "?") for r in results)
     scored = [r for r in results if r.get("scored")]
     cats = Counter(r["category"] for r in scored)

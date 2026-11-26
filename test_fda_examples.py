@@ -80,7 +80,7 @@ def run() -> int:
             print(f"         {name:<36} FDA={str(want):<8} ours={str(mine):<8}{mark}")
         extra = set(got["features"]) - set(features)
         if extra:
-            print(f"         extra features we scored: "
+            print("         extra features we scored: "
                   + ", ".join(f"{k} ({got['features'][k]:+d})" for k in sorted(extra)))
         print()
 

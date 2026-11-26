@@ -29,9 +29,6 @@ from rdkit import Chem
 HALOGENS = {9, 17, 35, 53}       # F, Cl, Br, I
 
 
-# Atom predicates, mirroring gov.fda.gsrs.chem.util.AtomTest
-
-
 def _h(atom: Chem.Atom) -> int:
     """AtomTest.getHCount"""
     return atom.GetTotalNumHs()
@@ -109,9 +106,6 @@ def is_trifluoromethyl(atom: Chem.Atom) -> bool:
         1 for nb in atom.GetNeighbors() if nb.GetAtomicNum() == 9) == 3
 
 
-# The ten patterns
-
-
 def _ch1_or_ch2(atom: Chem.Atom) -> bool:
     """FDA gates several patterns on the alpha-carbon carrying one or two hydrogens."""
     return _h(atom) in (1, 2)
@@ -133,7 +127,6 @@ def _beta_carbonyl_derivative(alpha: Chem.Atom, amine_idx: int) -> int:
             count += 1
             continue
 
-        mol = beta.GetOwningMol()
         for bond in beta.GetBonds():
             if bond.GetBondType() != Chem.BondType.SINGLE:
                 continue

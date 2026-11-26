@@ -143,7 +143,7 @@ def sheet_readme(wb, rows: list[dict], scored: list[dict], fda: FDALimits) -> No
         ("THE SOURCE", "head"),
         ("FDA, Recommended Acceptable Intake Limits for Nitrosamine Drug "
          "Substance-Related Impurities (NDSRIs), Guidance for Industry, August 2023.", ""),
-        ("A copy is in the guidelines/ folder of the project. The scoring rules are "
+        ("It is at https://www.fda.gov/media/170794/download. The scoring rules are "
          "Appendix A (pages 18 to 20) and the decision flowchart is Figure 1 (page 10).", ""),
         ("", ""),
         ("THE CALCULATION", "head"),
@@ -357,7 +357,6 @@ def main() -> int:
         for i, r in enumerate(members, start=4):
             write_row(ws, i, r)
 
-    # Everything, including rows we could not score.
     ws = wb.create_sheet("All compounds")
     style_header(ws, row=1)
     for i, r in enumerate(sorted(rows, key=lambda r: (r.get("category") or 99,

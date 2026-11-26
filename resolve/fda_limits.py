@@ -32,7 +32,6 @@ def _data_path() -> Path:
 
 DATA = _data_path()
 
-# Which scraped table a row came from, and what that means.
 TABLE_BASIS = {
     0: "published",   # FDA recommended AI limit, usually with a potency category
     1: "surrogate",   # derived by read-across from a surrogate compound

@@ -94,7 +94,6 @@ def main() -> int:
     args = ap.parse_args()
 
     rows = dedupe(json.loads(RESULTS.read_text(encoding="utf-8")))
-    scored = [r for r in rows if r.get("scored")]
 
     # "Strict" means the limit that actually governs is 100 ng/day or tighter, after
     # any FDA published value has overridden the prediction.
@@ -111,7 +110,6 @@ def main() -> int:
         for row in selected:
             writer.writerow(flatten(row))
 
-    # summary
     conf = Counter(r.get("confidence", "?") for r in rows)
     with_limit = [r for r in rows if effective_ai(r) is not None]
     basis = Counter(r.get("final_basis", "?") for r in with_limit)

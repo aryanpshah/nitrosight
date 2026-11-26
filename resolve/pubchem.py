@@ -50,8 +50,6 @@ class PubChemClient:
         self._live_requests = 0
         self._load()
 
-    # cache
-
     def _load(self) -> None:
         if self.cache_path.exists():
             self._cache = json.loads(self.cache_path.read_text(encoding="utf-8"))
@@ -66,8 +64,6 @@ class PubChemClient:
     @property
     def live_requests(self) -> int:
         return self._live_requests
-
-    # fetching
 
     def _throttle(self) -> None:
         elapsed = time.monotonic() - self._last_request

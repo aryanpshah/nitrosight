@@ -285,8 +285,6 @@ class StructureView(QWidget):
         layout.addWidget(self._warning)
         layout.addLayout(legend)
 
-    # state
-
     def clear(self) -> None:
         self._source_pixmap = None
         self._drawn_pixmap = None

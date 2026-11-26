@@ -36,7 +36,6 @@ def main() -> int:
     fda = FDALimits()
     rows = json.loads(RESULTS.read_text(encoding="utf-8"))
 
-    # Deduplicate catalogue rows and keep only ones we actually scored.
     seen: dict[str, dict] = {}
     for r in rows:
         if r.get("scored"):
@@ -97,7 +96,6 @@ def main() -> int:
             print(f"  cat {r['category']}  {r['impurity_name'][:52]:<52} "
                   f"{r['ai_ng_day']:>6g} ng/day  [{r.get('confidence')}]")
 
-    # Does confidence predict correctness?
     print("=" * 74)
     print("  AGREEMENT BY OUR OWN CONFIDENCE LABEL")
     print("=" * 74)

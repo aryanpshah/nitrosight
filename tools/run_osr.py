@@ -283,7 +283,6 @@ def main() -> int:
         print(f"    reach the same answer {agreeing} times "
               f"({agreeing/comparable:.0%})")
 
-    # Does agreement track the confidence we already assigned?
     print(f"\n{'=' * 70}\n  AGREEMENT BY OUR EXISTING CONFIDENCE\n{'=' * 70}")
     for conf in ("high", "medium", "low"):
         sub = [r for r in results
