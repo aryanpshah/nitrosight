@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.venv-osr/
+
+# Vendor catalogue source material and the structure drawings taken from it.
+# These belong to the catalogue publisher and are not redistributed. Everything
+# derived from them is in data/, so the published numbers can still be checked.
+data/WEEK1_Nitroso_Impurities_MA.xlsm
+data/structure_images/
+data/workbook_images/
+data/structure_images_index.json
+data/osr_work/
+data/osr_service/
+data/Doubtful_Structures_For_Review.xlsx
+
+# Regulatory guidance PDFs. The ICH and EMA documents are copyrighted, so they
+# are not redistributed here; the README links to all of them.
+guidelines/
+
+# The other CPCA implementations, cloned locally for the benchmark.
+external/
+
+# Knowledge-graph build output, generated locally for navigation.
+graphify-out/
+
+# Figures are rebuilt from data by tools/make_osr_figure.py.
+figures/
+
+# Backups and scratch output
+*.bak
+data/*.bak
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
